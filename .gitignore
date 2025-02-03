@@ -1,0 +1,35 @@
+# Python (backend)
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/venv/
+backend/*.egg-info/
+backend/*.egg
+backend/dist/
+backend/build/
+
+# FastAPI (backend)
+backend/*.env
+backend/*.env.*
+backend/db.sqlite3
+
+# React (frontend)
+frontend/node_modules/
+frontend/build/
+frontend/npm-debug.log
+frontend/yarn-debug.log
+frontend/yarn-error.log
+
+# Tailwind CSS (frontend)
+frontend/public/*.css
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
