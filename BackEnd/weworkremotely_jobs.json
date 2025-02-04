@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Software Engineer (Python), Data Platform",
+        "company": "Doximity",
+        "location": "USA Only",
+        "posted": "2d",
+        "href": "https://weworkremotely.com/company/doximity",
+        "img": "No image",
+        "type": "Full-Time"
+    },
+    {
+        "title": "Senior Frontend Engineer (React, TypeScript)",
+        "company": "Paperpile",
+        "location": "Anywhere in the World",
+        "posted": "4d",
+        "href": "https://weworkremotely.com/company/paperpile",
+        "img": "https://we-work-remotely.imgix.net/logos/0162/2481/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress",
+        "type": "Full-Time"
+    },
+    {
+        "title": "Senior Mobile Engineer (iOS and Android)",
+        "company": "Paperpile",
+        "location": "Anywhere in the World",
+        "posted": "4d",
+        "href": "https://weworkremotely.com/company/paperpile",
+        "img": "https://we-work-remotely.imgix.net/logos/0162/2481/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress",
+        "type": "Full-Time"
+    },
+    {
+        "title": "Senior Software Engineer, Web",
+        "company": "Speechify Inc",
+        "location": "Anywhere in the World",
+        "posted": "6d",
+        "href": "https://weworkremotely.com/company/speechify-inc",
+        "img": "No image",
+        "type": "Contract"
+    },
+    {
+        "title": "Senior Frontend Engineer",
+        "company": "Chameleon",
+        "location": "Other (don’t specify)",
+        "posted": "7d",
+        "href": "https://weworkremotely.com/company/chameleon",
+        "img": "https://we-work-remotely.imgix.net/logos/0074/6642/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress",
+        "type": "Full-Time"
+    }
+]
