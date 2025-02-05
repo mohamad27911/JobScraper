@@ -6,7 +6,7 @@
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/software-dev/senior-frontend-developer-1968223",
         "img": "https://remotive.com/web/image/hr.job/1968223/logo/64x64",
-        "type": "Specified in Job description"
+        "type": "Remote"
     },
     {
         "title": "Senior Backend Developer",
@@ -15,7 +15,7 @@
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/software-dev/senior-backend-developer-1968220",
         "img": "https://remotive.com/web/image/hr.job/1968220/logo/64x64",
-        "type": "Specified in Job description"
+        "type": "Remote"
     },
     {
         "title": "Senior Independent Software Developer",
@@ -24,7 +24,7 @@
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/software-dev/senior-independent-software-developer-1919265",
         "img": "https://remotive.com/web/image/hr.job/1919265/logo/64x64",
-        "type": "Specified in Job description"
+        "type": "Remote"
     },
     {
         "title": "Senior Independent UX/UI Designer",
@@ -33,7 +33,7 @@
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/design/senior-independent-ux-ui-designer-1919266",
         "img": "https://remotive.com/web/image/hr.job/1919266/logo/64x64",
-        "type": "Specified in Job description"
+        "type": "Remote"
     },
     {
         "title": "Senior DevOps Engineer (AWS)",
@@ -41,8 +41,8 @@
         "location": "Specified in Job description",
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-aws-1359476",
-        "img": null,
-        "type": "Specified in Job description"
+        "img": "https://remotive.com/web/image/hr.job/1359476/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Software Engineer - Customer Projects - Americas",
@@ -50,8 +50,8 @@
         "location": "Specified in Job description",
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/software-dev/software-engineer-customer-projects-americas-1944220",
-        "img": null,
-        "type": "Specified in Job description"
+        "img": "https://remotive.com/web/image/hr.job/1944220/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Senior DevOps Engineer (Azure)",
@@ -59,8 +59,8 @@
         "location": "Specified in Job description",
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-azure-1591692",
-        "img": null,
-        "type": "Specified in Job description"
+        "img": "https://remotive.com/web/image/hr.job/1591692/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Migrations Engineer - Support Role",
@@ -68,8 +68,8 @@
         "location": "Specified in Job description",
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/software-dev/migrations-engineer-support-role-1956828",
-        "img": null,
-        "type": "Specified in Job description"
+        "img": "https://remotive.com/web/image/hr.job/1956828/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Sales Engineer - Aerospace",
@@ -77,8 +77,8 @@
         "location": "Specified in Job description",
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/sales-business/sales-engineer-aerospace-1962782",
-        "img": null,
-        "type": "Specified in Job description"
+        "img": "https://remotive.com/web/image/hr.job/1962782/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Backend Engineer",
@@ -86,8 +86,8 @@
         "location": "Specified in Job description",
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/software-dev/backend-engineer-1955922",
-        "img": null,
-        "type": "Specified in Job description"
+        "img": "https://remotive.com/web/image/hr.job/1955922/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Senior Business Intelligence Engineer",
@@ -95,8 +95,8 @@
         "location": "Specified in Job description",
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/software-dev/senior-business-intelligence-engineer-1422554",
-        "img": null,
-        "type": "Specified in Job description"
+        "img": "https://remotive.com/web/image/hr.job/1422554/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Senior Golang Engineer",
@@ -105,7 +105,7 @@
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/software-dev/senior-golang-engineer-1966618",
         "img": "No Image",
-        "type": "Specified in Job description"
+        "type": "Remote"
     },
     {
         "title": "Lead Infrastructure Engineer",
@@ -114,7 +114,7 @@
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/design/lead-infrastructure-engineer-1966229",
         "img": "No Image",
-        "type": "Specified in Job description"
+        "type": "Remote"
     },
     {
         "title": "Senior Frontend Engineer",
@@ -123,25 +123,79 @@
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/software-dev/senior-frontend-engineer-1964553",
         "img": "No Image",
-        "type": "Specified in Job description"
+        "type": "Remote"
     },
     {
         "title": "Unknown",
         "company": "Not specified",
         "location": "Specified in Job description",
         "posted": "Not provided",
-        "href": "https://remotive.com/remote-jobs/software-dev/sr-staff-software-engineer-1969622",
-        "img": null,
-        "type": "Specified in Job description"
+        "href": "https://remotive.com/remote-jobs/devops/senior-microsoft-engineer-1968699",
+        "img": "https://remotive.com/web/image/hr.job/1968699/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Unknown",
         "company": "Not specified",
         "location": "Specified in Job description",
         "posted": "Not provided",
-        "href": "https://remotive.com/remote-jobs/software-dev/lead-software-engineer-devops-1969623",
-        "img": null,
-        "type": "Specified in Job description"
+        "href": "https://remotive.com/remote-jobs/devops/aws-cloud-systems-engineer-1968833",
+        "img": "https://remotive.com/web/image/hr.job/1968833/logo/64x64",
+        "type": "Remote"
+    },
+    {
+        "title": "Unknown",
+        "company": "Not specified",
+        "location": "Specified in Job description",
+        "posted": "Not provided",
+        "href": "https://remotive.com/remote-jobs/software-dev/director-of-software-engineering-1969910",
+        "img": "https://remotive.com/web/image/hr.job/1969910/logo/64x64",
+        "type": "Remote"
+    },
+    {
+        "title": "Unknown",
+        "company": "Not specified",
+        "location": "Specified in Job description",
+        "posted": "Not provided",
+        "href": "https://remotive.com/remote-jobs/data/analytics-engineer-ii-1969219",
+        "img": "https://remotive.com/web/image/hr.job/1969219/logo/64x64",
+        "type": "Remote"
+    },
+    {
+        "title": "Unknown",
+        "company": "Not specified",
+        "location": "Specified in Job description",
+        "posted": "Not provided",
+        "href": "https://remotive.com/remote-jobs/software-dev/senior-machine-learning-engineer-1969907",
+        "img": "https://remotive.com/web/image/hr.job/1969907/logo/64x64",
+        "type": "Remote"
+    },
+    {
+        "title": "Unknown",
+        "company": "Not specified",
+        "location": "Specified in Job description",
+        "posted": "Not provided",
+        "href": "https://remotive.com/remote-jobs/software-dev/senior-software-application-engineer-1969905",
+        "img": "https://remotive.com/web/image/hr.job/1969905/logo/64x64",
+        "type": "Remote"
+    },
+    {
+        "title": "Unknown",
+        "company": "Not specified",
+        "location": "Specified in Job description",
+        "posted": "Not provided",
+        "href": "https://remotive.com/remote-jobs/customer-support/senior-customer-success-engineer-1969374",
+        "img": "https://remotive.com/web/image/hr.job/1969374/logo/64x64",
+        "type": "Remote"
+    },
+    {
+        "title": "Unknown",
+        "company": "Not specified",
+        "location": "Specified in Job description",
+        "posted": "Not provided",
+        "href": "https://remotive.com/remote-jobs/software-dev/senior-mobile-engineer-1969111",
+        "img": "https://remotive.com/web/image/hr.job/1969111/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Unknown",
@@ -149,8 +203,8 @@
         "location": "Specified in Job description",
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/qa/sdet-qa-automation-engineer-1969338",
-        "img": null,
-        "type": "Specified in Job description"
+        "img": "https://remotive.com/web/image/hr.job/1969338/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Unknown",
@@ -158,8 +212,8 @@
         "location": "Specified in Job description",
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/qa/middle-manual-qa-engineer-1969189",
-        "img": null,
-        "type": "Specified in Job description"
+        "img": "https://remotive.com/web/image/hr.job/1969189/logo/64x64",
+        "type": "Remote"
     },
     {
         "title": "Unknown",
@@ -167,61 +221,7 @@
         "location": "Specified in Job description",
         "posted": "Not provided",
         "href": "https://remotive.com/remote-jobs/qa/senior-automation-quality-engineer-1969341",
-        "img": null,
-        "type": "Specified in Job description"
-    },
-    {
-        "title": "Unknown",
-        "company": "Not specified",
-        "location": "Specified in Job description",
-        "posted": "Not provided",
-        "href": "https://remotive.com/remote-jobs/devops/cloud-network-engineer-1969046",
-        "img": null,
-        "type": "Specified in Job description"
-    },
-    {
-        "title": "Unknown",
-        "company": "Not specified",
-        "location": "Specified in Job description",
-        "posted": "Not provided",
-        "href": "https://remotive.com/remote-jobs/software-dev/software-engineer-ii-1969192",
-        "img": null,
-        "type": "Specified in Job description"
-    },
-    {
-        "title": "Unknown",
-        "company": "Not specified",
-        "location": "Specified in Job description",
-        "posted": "Not provided",
-        "href": "https://remotive.com/remote-jobs/software-dev/sr-red-team-engineer-1969611",
-        "img": null,
-        "type": "Specified in Job description"
-    },
-    {
-        "title": "Unknown",
-        "company": "Not specified",
-        "location": "Specified in Job description",
-        "posted": "Not provided",
-        "href": "https://remotive.com/remote-jobs/software-dev/google-cloud-lead-principal-engineer-1969612",
-        "img": null,
-        "type": "Specified in Job description"
-    },
-    {
-        "title": "Unknown",
-        "company": "Not specified",
-        "location": "Specified in Job description",
-        "posted": "Not provided",
-        "href": "https://remotive.com/remote-jobs/software-dev/lead-ai-ml-software-engineer-1969613",
-        "img": null,
-        "type": "Specified in Job description"
-    },
-    {
-        "title": "Unknown",
-        "company": "Not specified",
-        "location": "Specified in Job description",
-        "posted": "Not provided",
-        "href": "https://remotive.com/remote-jobs/all-others/senior-zos-engineer-1969614",
-        "img": null,
-        "type": "Specified in Job description"
+        "img": "https://remotive.com/web/image/hr.job/1969341/logo/64x64",
+        "type": "Remote"
     }
 ]
