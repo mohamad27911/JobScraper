@@ -229,11 +229,12 @@ function App() {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setFactIndex(prevIndex => (prevIndex + 1) % funFacts.length); // Cycle through the fun facts
-    }, 10000); // Update every 10 seconds
-
-    return () => clearInterval(intervalId); // Clear the interval on component unmount
-  }, []);
+      setFactIndex((prevIndex) => (prevIndex + 1) % funFacts.length); 
+    }, 10000);
+  
+    return () => clearInterval(intervalId); 
+  }, [funFacts.length]);
+  
 
   return (
     <>
