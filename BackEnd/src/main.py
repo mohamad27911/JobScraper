@@ -26,8 +26,9 @@ app.add_middleware(
 
 # Set up Chrome with options
 options = webdriver.ChromeOptions()
-options.add_argument("--disable-blink-features=AutomationControlled")  # Avoid bot detection
+options.add_argument("--disable-blink-features=AutomationControlled")  
 options.add_argument("--incognito")  # Open in incognito mode
+options.add_argument('--headless')
 driver = webdriver.Chrome( options=options)
 
 
