@@ -1,0 +1,11 @@
+name: jobs-scraper-backend
+services:
+  - name: backend
+    type: web
+    runtime: docker
+    dockerfile: backend/Dockerfile
+    env:
+      - key: PORT
+        value: "8000"
+    ports:
+      - target_port: 8000
