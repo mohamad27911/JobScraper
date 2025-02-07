@@ -29,7 +29,7 @@ options = webdriver.ChromeOptions()
 options.add_argument("--disable-blink-features=AutomationControlled")  
 options.add_argument("--incognito")  # Open in incognito mode
 options.add_argument('--headless')
-driver = webdriver.Chrome( options=options)
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()) ,options=options)
 
 
 # Shutdown event to quit the driver when FastAPI app shuts down
