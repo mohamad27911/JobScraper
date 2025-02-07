@@ -32,10 +32,10 @@ git:
   repository: "github.com/mohamad27911/JobScraper"
   branch: "dev"
   tag: ""
-  sha: "fbb86f5e55c70bac44b4bbe9fc845a4befe3dd90"
+  sha: "b358fb5bc5ba464712b825103c794597d6ae9382"
   build_command: "pip install -r requirements.txt"
   run_command: "uvicorn src.main:app --host 0.0.0.0 --port 8000"
-  workdir: "BackEnd/src"  # Change this to the location of your FastAPI app (main.py)
+  workdir: "BackEnd/src"  # Make sure this points to the correct directory for your FastAPI app
   buildpack:
     build_command: ""
     run_command: ""
