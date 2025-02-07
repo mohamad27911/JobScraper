@@ -35,7 +35,7 @@ git:
   sha: "fbb86f5e55c70bac44b4bbe9fc845a4befe3dd90"
   build_command: "pip install -r requirements.txt"
   run_command: "uvicorn src.main:app --host 0.0.0.0 --port 8000"
-  workdir: "BackEnd"
+  workdir: "BackEnd/src"  # Change this to the location of your FastAPI app (main.py)
   buildpack:
     build_command: ""
     run_command: ""
