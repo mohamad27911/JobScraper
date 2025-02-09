@@ -11,7 +11,7 @@ from starlette.middleware.cors import CORSMiddleware
 from selenium.webdriver.support.ui import Select
 import tempfile
 import logging
-from undetected_chromedriver import Chrome, ChromeOptions
+import undetected_chromedriver as uc
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -36,7 +36,7 @@ def create_driver():
     """Creates and configures the Chrome driver."""
     global driver  # Use the global driver variable
     if driver is None:
-        options = ChromeOptions()
+        options = webdriver.ChromeOptions()
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_argument("--incognito")
         options.headless = True
@@ -46,7 +46,9 @@ def create_driver():
         options.add_argument("--disable-dev-shm-usage")
 
         try:
-            driver = Chrome(options=options) # using undetected chromedriver
+            # Apply the undetected-chromedriver patch
+            uc.install()
+            driver = webdriver.Chrome(options=options)
             logging.info("Chrome driver initialized successfully.")
         except Exception as e:
             logging.error(f"Error initializing Chrome driver: {e}")
