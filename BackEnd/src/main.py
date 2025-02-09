@@ -39,7 +39,7 @@ def create_driver():
         options = ChromeOptions()
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_argument("--incognito")
-        options.add_argument("--headless")
+        options.headless = True
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-gpu")
         options.add_argument("--remote-debugging-port=9222")
