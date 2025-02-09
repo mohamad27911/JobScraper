@@ -47,8 +47,7 @@ def create_driver():
 
         try:
             # Apply the undetected-chromedriver patch
-            uc.install()
-            driver = webdriver.Chrome(options=options)
+            driver = uc.Chrome(options=options)
             logging.info("Chrome driver initialized successfully.")
         except Exception as e:
             logging.error(f"Error initializing Chrome driver: {e}")
@@ -324,7 +323,7 @@ def linkedInJobs(title):
                     driver.execute_script("arguments[0].scrollIntoView();", job)
 
                     img_element = job.find_elements(By.TAG_NAME, 'img')
-                    img = img_element[0].get_attribute('src') if img_element else "No Image"
+                    img = img_element[0].get_attribute('src') if img_elements else "No Image"
                     job_data["img"] = img
                     job_list.append(job_data)
 
