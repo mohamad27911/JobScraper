@@ -11,6 +11,7 @@ from starlette.middleware.cors import CORSMiddleware
 from selenium.webdriver.support.ui import Select
 import tempfile
 import logging
+from undetected_chromedriver import Chrome, ChromeOptions
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -35,19 +36,17 @@ def create_driver():
     """Creates and configures the Chrome driver."""
     global driver  # Use the global driver variable
     if driver is None:
-        options = webdriver.ChromeOptions()
+        options = ChromeOptions()
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_argument("--incognito")
-        options.headless = True
+        options.add_argument("--headless")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-gpu")
         options.add_argument("--remote-debugging-port=9222")
         options.add_argument("--disable-dev-shm-usage")
-        # Remove the line below for Render deployment
-        # options.add_argument(f"--user-data-dir={tempfile.mkdtemp()}")  #REMOVE THIS LINE
 
         try:
-            driver = webdriver.Chrome(options=options)
+            driver = Chrome(options=options) # using undetected chromedriver
             logging.info("Chrome driver initialized successfully.")
         except Exception as e:
             logging.error(f"Error initializing Chrome driver: {e}")
