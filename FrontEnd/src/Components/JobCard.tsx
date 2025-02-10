@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react"
 import defaultimage from "../assets/JobsScraping.png"
+import React from "react"
 interface Job{
     title:string,
     company:string,
@@ -9,7 +10,7 @@ interface Job{
     href:string,
     img:string
 }
-export const JobCard = ({ title, company, location, posted, href, img, type }:Job) => {
+const JobCard = ({ title, company, location, posted, href, img, type }:Job) => {
     
     return (
       <a
@@ -41,4 +42,4 @@ export const JobCard = ({ title, company, location, posted, href, img, type }:Jo
     )
   }
   
-  
+  export default React.memo(JobCard);

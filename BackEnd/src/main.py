@@ -11,7 +11,7 @@ from starlette.middleware.cors import CORSMiddleware
 from selenium.webdriver.support.ui import Select
 import os
 import logging
-import asyncio
+import asyncio  # Import asyncio for asynchronous operations
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -29,29 +29,35 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
-# Use a single, shared WebDriver instance
+# Initialize driver only once
 driver = None
 
 def create_driver():
     """Creates and configures the Chrome driver."""
-    global driver
+    global driver  
     if driver is None:
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless")
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_argument("--incognito")
         options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--disable-gpu")
         options.add_argument("--remote-debugging-port=9222")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--headless=new")
+
         try:
             driver = webdriver.Chrome(options=options)
             logging.info("Chrome driver initialized successfully.")
         except Exception as e:
             logging.error(f"Error initializing Chrome driver: {e}")
-            raise  # Re-raise the exception to prevent the app from starting
+            raise  
 
+# Shutdown event to quit the driver when FastAPI app shuts down
 @app.on_event("startup")
 async def startup_event():
     create_driver()
 
+# Shutdown event to quit the driver when FastAPI app shuts down
 @app.on_event("shutdown")
 def shutdown_event():
     global driver
@@ -59,125 +65,287 @@ def shutdown_event():
         driver.quit()
         logging.info("Chrome driver quit successfully.")
 
-def scrape_weworkremotely_jobs(title):
-    """Scrapes job listings from We Work Remotely."""
-    url = f"https://weworkremotely.com/remote-jobs/search?term={title}"
+async def scrape_weworkremotely_jobs(title):
+    url = f"https://weworkremotely.com/remote-jobs/search?search_uuid=&term={title}&button=&past_24_hours"
     try:
         driver.get(url)
         wait = WebDriverWait(driver, 10)
-        jobs = []
-        job_elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '#category-17 > article > ul > li:not(.view-all)')))
-        for job in job_elements:
-            try:
-                title = job.find_element(By.CSS_SELECTOR, 'span.title').text
-                company = job.find_element(By.CSS_SELECTOR, 'span.company').text
-                location = job.find_element(By.CSS_SELECTOR, 'span.region').text
-                link = job.find_element(By.CSS_SELECTOR, 'a').get_attribute('href')
-                img = job.find_element(By.CSS_SELECTOR, 'span.flag-logo').get_attribute('style')
-                job_data = {"title": title, "company": company, "location": location, "link": link, "img": img}
-                jobs.append(job_data)
-            except Exception as e:
-                logging.error(f"Error extracting job details from WeWorkRemotely: {e}")
-        return jobs
+
+        try:
+            jobs_list = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="category-17"]/article/ul')))
+            job_items = jobs_list.find_elements(By.TAG_NAME, 'li')
+            jobs = []
+
+            for job in job_items:
+                try:
+                    if "view-all" in job.get_attribute('class'):
+                        continue
+                    driver.execute_script("arguments[0].scrollIntoView();", job)
+                    job_links = job.find_elements(By.TAG_NAME, 'a')
+                    href = job_links[-1].get_attribute("href")
+                    title = job.find_element(By.CLASS_NAME, 'title').text
+                    company_info = job.find_elements(By.CLASS_NAME, 'company')
+                    company = company_info[0].text if len(company_info) > 0 else "Unknown"
+                    job_type = company_info[1].text if len(company_info) > 1 else "Not specified"
+                    location = job.find_element(By.CLASS_NAME, 'region.company').text if job.find_elements(By.CLASS_NAME, 'region.company') else "Not specified"
+                    posted = job.find_element(By.CLASS_NAME, 'listing-date__date').text if job.find_elements(By.CLASS_NAME, 'listing-date__date') else "Not provided"
+                    # driver.execute_script("arguments[0].scrollIntoView();", job)
+                    img_src = "No Image"  # Default value
+                    try:
+                        img = job.find_element(By.CLASS_NAME, 'flag-logo').get_attribute('style')
+                        start = img.find('url("') + 5  # Find start of URL
+                        img_src = img[start:len(img) - 3]  # Extract the image URL
+                    except Exception:
+                        pass  # If no image found, it will remain "No Image"
+                    job_as_JSON = {
+                        "title": title,
+                        "company": company,
+                        "location": location,
+                        "posted": posted,
+                        "href": href,
+                        "type": job_type,
+                        "img": img_src
+                    }
+                    jobs.append(job_as_JSON)
+
+                except Exception as e:
+                    logging.error(f"Error extracting job details: {e}")
+
+            return jobs
+
+        except Exception as e:
+            logging.error(f"Job listings not found or error: {e}")
+            return []
     except Exception as e:
-        logging.error(f"Error scraping WeWorkRemotely: {e}")
+        logging.error(f"Exception in scrape_weworkremotely_jobs: {e}")
         return []
+
 
 @app.get("/jobs/weworkremotely/{title}")
 async def get_weworkremotely_jobs(title: str):
-    jobs = scrape_weworkremotely_jobs(title)
-    return JSONResponse(content=jobs)
+    jobs = await scrape_weworkremotely_jobs(title)
+    return JSONResponse(content={"jobs": jobs})
 
-def scrape_remotive_jobs(title):
-    """Scrapes job listings from Remotive."""
+
+async def scrape_remotive_jobs(title):
     url = f"https://remotive.io/remote-jobs?query={title}"
     try:
         driver.get(url)
         wait = WebDriverWait(driver, 10)
-        jobs = []
-        job_elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '#hits > ul > div[x-data]')))
-        for job in job_elements:
+
+        try:
+            # Wait for job listings container
+            wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#hits > ul > div[x-data]")))
+
+            # Try selecting "Sort by newest"
             try:
-                title = job.find_element(By.CSS_SELECTOR, 'a.remotive-url-visit').text
-                company = job.find_element(By.CSS_SELECTOR, 'div.company').text
-                location = job.find_element(By.CSS_SELECTOR, 'div.location').text
-                link = job.find_element(By.CSS_SELECTOR, 'a.remotive-url-visit').get_attribute('href')
-                img = job.find_element(By.CSS_SELECTOR, 'img').get_attribute('src')
-                job_data = {"title": title, "company": company, "location": location, "link": link, "img": img}
-                jobs.append(job_data)
-            except Exception as e:
-                logging.error(f"Error extracting job details from Remotive: {e}")
-        return jobs
+                sort_by_dropdown = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#sort-by select')))
+                select = Select(sort_by_dropdown)
+                select.select_by_index(1)  # Sort by Newest
+                await asyncio.sleep(3)  # Wait for sorting to apply (use asyncio.sleep)
+            except Exception:
+                logging.info("Sort dropdown not found, skipping sorting step.")
+
+            # Fetch job items **AFTER** sorting
+            job_items = driver.find_elements(By.CSS_SELECTOR, '#hits > ul > div[x-data]')
+
+            jobs = []
+            for job in job_items:
+                try:
+                    # Extract job link
+                    job_link = job.find_element(By.CSS_SELECTOR, 'a.remotive-url-visit').get_attribute('href')
+
+                    # Extract title and company name
+                    title_element = job.find_elements(By.CSS_SELECTOR, '.remotive-bold')
+                    job_title = title_element[0].text if len(title_element) > 0 else "Unknown"
+                    company_name = title_element[-1].text if len(title_element) > 1 else "Not specified"
+
+                    # Extract job location (fallback to "Remote")
+                    job_tags = job.find_elements(By.CSS_SELECTOR, '.tag-small')
+                    location = job_tags[0].text if job_tags else "Remote"
+
+                    # Extract posting date
+                    posted = "Not provided"
+                    posted_elements = job.find_elements(By.XPATH, './/div[contains(@class, "tw-hidden sm:tw-flex")]/span/span')
+                    if posted_elements:
+                        posted = posted_elements[0].text.strip()
+
+                    # Extract company logo
+                    img_element = job.find_elements(By.CSS_SELECTOR, 'img')
+                    img_src = img_element[0].get_attribute('src') if img_element else "No Image"
+
+                    # Store job details as dictionary
+                    job_as_JSON = {
+                        "title": job_title,
+                        "company": company_name,
+                        "location": location,
+                        "posted": posted,
+                        "href": job_link,
+                        "type": "Remote",
+                        "img": img_src
+                    }
+                    jobs.append(job_as_JSON)
+
+                except Exception as e:
+                    logging.error(f"Error extracting job details: {e}")
+
+            # print(jobs)
+            return jobs
+
+        except Exception as e:
+            logging.error(f"Job listings not found or error: {e}")
+            return []
     except Exception as e:
-        logging.error(f"Error scraping Remotive: {e}")
+        logging.error(f"Exception in scrape_remotive_jobs: {e}")
         return []
+
 
 @app.get("/jobs/remotive/{title}")
 async def get_remotive_jobs(title: str):
-    jobs = scrape_remotive_jobs(title)
-    return JSONResponse(content=jobs)
+    jobs = await scrape_remotive_jobs(title)
+    return JSONResponse(content={"jobs": jobs})
 
-def scrape_remoteok(title):
-    """Scrapes job listings from RemoteOK."""
-    url = f"https://remoteok.com/remote-{title}-jobs"
+
+async def scrapeFilter():
+    url = f"https://remoteok.com/"
     try:
         driver.get(url)
         wait = WebDriverWait(driver, 10)
-        jobs = []
-        job_elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '#jobsboard > tbody > tr[class*="job"]')))
-        for job in job_elements:
-            try:
-                title = job.find_element(By.CSS_SELECTOR, 'h2').text
-                company = job.find_element(By.CSS_SELECTOR, 'h3').text
-                location = job.find_element(By.CSS_SELECTOR, 'div.location').text
-                link = job.find_element(By.CSS_SELECTOR, 'a').get_attribute('href')
-                img = job.find_element(By.CSS_SELECTOR, 'img').get_attribute('src')
-                job_data = {"title": title, "company": company, "location": location, "link": link, "img": img}
-                jobs.append(job_data)
-            except Exception as e:
-                logging.error(f"Error extracting job details from RemoteOK: {e}")
-        return jobs
+
+        search_input = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="jobsboard"]/thead/tr/th/div[2]/input')))
+        search_input.click()
+        filters_modal = wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[6]/div/div[4]')))
+
+        filter_items = filters_modal.find_elements(By.XPATH, './/div')
+        logging.info(f"Number of filters found: {len(filter_items)}")
+        filters = []
+
+        for filter in filter_items:
+            filters.append(filter.text)
+
+        return filters
     except Exception as e:
-        logging.error(f"Error scraping RemoteOK: {e}")
+        logging.error(f"Error in scrapeFilter: {e}")
         return []
+
+@app.get("/filters")
+async def get_filters():
+    filters = await scrapeFilter()
+    return JSONResponse(content={"filters": filters})
+
+
+async def remoteokJobs(title):
+    url = f"https://remoteok.com/remote-{title}-jobs?order_by=date"
+    try:
+        driver.get(url)
+        wait = WebDriverWait(driver, 10)
+
+        try:
+            wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="jobsboard"]/tbody')))
+            wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="jobsboard"]/tbody/tr')))
+            job_items = driver.find_elements(By.XPATH, '//*[@id="jobsboard"]/tbody/tr')
+            job_items = [job for job in job_items if "job" in job.get_attribute('class')]
+            jobs = []
+
+            for job in job_items:
+                try:
+                    driver.execute_script("arguments[0].scrollIntoView();", job)
+                    link_element = job.find_element(By.XPATH, './td[1]/a')
+                    href = link_element.get_attribute('href') if link_element else "No link"
+                    title = job.find_element(By.TAG_NAME, 'h2').text if job.find_elements(By.TAG_NAME, 'h2') else "Unknown"
+                    company = job.find_element(By.TAG_NAME, 'h3').text if job.find_elements(By.TAG_NAME, 'h3') else "Unknown"
+                    location_elements = job.find_elements(By.CLASS_NAME, 'location')
+                    location = location_elements[0].text if location_elements else "Unknown"
+                    if "💰" in location:
+                        location = "Specified in Job description"
+                    posted_elements = job.find_elements(By.CLASS_NAME, 'time')
+                    posted = posted_elements[0].text if posted_elements else "Not provided"
+                    # driver.execute_script("arguments[0].scrollIntoView();", job)
+                    img_elements = job.find_elements(By.TAG_NAME, 'img')
+                    img = img_elements[0].get_attribute('src') if img_elements else "No Image"
+                    job_as_JSON = {
+                        "title": title,
+                        "company": company,
+                        "location": location,
+                        "posted": posted,
+                        "href": href,
+                        "img": img,
+                        "type": "Remote",
+                    }
+                    jobs.append(job_as_JSON)
+                except Exception as e:
+                    logging.error(f"Error extracting job details: {e}")
+            return jobs
+        except Exception as e:
+            return {"error": "Job listings not found or error:", "message": str(e)}
+    except Exception as e:
+        logging.error(f"Exception in remoteokJobs: {e}")
+        return []
+
 
 @app.get("/jobs/remoteok/{title}")
-async def get_remoteok_jobs(title: str):
-    jobs = scrape_remoteok(title)
+async def scrape_remoteok(title: str):
+    jobs = await remoteokJobs(title)
     return JSONResponse(content=jobs)
 
-def linkedInJobs(title):
-    """Scrapes job listings from LinkedIn."""
-    url = f"https://www.linkedin.com/jobs/search/?keywords={title}&location=remote"
+
+# Function for LinkedIn job scraping
+async def linkedInJobs(title):
+    url = f"https://www.linkedin.com/jobs/search/?keywords={title}&location=remote&f_TPR=r86400"
     try:
         driver.get(url)
         wait = WebDriverWait(driver, 10)
-        jobs = []
-        job_elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'li.job-search-card')))
-        for job in job_elements:
-            try:
-                title = job.find_element(By.CSS_SELECTOR, 'h3.base-search-card__title').text
-                company = job.find_element(By.CSS_SELECTOR, 'a.base-search-card__subtitle').text
-                location = job.find_element(By.CSS_SELECTOR, 'div.job-search-card__location').text
-                link = job.find_element(By.CSS_SELECTOR, 'a.base-card__full-link').get_attribute('href')
-                img = job.find_element(By.CSS_SELECTOR, 'img.lazy-loaded').get_attribute('src')
-                job_data = {"title": title, "company": company, "location": location, "link": link, "img": img}
-                jobs.append(job_data)
-            except Exception as e:
-                logging.error(f"Error extracting job details from LinkedIn: {e}")
-        return jobs
+
+        try:
+            dismiss_button = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="base-contextual-sign-in-modal"]/div/section/button')))
+            dismiss_button.click()
+            logging.info("Dismissed LinkedIn login popup.")
+        except Exception:
+            logging.info("No login popup found or already closed.")
+
+        job_list = []
+        try:
+            jobs_list = wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'jobs-search__results-list')))
+            job_items = jobs_list.find_elements(By.TAG_NAME, 'li')
+            for job in job_items:
+                try:
+                    job_data = {
+                        "title": job.find_element(By.CLASS_NAME, 'base-search-card__title').text.strip(),
+                        "company": job.find_element(By.CLASS_NAME, 'base-search-card__subtitle').text.strip(),
+                        "location": job.find_element(By.CLASS_NAME, 'job-search-card__location').text.strip(),
+                        "posted": job.find_element(By.TAG_NAME, 'time').text.strip(),
+                        "href": job.find_element(By.TAG_NAME, 'a').get_attribute('href'),
+                        "type": "Remote"
+                    }
+
+                    driver.execute_script("arguments[0].scrollIntoView();", job)
+
+                    img_element = job.find_elements(By.TAG_NAME, 'img')
+                    img = img_element[0].get_attribute('src') if img_element else "No Image"
+                    job_data["img"] = img
+                    job_list.append(job_data)
+
+                except Exception as e:
+                    logging.error(f"Error extracting job details: {e}")
+            return job_list
+        except Exception as e:
+            logging.error(f"LinkedIn scraping error: {e}")
+            return []
     except Exception as e:
-        logging.error(f"Error scraping LinkedIn: {e}")
+        logging.error(f"Exception in linkedInJobs: {e}")
         return []
 
+
 @app.get("/jobs/linkedin/{title}")
-async def get_linkedin_jobs(title: str):
-    jobs = linkedInJobs(title)
+async def scrape_linkedin(title: str):
+    jobs = await linkedInJobs(title)
     return JSONResponse(content=jobs)
 
+
 @app.get("/")
-async def read_root():
+def read_root():
     return {"message": "Hello World"}
+
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)

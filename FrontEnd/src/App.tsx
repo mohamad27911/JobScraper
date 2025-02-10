@@ -1,4 +1,4 @@
-import { JobCard } from "./Components/JobCard";
+import JobCard from "./Components/JobCard";
 import Intro from "./Components/Intro";
 import Footer from "./Components/Footer";
 import { FetchWeWorkRemotelyJobs, LinkedInJobs, RemoteOkJobs, RemotiveJobs } from "./data";
