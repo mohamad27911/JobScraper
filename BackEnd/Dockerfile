@@ -45,4 +45,7 @@ ENV CHROME_BIN=/usr/bin/chromium
 ENV CHROMEDRIVER_BIN=/usr/local/bin/chromedriver
 
 # Command to run the application
-CMD Xvfb :99 -screen 0 1280x720x24 & uvicorn src.main:app --host 0.0.0.0 --port 8000
+CMD Xvfb :99 -screen 0 1280x720x24 & \
+    pip install --no-cache-dir uvicorn && \
+    uvicorn src.main:app --host 0.0.0.0 --port 8000
+
