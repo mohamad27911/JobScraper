@@ -9,7 +9,7 @@ import uvicorn
 from fastapi import BackgroundTasks
 from starlette.middleware.cors import CORSMiddleware
 from selenium.webdriver.support.ui import Select
-import tempfile
+import os
 import logging
 import undetected_chromedriver as uc
 
@@ -39,15 +39,19 @@ def create_driver():
         options = webdriver.ChromeOptions()
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_argument("--incognito")
-        options.headless = True
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-gpu")
         options.add_argument("--remote-debugging-port=9222")
         options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--headless=new")  # Use the updated headless mode
+
+        # Set the correct binary location
+        chrome_binary = "/usr/bin/google-chrome"  # Update this if necessary
+        options.binary_location = chrome_binary
 
         try:
             # Apply the undetected-chromedriver patch
-            driver = uc.Chrome(options=options)
+            driver = uc.Chrome(options=options, headless=True)
             logging.info("Chrome driver initialized successfully.")
         except Exception as e:
             logging.error(f"Error initializing Chrome driver: {e}")
