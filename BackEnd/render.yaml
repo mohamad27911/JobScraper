@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# Update package lists
+apt-get update 
+
+# Install dependencies
+apt-get install -y wget unzip
+
+# Install Google Chrome
+wget -q -O /tmp/google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+dpkg -i /tmp/google-chrome.deb || apt-get -fy install
+
+# Verify Chrome installation
+google-chrome --version
+
+# Install Chromedriver
+CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
+wget -q -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip
+unzip /tmp/chromedriver.zip -d /usr/local/bin/
+chmod +x /usr/local/bin/chromedriver
+
+# Verify Chromedriver installation
+chromedriver --version
+
+# Install Python dependencies
+pip install -r src/requirements.txt
