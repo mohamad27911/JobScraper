@@ -4,13 +4,13 @@ const api = axios.create({
     baseURL: "https://jobscraper-3k6f.onrender.com/",
 });
 
-const fetchJobData = async (title: string, site:string) => {
+const fetchJobData = async (title: string, site: string) => {
     try {
         const response = await api.get(`/jobs/${title}/${site}`);
-        console.log(`Jobs Fetched Response:`, response.data);
+        console.log(`${site} Fetched Response:`, response.data);
         return response.data;
     } catch (error) {
-        console.error(`Jobs fetch failed:`, error);
+        console.error(`${site} fetch failed:`, error);
         throw error;
     }
 };

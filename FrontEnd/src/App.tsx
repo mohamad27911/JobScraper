@@ -65,42 +65,40 @@ const platforms: Option[] = [
 ];
 
 function App() {
-    const [jobs, setJobs] = useState<Job[]>([]); 
-    const [job, setJob] = useState("");
-    const [isLoading, setIsLoading] = useState(false);
-    const [selectedOption, setSelectedOption] = useState<SingleValue<Option>>(null);
-    const [selectedPlatform, setSelectedPlatform] = useState<SingleValue<Option>>(null);
+  const [jobs, setJobs] = useState<Job[]>([]); // Type the jobs state
+  const [job, setJob] = useState(""); // Default job
+  const [isLoading, setIsLoading] = useState(false);
+  const [selectedOption, setSelectedOption] = useState<SingleValue<Option>>(null);
+  const [selectedPlatform, setSelectedPlatform] = useState<SingleValue<Option>>(null);
 
-    // Pagination
-    const [currentPage, setCurrentPage] = useState(1);
-    const [postsPerPage] = useState(9);
-    const lastPostIndex = currentPage * postsPerPage;
-    const firstPostIndex = lastPostIndex - postsPerPage;
-    const currentPosts = jobs.slice(firstPostIndex, lastPostIndex);
+  // Pagination
+  const [currentPage, setCurrentPage] = useState(1);
+  const [postsPerPage] = useState(9);
+  const lastPostIndex = currentPage * postsPerPage;
+  const firstPostIndex = lastPostIndex - postsPerPage;
+  const currentPosts = jobs.slice(firstPostIndex, lastPostIndex);
 
-    const [error, setError] = useState("");
-    const [factIndex, setFactIndex] = useState(0);
+  const [error, setError] = useState("");
+  const [factIndex, setFactIndex] = useState(0);
 
-
-    const fetchJobs = useCallback(async () => {
+  const fetchJobs = useCallback(async (platform: string) => {
       setIsLoading(true);
       setJobs([]);
-      setError(""); 
-  
+      setError("");
+
       try {
           let jobSourcePromise;
-  
-          switch (selectedPlatform?.value) {
-              case "LinkedIn":
+          switch (platform) {
+              case "linkedin":
                   jobSourcePromise = LinkedInJobs(job);
                   break;
-              case "We Work Remotely":
+              case "weworkremotely":
                   jobSourcePromise = FetchWeWorkRemotelyJobs(job);
                   break;
-              case "RemoteOk":
+              case "remoteok":
                   jobSourcePromise = RemoteOkJobs(job);
                   break;
-              case "Remotive":
+              case "remotive":
                   jobSourcePromise = RemotiveJobs(job);
                   break;
               default:
@@ -108,53 +106,50 @@ function App() {
                   setIsLoading(false);
                   return;
           }
-  
+
           const response = await jobSourcePromise;
-          
-          const allJobs = (Array.isArray(response) ? response : response?.jobs || [])
-              .filter((job:Job) => job && job.title !== 'Unknown' && !(job.posted && job.posted.includes('yr')));
-  
+          const allJobs = (Array.isArray(response) ? response : response || [])
+              .filter((job: Job) => job && job.title !== 'Unknown' && !(job.posted && job.posted.includes('yr')));
+
           setJobs(allJobs);
-      } catch (err) { 
+      } catch (err) {
           console.error('Error fetching jobs:', err);
           setError("Failed to fetch jobs. Please try again.");
       } finally {
           setIsLoading(false);
       }
-  }, [job, selectedPlatform]);
-  
+  }, [job]);
 
-    const handleChange = (newValue: SingleValue<Option>) => {
-        setSelectedOption(newValue);
-    };
-    const handleChangePlatform = (newValue: SingleValue<Option>) => {
-        setSelectedPlatform(newValue);
-    };
+  const handleChange = (newValue: SingleValue<Option>) => {
+      setSelectedOption(newValue);
+  };
 
-    const handleSearch = () => {
-        if (!selectedOption || !selectedPlatform) {
-            setError("Please select both a job title and a platform.");
-            return;
-        }
-        setJob(selectedOption.value);
-        setCurrentPage(1); // Reset to first page on new search
-        setError(""); // Clear error when valid input is given
-    };
+  const handleChangePlatform = (newValue: SingleValue<Option>) => {
+      setSelectedPlatform(newValue);
+  };
 
-    useEffect(() => {
-        if (job && selectedPlatform) {
-            fetchJobs(); // Trigger the job fetch when job or platform changes
-        }
-    }, [job, selectedPlatform, fetchJobs]);
+  const handleSearch = () => {
+    if (!selectedOption || !selectedPlatform) {
+        setError("Please select both a job title and a platform.");
+        return;
+    }
+    setJob(selectedOption.value);
+    setCurrentPage(1); // Reset to first page on new search
+    setError(""); // Clear error when valid input is given
+    fetchJobs(selectedPlatform.value);  
+};
 
-    const handlePageChange = (direction: string) => {
-        if (direction === "next" && lastPostIndex < jobs.length) {
-            setCurrentPage(prev => prev + 1);
-        } else if (direction === "prev" && currentPage > 1) {
-            setCurrentPage(prev => prev - 1);
-        }
-    };
+  useEffect(() => {
+    // removed check
+  }, [job, fetchJobs]);
 
+  const handlePageChange = (direction: string) => {
+      if (direction === "next" && lastPostIndex < jobs.length) {
+          setCurrentPage(prev => prev + 1);
+      } else if (direction === "prev" && currentPage > 1) {
+          setCurrentPage(prev => prev - 1);
+      }
+  };
     const funFacts = [
         "Over 30% of employees worldwide work remotely at least once a week. The future of work is flexible!",
         "The first job search engine was launched in 1996. It’s come a long way since then—now, job hunting is just a click away!",
