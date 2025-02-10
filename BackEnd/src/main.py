@@ -45,13 +45,9 @@ def create_driver():
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--headless=new")
 
-        # Explicitly set Chrome binary location
-        chrome_binary_path = "/usr/bin/google-chrome"
-        options.binary_location = chrome_binary_path
-
         try:
             # Pass the browser_executable_path explicitly
-            driver = uc.Chrome(options=options, headless=True, browser_executable_path=chrome_binary_path)
+            driver = uc.Chrome(options=options)
             logging.info("Chrome driver initialized successfully.")
         except Exception as e:
             logging.error(f"Error initializing Chrome driver: {e}")
