@@ -11,9 +11,8 @@ from starlette.middleware.cors import CORSMiddleware
 from selenium.webdriver.support.ui import Select
 import os
 import logging
-import asyncio  # Import asyncio for asynchronous operations
+import asyncio 
 
-# Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 app = FastAPI()
@@ -142,7 +141,6 @@ async def scrape_remotive_jobs(title):
                 sort_by_dropdown = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#sort-by select')))
                 select = Select(sort_by_dropdown)
                 select.select_by_index(1)  # Sort by Newest
-                await asyncio.sleep(3)  # Wait for sorting to apply (use asyncio.sleep)
             except Exception:
                 logging.info("Sort dropdown not found, skipping sorting step.")
 
@@ -241,7 +239,6 @@ async def remoteokJobs(title):
         wait = WebDriverWait(driver, 10)
 
         try:
-            wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="jobsboard"]/tbody')))
             wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="jobsboard"]/tbody/tr')))
             job_items = driver.find_elements(By.XPATH, '//*[@id="jobsboard"]/tbody/tr')
             job_items = [job for job in job_items if "job" in job.get_attribute('class')]

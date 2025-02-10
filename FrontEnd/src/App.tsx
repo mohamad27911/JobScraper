@@ -65,8 +65,8 @@ const platforms: Option[] = [
 ];
 
 function App() {
-    const [jobs, setJobs] = useState<Job[]>([]); // Type the jobs state
-    const [job, setJob] = useState(""); // Default job
+    const [jobs, setJobs] = useState<Job[]>([]); 
+    const [job, setJob] = useState("");
     const [isLoading, setIsLoading] = useState(false);
     const [selectedOption, setSelectedOption] = useState<SingleValue<Option>>(null);
     const [selectedPlatform, setSelectedPlatform] = useState<SingleValue<Option>>(null);
@@ -84,8 +84,8 @@ function App() {
 
     const fetchJobs = useCallback(async () => {
         setIsLoading(true);
-        setJobs([]); // Clear previous jobs before fetching
-        setError(""); // Reset error state
+        setJobs([]);
+        setError(""); 
 
         try {
             const jobSources = [];
@@ -112,7 +112,7 @@ function App() {
             const allJobs = responses.reduce((acc: Job[], response) => { 
                 if (Array.isArray(response)) {
                     return [...acc, ...response];
-                } else if (response && response.jobs) {  // Add a null check to ensure response exists
+                } else if (response && response.jobs) {  
                     return [...acc, ...response.jobs];
                 }
                 return acc;
@@ -121,11 +121,11 @@ function App() {
             setJobs(
                 allJobs.filter(
                     (job: Job) =>
-                        job && job.title !== 'Unknown' &&  // Ensure job is not null before accessing properties
-                        !(job.posted && (job.posted.includes('yr'))) // Ensure job.posted is not null before calling includes
+                        job && job.title !== 'Unknown' &&  
+                        !(job.posted && (job.posted.includes('yr')))
                 )
             );
-        } catch (err) {  //Type Error
+        } catch (err) { 
             console.error('Error fetching jobs:', err);
             setError("Failed to fetch jobs. Please try again.");
         } finally {
@@ -281,7 +281,7 @@ function App() {
 
                     ) : jobs.length === 0 ? (
                         job ? (
-                            <div className="flex flex-col items-center justify-center py-16 px-4 bg-white text-gray-800">
+                            <div className="flex flex-col items-center justify-center py-16 px-4  text-gray-800">
                                 <SearchX className="w-24 h-24 text-indigo-600 mb-6" />
                                 <h2 className="text-3xl font-bold mb-4 text-center bg-gradient-to-r from-indigo-600 to-purple-700 bg-clip-text text-transparent">
                                     No jobs found for your search
@@ -291,7 +291,7 @@ function App() {
                                 </p>
                             </div>
                         ) : (
-                            <div className="flex flex-col items-center justify-center py-16 px-4 bg-white text-gray-800">
+                            <div className="flex flex-col items-center justify-center py-16 px-4  text-gray-800">
                                 <h2 className="text-3xl font-bold mb-4 text-center bg-gradient-to-r from-indigo-600 to-purple-700 bg-clip-text text-transparent">
                                     Please select a job title to search for
                                 </h2>
