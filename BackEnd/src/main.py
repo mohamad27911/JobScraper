@@ -11,7 +11,6 @@ from starlette.middleware.cors import CORSMiddleware
 from selenium.webdriver.support.ui import Select
 import os
 import logging
-import undetected_chromedriver as uc
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -46,8 +45,7 @@ def create_driver():
         options.add_argument("--headless=new")
 
         try:
-            # Pass the browser_executable_path explicitly
-            driver = uc.Chrome(options=options)
+            driver = webdriver.Chrome(options=options)
             logging.info("Chrome driver initialized successfully.")
         except Exception as e:
             logging.error(f"Error initializing Chrome driver: {e}")

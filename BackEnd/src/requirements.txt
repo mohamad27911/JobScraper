@@ -2,7 +2,4 @@ fastapi
 uvicorn
 selenium
 beautifulsoup4
-undetected-chromedriver
 starlette
-webdriver_manager
-setuptools
