@@ -11,6 +11,7 @@ from starlette.middleware.cors import CORSMiddleware
 from selenium.webdriver.support.ui import Select
 import os
 import logging
+import asyncio  # Import asyncio for asynchronous operations
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -64,7 +65,7 @@ def shutdown_event():
         driver.quit()
         logging.info("Chrome driver quit successfully.")
 
-def scrape_weworkremotely_jobs(title):
+async def scrape_weworkremotely_jobs(title):
     url = f"https://weworkremotely.com/remote-jobs/search?search_uuid=&term={title}&button=&past_24_hours"
     try:
         driver.get(url)
@@ -122,11 +123,11 @@ def scrape_weworkremotely_jobs(title):
 
 @app.get("/jobs/weworkremotely/{title}")
 async def get_weworkremotely_jobs(title: str):
-    jobs = scrape_weworkremotely_jobs(title)
+    jobs = await scrape_weworkremotely_jobs(title)
     return JSONResponse(content={"jobs": jobs})
 
 
-def scrape_remotive_jobs(title):
+async def scrape_remotive_jobs(title):
     url = f"https://remotive.io/remote-jobs?query={title}"
     try:
         driver.get(url)
@@ -141,7 +142,7 @@ def scrape_remotive_jobs(title):
                 sort_by_dropdown = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#sort-by select')))
                 select = Select(sort_by_dropdown)
                 select.select_by_index(1)  # Sort by Newest
-                time.sleep(3)  # Wait for sorting to apply
+                await asyncio.sleep(3)  # Wait for sorting to apply (use asyncio.sleep)
             except Exception:
                 logging.info("Sort dropdown not found, skipping sorting step.")
 
@@ -201,12 +202,11 @@ def scrape_remotive_jobs(title):
 
 @app.get("/jobs/remotive/{title}")
 async def get_remotive_jobs(title: str):
-    jobs = scrape_remotive_jobs(title)
+    jobs = await scrape_remotive_jobs(title)
     return JSONResponse(content={"jobs": jobs})
 
 
-# Scrape filters
-def scrapeFilter():
+async def scrapeFilter():
     url = f"https://remoteok.com/"
     try:
         driver.get(url)
@@ -230,11 +230,11 @@ def scrapeFilter():
 
 @app.get("/filters")
 async def get_filters():
-    filters = scrapeFilter()
+    filters = await scrapeFilter()
     return JSONResponse(content={"filters": filters})
 
 
-def remoteokJobs(title):
+async def remoteokJobs(title):
     url = f"https://remoteok.com/remote-{title}-jobs?order_by=date"
     try:
         driver.get(url)
@@ -285,12 +285,12 @@ def remoteokJobs(title):
 
 @app.get("/jobs/remoteok/{title}")
 async def scrape_remoteok(title: str):
-    jobs = remoteokJobs(title)
+    jobs = await remoteokJobs(title)
     return JSONResponse(content=jobs)
 
 
 # Function for LinkedIn job scraping
-def linkedInJobs(title):
+async def linkedInJobs(title):
     url = f"https://www.linkedin.com/jobs/search/?keywords={title}&location=remote&f_TPR=r86400"
     try:
         driver.get(url)
@@ -334,6 +334,12 @@ def linkedInJobs(title):
     except Exception as e:
         logging.error(f"Exception in linkedInJobs: {e}")
         return []
+
+
+@app.get("/jobs/linkedin/{title}")
+async def scrape_linkedin(title: str):
+    jobs = await linkedInJobs(title)
+    return JSONResponse(content=jobs)
 
 
 @app.get("/")
