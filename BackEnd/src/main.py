@@ -34,7 +34,7 @@ driver = None
 
 def create_driver():
     """Creates and configures the Chrome driver."""
-    global driver  # Use the global driver variable
+    global driver  
     if driver is None:
         options = webdriver.ChromeOptions()
         options.add_argument("--disable-blink-features=AutomationControlled")
@@ -43,19 +43,19 @@ def create_driver():
         options.add_argument("--disable-gpu")
         options.add_argument("--remote-debugging-port=9222")
         options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--headless=new")  # Use the updated headless mode
+        options.add_argument("--headless=new")
 
-        # Set the correct binary location
-        chrome_binary = "/usr/bin/google-chrome"  # Update this if necessary
-        options.binary_location = chrome_binary
+        # Explicitly set Chrome binary location
+        chrome_binary_path = "/usr/bin/google-chrome"
+        options.binary_location = chrome_binary_path
 
         try:
-            # Apply the undetected-chromedriver patch
-            driver = uc.Chrome(options=options, headless=True)
+            # Pass the browser_executable_path explicitly
+            driver = uc.Chrome(options=options, headless=True, browser_executable_path=chrome_binary_path)
             logging.info("Chrome driver initialized successfully.")
         except Exception as e:
             logging.error(f"Error initializing Chrome driver: {e}")
-            raise  # Re-raise the exception to prevent the app from starting
+            raise  
 
 # Shutdown event to quit the driver when FastAPI app shuts down
 @app.on_event("startup")
