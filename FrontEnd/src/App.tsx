@@ -313,7 +313,7 @@ function App() {
             ) : (
               <div className="flex flex-col items-center justify-center py-16 px-4 bg-white text-gray-800">
                 <h2 className="text-3xl font-bold mb-4 text-center bg-gradient-to-r from-indigo-600 to-purple-700 bg-clip-text text-transparent">
-                  Please select a job title to search for
+                  Please select a job title to search for testtttt
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 text-center max-w-md">
                   You haven’t selected a job yet. Choose a job title from the dropdown to start your search.
