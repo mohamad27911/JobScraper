@@ -23,6 +23,7 @@ const JobCard = ({ title, company, location, posted, href, img, type }:Job) => {
             className="w-12 h-12 sm:w-16 sm:h-16 rounded-full object-contain border-2 border-indigo-700"
             src={img=="No Image" ?defaultimage:img?img:defaultimage}
             alt=""
+            loading="lazy"
           />
           <span className="bg-indigo-700 text-gray-300 text-xs sm:text-sm font-bold px-3 py-1 sm:px-4 sm:py-2 rounded-xl">
             {type}

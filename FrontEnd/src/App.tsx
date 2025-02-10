@@ -89,16 +89,16 @@ function App() {
       try {
           let jobSourcePromise;
           switch (platform) {
-              case "linkedin":
+              case "LinkedIn":
                   jobSourcePromise = LinkedInJobs(job);
                   break;
-              case "weworkremotely":
+              case "We Work Remotely":
                   jobSourcePromise = FetchWeWorkRemotelyJobs(job);
                   break;
-              case "remoteok":
+              case "RemoteOk":
                   jobSourcePromise = RemoteOkJobs(job);
                   break;
-              case "remotive":
+              case "Remotive":
                   jobSourcePromise = RemotiveJobs(job);
                   break;
               default:

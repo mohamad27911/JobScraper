@@ -90,18 +90,23 @@ async def scrape_weworkremotely_jobs(title):
         driver.get(url)
         wait = WebDriverWait(driver, 10)
         jobs = []
-        job_elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '#category-17 > article > ul > li:not(.view-all)')))
-        for job in job_elements:
-            try:
-                title = job.find_element(By.CSS_SELECTOR, 'span.title').text
-                company = job.find_element(By.CSS_SELECTOR, 'span.company').text
-                location = job.find_element(By.CSS_SELECTOR, 'span.region').text
-                link = job.find_element(By.CSS_SELECTOR, 'a').get_attribute('href')
-                img = job.find_element(By.CSS_SELECTOR, 'span.flag-logo').get_attribute('style')
-                job_data = {"title": title, "company": company, "location": location, "link": link, "img": img, "site": "weworkremotely"}
+        try:
+            jobs_list = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="category-17"]/article/ul')))
+            job_items = jobs_list.find_elements(By.TAG_NAME, 'li')
+            
+            for job in job_items:
+                if "view-all" in job.get_attribute('class'):
+                    continue
+                job_data = {
+                    "title": job.find_element(By.CLASS_NAME, 'title').text,
+                    "company": job.find_element(By.CLASS_NAME, 'company').text,
+                    "location": job.find_element(By.CLASS_NAME, 'region.company').text,
+                    "href": job.find_element(By.TAG_NAME, 'a').get_attribute('href'),
+                    "site": "weworkremotely"
+                }
                 jobs.append(job_data)
-            except Exception as e:
-                logging.error(f"Error extracting job details from WeWorkRemotely: {e}")
+        except Exception as e:
+            logging.error(f"Error extracting job details from WeWorkRemotely: {e}")
         return jobs
     except Exception as e:
         logging.error(f"Error scraping WeWorkRemotely: {e}")
@@ -114,18 +119,19 @@ async def scrape_remotive_jobs(title):
         driver.get(url)
         wait = WebDriverWait(driver, 10)
         jobs = []
-        job_elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '#hits > ul > div[x-data]')))
-        for job in job_elements:
-            try:
-                title = job.find_element(By.CSS_SELECTOR, 'a.remotive-url-visit').text
-                company = job.find_element(By.CSS_SELECTOR, 'div.company').text
-                location = job.find_element(By.CSS_SELECTOR, 'div.location').text
-                link = job.find_element(By.CSS_SELECTOR, 'a.remotive-url-visit').get_attribute('href')
-                img = job.find_element(By.CSS_SELECTOR, 'img').get_attribute('src')
-                job_data = {"title": title, "company": company, "location": location, "link": link, "img": img, "site": "remotive"}
+        try:
+            job_items = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '#hits > ul > div[x-data]')))
+            for job in job_items:
+                job_data = {
+                    "title": job.find_element(By.CSS_SELECTOR, '.remotive-bold').text,
+                    "company": job.find_element(By.CSS_SELECTOR, '.remotive-bold').text,
+                    "location": job.find_element(By.CSS_SELECTOR, '.tag-small').text,
+                    "href": job.find_element(By.CSS_SELECTOR, 'a.remotive-url-visit').get_attribute('href'),
+                    "site": "remotive"
+                }
                 jobs.append(job_data)
-            except Exception as e:
-                logging.error(f"Error extracting job details from Remotive: {e}")
+        except Exception as e:
+            logging.error(f"Error extracting job details from Remotive: {e}")
         return jobs
     except Exception as e:
         logging.error(f"Error scraping Remotive: {e}")
@@ -138,18 +144,19 @@ async def remoteokJobs(title):
         driver.get(url)
         wait = WebDriverWait(driver, 10)
         jobs = []
-        job_elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '#jobsboard > tbody > tr[class*="job"]')))
-        for job in job_elements:
-            try:
-                title = job.find_element(By.CSS_SELECTOR, 'h2').text
-                company = job.find_element(By.CSS_SELECTOR, 'h3').text
-                location = job.find_element(By.CSS_SELECTOR, 'div.location').text
-                link = job.find_element(By.CSS_SELECTOR, 'a').get_attribute('href')
-                img = job.find_element(By.CSS_SELECTOR, 'img').get_attribute('src')
-                job_data = {"title": title, "company": company, "location": location, "link": link, "img": img, "site": "remoteok"}
+        try:
+            job_items = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '#jobsboard > tbody > tr[class*="job"]')))
+            for job in job_items:
+                job_data = {
+                    "title": job.find_element(By.TAG_NAME, 'h2').text,
+                    "company": job.find_element(By.TAG_NAME, 'h3').text,
+                    "location": job.find_element(By.CLASS_NAME, 'location').text,
+                    "href": job.find_element(By.XPATH, './td[1]/a').get_attribute('href'),
+                    "site": "remoteok"
+                }
                 jobs.append(job_data)
-            except Exception as e:
-                logging.error(f"Error extracting job details from RemoteOK: {e}")
+        except Exception as e:
+            logging.error(f"Error extracting job details from RemoteOK: {e}")
         return jobs
     except Exception as e:
         logging.error(f"Error scraping RemoteOK: {e}")
@@ -162,38 +169,25 @@ async def linkedInJobs(title):
         driver.get(url)
         wait = WebDriverWait(driver, 10)
         jobs = []
-        job_elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'li.job-search-card')))
-        for job in job_elements:
-            try:
-                title = job.find_element(By.CSS_SELECTOR, 'h3.base-search-card__title').text
-                company = job.find_element(By.CSS_SELECTOR, 'a.base-search-card__subtitle').text
-                location = job.find_element(By.CSS_SELECTOR, 'div.job-search-card__location').text
-                link = job.find_element(By.CSS_SELECTOR, 'a.base-card__full-link').get_attribute('href')
-                img = job.find_element(By.CSS_SELECTOR, 'img.lazy-loaded').get_attribute('src')
-                job_data = {"title": title, "company": company, "location": location, "link": link, "img": img, "site": "linkedin"}
-                jobs.append(job_data)
-            except Exception as e:
-                logging.error(f"Error extracting job details from LinkedIn: {e}")
-        return jobs
+        try:
+            job_items = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'base-search-card')))
+            for job in job_items:
+                try:
+                    title = job.find_element(By.CSS_SELECTOR, 'h3.base-search-card__title').text
+                    company = job.find_element(By.CSS_SELECTOR, 'a.base-search-card__subtitle').text
+                    location = job.find_element(By.CSS_SELECTOR, 'div.job-search-card__location').text
+                    link = job.find_element(By.CSS_SELECTOR, 'a.base-card__full-link').get_attribute('href')
+                    job_data = {"title": title, "company": company, "location": location, "link": link, "site": "linkedin"}
+                    jobs.append(job_data)
+                except Exception as e:
+                    logging.error(f"Error extracting job details from LinkedIn: {e}")
+            return jobs
+        except Exception as e:
+            logging.error(f"Linkedin scrape wait error: {e}")
+            return []
     except Exception as e:
         logging.error(f"Error scraping LinkedIn: {e}")
         return []
-
-@app.get("/jobs/{title}/{site}")
-async def get_jobs(title: str, site: str):
-    """Get the jobs to scrape from here."""
-    if site == "weworkremotely":
-        jobs = await scrape_weworkremotely_jobs(title)
-    elif site == "remotive":
-        jobs = await scrape_remotive_jobs(title)
-    elif site == "remoteok":
-        jobs = await remoteokJobs(title)
-    elif site == "linkedin":
-        jobs = await linkedInJobs(title)
-    else:
-        raise HTTPException(status_code=400, detail="Invalid site")
-
-    return JSONResponse(content=jobs)
 
 @app.get("/")
 def read_root():
