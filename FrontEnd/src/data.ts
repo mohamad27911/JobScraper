@@ -4,9 +4,9 @@ const api = axios.create({
     baseURL: "https://jobscraper-3k6f.onrender.com/",
 });
 
-const fetchJobData = async (title: string) => {
+const fetchJobData = async (title: string, site:string) => {
     try {
-        const response = await api.get(`/jobs/${title}`);
+        const response = await api.get(`/jobs/${title}/${site}`);
         console.log(`Jobs Fetched Response:`, response.data);
         return response.data;
     } catch (error) {
@@ -15,7 +15,7 @@ const fetchJobData = async (title: string) => {
     }
 };
 
-export const FetchWeWorkRemotelyJobs = (title: string) => fetchJobData(title);
-export const RemoteOkJobs = (title: string) => fetchJobData(title);
-export const RemotiveJobs = (title: string) => fetchJobData(title);
-export const LinkedInJobs = (title: string) => fetchJobData(title);
+export const FetchWeWorkRemotelyJobs = (title: string) => fetchJobData(title, "weworkremotely");
+export const RemoteOkJobs = (title: string) => fetchJobData(title, "remoteok");
+export const RemotiveJobs = (title: string) => fetchJobData(title, "remotive");
+export const LinkedInJobs = (title: string) => fetchJobData(title, "linkedin");
