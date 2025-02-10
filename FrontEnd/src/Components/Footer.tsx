@@ -1,4 +1,5 @@
-import { Github, Linkedin} from "lucide-react"
+import { Github, Linkedin } from "lucide-react"
+import Medium from "../assets/medium.png"
 
 function Footer() {
   const currentYear = new Date().getFullYear()
@@ -12,14 +13,29 @@ function Footer() {
             <p className="text-sm opacity-75">Aggregating opportunities from across the web</p>
           </div>
           <div className="text-center">
-            
           </div>
           <div className="flex justify-center md:justify-end space-x-4">
-            {[Github, Linkedin].map((Icon, index) => (
-              <a key={index} href="#" className="hover:text-indigo-200 transition-colors duration-300">
+            {[
+              { Icon: Github, link: "https://github.com/mohamad27911" },
+              { Icon: Linkedin, link: "https://www.linkedin.com/in/mohamad-abdel-rahman" },
+            ].map(({ Icon, link }, index) => (
+              <a
+                key={index}
+                href={link}
+                target="_blank"
+                className="hover:text-indigo-200 transition-colors duration-300"
+              >
                 <Icon size={28} />
               </a>
             ))}
+
+            <a
+              href="https://medium.com/@mohamad.mar72"
+              target="_blank"
+              className="hover:text-indigo-200 transition-colors duration-300"
+            >
+              <img src={Medium} alt="Medium" className="w-7 h-7" />
+            </a>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-indigo-500 text-center">
@@ -31,4 +47,3 @@ function Footer() {
 }
 
 export default Footer
-

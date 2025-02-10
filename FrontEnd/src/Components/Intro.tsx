@@ -48,11 +48,7 @@ export default function Intro() {
                     ))}
                 </div>
 
-                <div className="mt-16 text-center">
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-br from-indigo-600 to-purple-700 text-transparent bg-clip-text">
-                        Start Your Job Search
-                    </h2>
-                </div>
+               
 
             </div>
         </div>

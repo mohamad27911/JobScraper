@@ -5,6 +5,7 @@ import JobCard from "./Components/JobCard";
 import Intro from "./Components/Intro";
 import Footer from "./Components/Footer";
 import { FetchWeWorkRemotelyJobs, LinkedInJobs, RemoteOkJobs, RemotiveJobs } from "./data"; // Import all your data fetching functions
+import MediumFollow from "./Components/MediumFollow";
 // Define the type for your options
 interface Option {
   value: string;
@@ -197,8 +198,15 @@ function App() {
 
     return (
         <>
-            <div className="min-h-screen bg-gray-100 py-8 px-4 sm:py-12 sm:px-6 lg:px-8">
-                <Intro />
+         <Intro />
+         <MediumFollow />
+         <div className="mt-16 text-center">
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-br from-indigo-600 to-purple-700 text-transparent bg-clip-text">
+                        Start Your Job Search
+                    </h2>
+                </div>
+            <div className=" bg-gray-100 py-8 px-4 sm:py-12 sm:px-6 lg:px-8">
+               
                 <div className="flex justify-between items-center gap-4 flex-col sm:flex-row mb-16 mx-auto container w-3/5">
                     <div className="w-full">
                         <Select
@@ -260,7 +268,7 @@ function App() {
                             </div>
 
                             <h2 className="text-3xl py-4 font-bold mb-6 animate-pulse bg-gradient-to-r from-indigo-600 to-purple-700 bg-clip-text text-transparent sm:text-4xl lg:text-5xl">
-                                It may take a little bit of time to scrape the newest {job}s jobs.
+                                It may take a little bit of time to scrape.
                             </h2>
 
                             <div className="text-center max-w-md w-full px-4 sm:px-6 lg:px-8">
