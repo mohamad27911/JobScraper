@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -60,6 +60,7 @@ def shutdown_event():
         driver.quit()
         logging.info("Chrome driver quit successfully.")
 
+# Helper function for job scraping on each site
 async def scrape_weworkremotely_jobs(title):
     url = f"https://weworkremotely.com/remote-jobs/search?term={title}"
     try:
@@ -256,7 +257,7 @@ async def remoteokJobs(title):
                         "href": href,
                         "img": img,
                         "type": "Remote",
-                        "site": "Remoteok"
+                        "site":"Remoteok"
                     }
                     jobs.append(job_as_JSON)
                 except Exception as e:
@@ -316,28 +317,20 @@ async def linkedInJobs(title):
         return []
 
 
-@app.get("/jobs/{title}")
-async def get_jobs(title: str):
-    # Call all the scraping functions and gather the results
-    weworkremotely_jobs, remotive_jobs, remoteok_jobs, linkedin_jobs = await asyncio.gather(
-        scrape_weworkremotely_jobs(title),
-        scrape_remotive_jobs(title),
-        remoteokJobs(title),
-        linkedInJobs(title)
-    )
+@app.get("/jobs/{title}/{site}")
+async def get_jobs(title: str, site: str):
+    if site == "weworkremotely":
+        jobs = await scrape_weworkremotely_jobs(title)
+    elif site == "remotive":
+        jobs = await scrape_remotive_jobs(title)
+    elif site == "remoteok":
+        jobs = await remoteokJobs(title)
+    elif site == "linkedin":
+        jobs = await linkedInJobs(title)
+    else:
+        raise HTTPException(status_code=400, detail="Invalid site")
 
-    # Combine all the results
-    all_jobs = []
-    if weworkremotely_jobs:
-        all_jobs.extend(weworkremotely_jobs)
-    if remotive_jobs:
-        all_jobs.extend(remotive_jobs)
-    if remoteok_jobs:
-        all_jobs.extend(remoteok_jobs)
-    if linkedin_jobs:
-        all_jobs.extend(linkedin_jobs)
-
-    return JSONResponse(content=all_jobs)
+    return JSONResponse(content=jobs)
 
 @app.get("/")
 def read_root():
