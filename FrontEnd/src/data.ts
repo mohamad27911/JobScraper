@@ -4,47 +4,18 @@ const api = axios.create({
   baseURL: "https://jobscraper-3k6f.onrender.com/",
 });
 
-export const FetchWeWorkRemotelyJobs = async (title: string) => {
+const fetchJobData = async (site:string, title:string) => {
   try {
-    const response = await api.get(`/jobs/weworkremotely/${title}`);
-    console.log("Fetched Response:", response);
+    const response = await api.get(`/jobs/${site}/${title}`);
+    console.log(`${site} Fetched Response:`, response.data);
     return response.data;
   } catch (error) {
-    console.error("FetchWeWorkRemotelyJobs failed:", error);
+    console.error(`${site} fetch failed:`, error);
     throw error;
   }
 };
 
-export const RemoteOkJobs = async (title: string) => {
-  try {
-    const response = await api.get(`/jobs/remoteok/${title}`);
-    console.log("RemoteOkJobs Fetched Response:", response);
-    return response.data;
-   
-  } catch (error) {
-    console.error("RemoteOkJobs failed:", error);
-    throw error; 
-  }
-};
-
-export const RemotiveJobs = async (title: string) => {
-  try {
-    const response = await api.get(`/jobs/remotive/${title}`);
-    console.log("RemotiveJobs Fetched Response:", response.data);
-    return response.data;
-  } catch (error) {
-    console.error("Remotive failed:", error);
-    throw error; 
-  }
-};
-
-export const LinkedInJobs = async (title: string) => {
-  try {
-    const response = await api.get(`/jobs/linkedin/${title}`);
-    console.log("LinkedIn Fetched Response:", response.data);
-    return response.data; 
-  } catch (error) {
-    console.error("LinkedIn failed:", error);
-    throw error;
-  }
-};
+export const FetchWeWorkRemotelyJobs = (title:string) => fetchJobData("weworkremotely", title);
+export const RemoteOkJobs = (title:string) => fetchJobData("remoteok", title);
+export const RemotiveJobs = (title:string) => fetchJobData("remotive", title);
+export const LinkedInJobs = (title:string) => fetchJobData("linkedin", title);

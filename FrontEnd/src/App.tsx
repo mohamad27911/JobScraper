@@ -83,55 +83,46 @@ function App() {
 
 
     const fetchJobs = useCallback(async () => {
-        setIsLoading(true);
-        setJobs([]);
-        setError(""); 
-
-        try {
-            const jobSources = [];
-            switch (selectedPlatform?.value) {
-                case "LinkedIn":
-                    jobSources.push(LinkedInJobs(job));
-                    break;
-                case "We Work Remotely":
-                    jobSources.push(FetchWeWorkRemotelyJobs(job));
-                    break;
-                case "RemoteOk":
-                    jobSources.push(RemoteOkJobs(job));
-                    break;
-                case "Remotive":
-                    jobSources.push(RemotiveJobs(job));
-                    break;
-                default:
-                    setError("Invalid platform selection.");
-                    setIsLoading(false);
-                    return;
-            }
-
-            const responses = await Promise.all(jobSources);
-            const allJobs = responses.reduce((acc: Job[], response) => { 
-                if (Array.isArray(response)) {
-                    return [...acc, ...response];
-                } else if (response && response.jobs) {  
-                    return [...acc, ...response.jobs];
-                }
-                return acc;
-            }, []);
-
-            setJobs(
-                allJobs.filter(
-                    (job: Job) =>
-                        job && job.title !== 'Unknown' &&  
-                        !(job.posted && (job.posted.includes('yr')))
-                )
-            );
-        } catch (err) { 
-            console.error('Error fetching jobs:', err);
-            setError("Failed to fetch jobs. Please try again.");
-        } finally {
-            setIsLoading(false);
-        }
-    }, [job, selectedPlatform]);
+      setIsLoading(true);
+      setJobs([]);
+      setError(""); 
+  
+      try {
+          let jobSourcePromise;
+  
+          switch (selectedPlatform?.value) {
+              case "LinkedIn":
+                  jobSourcePromise = LinkedInJobs(job);
+                  break;
+              case "We Work Remotely":
+                  jobSourcePromise = FetchWeWorkRemotelyJobs(job);
+                  break;
+              case "RemoteOk":
+                  jobSourcePromise = RemoteOkJobs(job);
+                  break;
+              case "Remotive":
+                  jobSourcePromise = RemotiveJobs(job);
+                  break;
+              default:
+                  setError("Invalid platform selection.");
+                  setIsLoading(false);
+                  return;
+          }
+  
+          const response = await jobSourcePromise;
+          
+          const allJobs = (Array.isArray(response) ? response : response?.jobs || [])
+              .filter((job:Job) => job && job.title !== 'Unknown' && !(job.posted && job.posted.includes('yr')));
+  
+          setJobs(allJobs);
+      } catch (err) { 
+          console.error('Error fetching jobs:', err);
+          setError("Failed to fetch jobs. Please try again.");
+      } finally {
+          setIsLoading(false);
+      }
+  }, [job, selectedPlatform]);
+  
 
     const handleChange = (newValue: SingleValue<Option>) => {
         setSelectedOption(newValue);
