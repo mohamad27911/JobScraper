@@ -17,12 +17,13 @@ app = FastAPI()
 
 origins = [
     "http://localhost:5173",  # Allow the frontend origin
+    "https://job-scraping-mohamad27911s-projects.vercel.app"  
 ]
 
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://job-scraping-mohamad27911s-projects.vercel.app"],  # You can specify the exact domains, like ["https://yourdomain.com"]
+    allow_origins=origins,  # You can specify the exact domains, like ["https://yourdomain.com"]
     allow_credentials=True,
     allow_methods=["*"],  # Allow all methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
