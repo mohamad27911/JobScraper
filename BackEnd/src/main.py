@@ -19,14 +19,14 @@ origins = [
     "http://localhost:5173",  # Allow the frontend origin
 ]
 
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,  # Allow specific origins
+    allow_origins=["*"],  # You can specify the exact domains, like ["https://yourdomain.com"]
     allow_credentials=True,
-    allow_methods=["*"],  # Allow all HTTP methods
+    allow_methods=["*"],  # Allow all methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
 )
-
 # Global driver initialization
 driver = None
 
