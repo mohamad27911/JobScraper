@@ -90,6 +90,10 @@ function App() {
         setError("No jobs found for the selected title.");
     }
 
+    filteredJobs = filteredJobs.filter(job => 
+      job.title.toLowerCase() !== "unknown" && 
+      !job.posted.toLowerCase().includes("yr")
+  );
     setJobs(filteredJobs);
     setIsLoading(false);
 }, []);
