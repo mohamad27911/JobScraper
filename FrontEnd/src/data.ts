@@ -1,12 +1,12 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://jobscraper-3k6f.onrender.com/", // Correct base URL
+    baseURL: "https://jobscraper-3k6f.onrender.com/",
 });
 
 const fetchJobData = async (title: string, site: string) => {
     try {
-        const response = await api.get(`/jobs/${title}/${site}`); // Correct endpoint format
+        const response = await api.get(`/jobs/${title}/${site}`);
         console.log(`${site} Fetched Response:`, response.data);
         return response.data;
     } catch (error) {

@@ -9,8 +9,9 @@ interface Job{
     type:string,
     href:string,
     img:string
+    site:string
 }
-const JobCard = ({ title, company, location, posted, href, img, type }:Job) => {
+const JobCard = ({ title, company, location, posted, href, img,site}:Job) => {
     
     return (
       <a
@@ -26,7 +27,7 @@ const JobCard = ({ title, company, location, posted, href, img, type }:Job) => {
             loading="lazy"
           />
           <span className="bg-indigo-700 text-gray-300 text-xs sm:text-sm font-bold px-3 py-1 sm:px-4 sm:py-2 rounded-xl">
-            {type}
+            Remote
           </span>
         </div>
         <h1 className="text-lg sm:text-xl font-bold text-gray-800">{title}</h1>
@@ -36,7 +37,7 @@ const JobCard = ({ title, company, location, posted, href, img, type }:Job) => {
           <span>Posted: {posted}</span>
         </div>
         <div className="flex justify-end items-center gap-2 text-indigo-700">
-        <span className="text-xs sm:text-sm font-medium hover:underline transition-all duration-300">View Job</span>
+        <span className="text-xs sm:text-sm font-medium hover:underline transition-all duration-300">View On {site}</span>
         <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5" />
       </div>
       </a>
