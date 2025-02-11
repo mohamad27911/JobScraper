@@ -10,6 +10,8 @@ import BackendJobs from "../../BackEnd/backend_jobs.json"
 import FrontEndJobs from "../../BackEnd/front_end_jobs.json"
 import SoftwareJobs from "../../BackEnd/software_jobs.json"
 import MachineLearningJobs from "../../BackEnd/machine_learning_jobs.json"
+import InternshipsJobs from "../../BackEnd/internship_jobs.json"
+import developerJobs from "../../BackEnd/developer_jobs.json"
 // Define the type for your options
 interface Option {
   value: string;
@@ -24,14 +26,14 @@ interface Job {
   href: string;
   img: string;
 }
+
+
 const options: Option[] = [
   { value: "Software", label: "Software" }, { value: "Machine Learning", label: "Machine Learning" }, { value: "Data Science", label: "Data Science" },
   { value: "Developer", label: "Developer" }, { value: "Internship", label: "Internship" },
   { value: "Front End", label: "Front End" }, { value: "Backend", label: "Backend" }, 
 
 ];
-
-
 
 function App() {
   const [jobs, setJobs] = useState<Job[]>([]); // Type the jobs state
@@ -63,6 +65,9 @@ function App() {
         case "Software":
             filteredJobs = SoftwareJobs;
             break;
+        case "Internship":
+            filteredJobs = InternshipsJobs;
+            break;
         case "Machine Learning":
             filteredJobs = MachineLearningJobs;
             break;
@@ -71,6 +76,9 @@ function App() {
             break;
         case "Data Science":
             filteredJobs = dataScienceJobs;
+            break;
+        case "Developer":
+            filteredJobs = developerJobs;
             break;
         default:
             setError("Invalid job title selection.");
@@ -94,7 +102,7 @@ function App() {
 
   const handleSearch = () => {
     if (!selectedOption) {
-      setError("Please select both a job title and a platform.");
+      setError("Please select a job title.");
       return;
     }
     setJob(selectedOption.value);
@@ -102,9 +110,7 @@ function App() {
     setError("");
     fetchJobs(selectedOption.value);  
   };
-  useEffect(() => {
-    // removed check
-  }, [job, fetchJobs]);
+
 
   const handlePageChange = (direction: string) => {
     if (direction === "next" && lastPostIndex < jobs.length) {

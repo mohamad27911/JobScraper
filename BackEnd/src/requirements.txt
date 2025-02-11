@@ -3,3 +3,5 @@ uvicorn
 selenium
 beautifulsoup4
 starlette
+apscheduler 
+gitpython
