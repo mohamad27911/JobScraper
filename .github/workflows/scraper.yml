@@ -1,0 +1,39 @@
+name: Job Scraper Automation
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # Runs every hour
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  scrape-jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          sudo apt update
+          sudo apt install -y chromium-chromedriver
+          echo "CHROME_BIN=$(which chromium-browser)" >> $GITHUB_ENV
+          echo "CHROMEDRIVER_BIN=$(which chromedriver)" >> $GITHUB_ENV
+
+      - name: Run Job Scraper
+        run: python BackEnd/src/main.py  
+
+      - name: Commit and push updates
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "mohamad.mar72@gmail.com"
+          git add .
+          git commit -m "Auto-update job listings" || echo "No changes to commit"
+          git push origin dev || echo "No changes to push"
