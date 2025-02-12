@@ -270,24 +270,23 @@ def linkedInJobs(title):
 
 
 
-def scrape_jobs():
+def scrape_jobs(jobs):
     """Main job scraping function."""
     create_driver()
-    job_titles = ["Software", "Developer", "Backend", "Front End", "Machine Learning", "Internship", "Data Science"]
     try:
-        for title in job_titles:
+        for title in jobs:
             all_jobs = []
-            all_jobs.extend(linkedInJobs(title))
             all_jobs.extend(scrape_weworkremotely_jobs(title))
             all_jobs.extend(scrape_remotive_jobs(title))
             all_jobs.extend(remoteokJobs(title))
+            all_jobs.extend(linkedInJobs(title))
             save_to_json(title, all_jobs)
         push_to_git()  # Push changes to Git after scraping
     finally:
         shutdown_driver()
 
 def push_to_git():
-    repo_path = "C:/Users/User/Desktop/WEB/AI-Web-Integration/Jobs-Scraper"
+    repo_path = os.getenv("GITHUB_WORKSPACE", ".")  # Use GitHub workspace as path
     os.chdir(repo_path)
 
     # Timestamp for commit message
@@ -297,7 +296,8 @@ def push_to_git():
     commands = [
         "git add .",
         f'git commit -m "Auto-update: {timestamp}"',
-        "git push origin dev"]
+        "git push origin dev"
+    ]
 
     # Run Git commands
     for cmd in commands:
@@ -319,6 +319,5 @@ def scrape_now():
     scrape_jobs()
     return {"message": "Job scraping started manually"}
 
-# Schedule the job to run every hour
-scheduler.add_job(scrape_jobs, "interval", hours=1)
-scheduler.start()
+job_titles = ["Software", "Developer", "Backend", "Front End", "Machine Learning", "Internship", "Data Science"]
+scrape_jobs(job_titles)
