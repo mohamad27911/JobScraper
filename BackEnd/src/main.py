@@ -326,5 +326,9 @@ def scrape_now():
 @app.get("/")
 def home():
     return {"message": "Welcome to the Job Scraper API"}
-
-
+import time
+while True:
+    scrape_jobs(["Software", "Developer", "Backend", "Front End", "Machine Learning", "Internship", "Data Science"])
+    #sleep for 2 hours
+    time.sleep(7200)
+        
