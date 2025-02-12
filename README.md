@@ -55,17 +55,17 @@ Before starting, ensure you have the following installed:
     
     ```bash
     python -m venv env
-    source env/bin/activate  # On Windows, use `env\Scripts\ctivate`
+    env\Scripts\Activate
     ```
     
-5. Download requirements
-   ``` bash 
-   pip install -r requirements.txt 
-   ```
 4. Change directory to src, where the main.py is located
      ```bash
     cd src
     ``` 
+5. Download requirements
+   ``` bash 
+   pip install -r requirements.txt 
+   ```
    
 4.  Run the FastAPI server:
     
