@@ -276,10 +276,10 @@ def scrape_jobs(jobs):
     try:
         for title in jobs:
             all_jobs = []
-            all_jobs.extend(linkedInJobs(title))
             all_jobs.extend(scrape_weworkremotely_jobs(title))
             all_jobs.extend(scrape_remotive_jobs(title))
             all_jobs.extend(remoteokJobs(title))
+            all_jobs.extend(linkedInJobs(title))
             save_to_json(title, all_jobs)
         push_to_git()  # Push changes to Git after scraping
     finally:
@@ -322,10 +322,15 @@ def scrape_now():
     scrape_jobs(jobs)
     return {"message": "Job scraping started manually"}
 
-# Schedule the job to run every hour
-# scheduler.add_job(scrape_jobs, "interval", hours=1, args=[["Software", "Developer", "Backend", "Front End", "Machine Learning", "Internship", "Data Science"]])  # Pass a list of jobs to scrape
-# scheduler.start()
 
 @app.get("/")
 def home():
     return {"message": "Welcome to the Job Scraper API"}
+
+
+
+import time
+# Schedule the job to run every hour
+while True:
+    scrape_jobs(["Software", "Developer", "Backend", "Front End", "Machine Learning", "Internship", "Data Science"])
+    time.sleep(3600)  # Sleep for 1 hour (3600 seconds)
