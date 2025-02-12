@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from apscheduler.schedulers.background import BackgroundScheduler
+# from apscheduler.schedulers.background import BackgroundScheduler
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,7 +12,7 @@ from datetime import datetime
 import os
 
 app = FastAPI()
-scheduler = BackgroundScheduler()
+# scheduler = BackgroundScheduler()
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -323,8 +323,8 @@ def scrape_now():
     return {"message": "Job scraping started manually"}
 
 # Schedule the job to run every hour
-scheduler.add_job(scrape_jobs, "interval", hours=1, args=[["Software", "Developer", "Backend", "Front End", "Machine Learning", "Internship", "Data Science"]])  # Pass a list of jobs to scrape
-scheduler.start()
+# scheduler.add_job(scrape_jobs, "interval", hours=1, args=[["Software", "Developer", "Backend", "Front End", "Machine Learning", "Internship", "Data Science"]])  # Pass a list of jobs to scrape
+# scheduler.start()
 
 @app.get("/")
 def home():

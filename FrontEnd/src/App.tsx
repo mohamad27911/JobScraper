@@ -5,13 +5,13 @@ import JobCard from "./Components/JobCard";
 import Intro from "./Components/Intro";
 import Footer from "./Components/Footer";
 import MediumFollow from "./Components/MediumFollow";
-import dataScienceJobs from "../../BackEnd/data_science_jobs.json"
-import BackendJobs from "../../BackEnd/backend_jobs.json"
-import FrontEndJobs from "../../BackEnd/front_end_jobs.json"
-import SoftwareJobs from "../../BackEnd/software_jobs.json"
-import MachineLearningJobs from "../../BackEnd/machine_learning_jobs.json"
-import InternshipsJobs from "../../BackEnd/internship_jobs.json"
-import developerJobs from "../../BackEnd/developer_jobs.json"
+import dataScienceJobs from "../../BackEnd/src/data_science_jobs.json"
+import BackendJobs from "../../BackEnd/src/backend_jobs.json"
+import FrontEndJobs from "../../BackEnd/src/front_end_jobs.json"
+import SoftwareJobs from "../../BackEnd/src/software_jobs.json"
+import MachineLearningJobs from "../../BackEnd/src/machine_learning_jobs.json"
+import InternshipsJobs from "../../BackEnd/src/internship_jobs.json"
+import developerJobs from "../../BackEnd/src/developer_jobs.json"
 // Define the type for your options
 interface Option {
   value: string;

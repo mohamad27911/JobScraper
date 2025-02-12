@@ -1,0 +1,862 @@
+[
+    {
+        "title": "Junior Frontend Developer (React)",
+        "company": "Gyaan",
+        "location": "Pune, Maharashtra, India",
+        "posted": "19 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/junior-frontend-developer-react-at-gyaan-4149904221?position=1&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=kI0Wx7rcFhF%2Fjjyh0L9pQA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQFYJKXc0mkcTA/company-logo_100_100/company-logo_100_100/0/1675251991631/gyaanai_logo?e=2147483647&v=beta&t=0o8IUwO2hgRL-qZPKoYZ-HL2KqIi_sTw-kZOFU_wN2k"
+    },
+    {
+        "title": "HTML Developer",
+        "company": "Birlasoft",
+        "location": "Hyderabad, Telangana, India",
+        "posted": "58 minutes ago",
+        "href": "https://in.linkedin.com/jobs/view/html-developer-at-birlasoft-4148720096?position=2&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=IJRfvUF711hgpSFTptJR7w%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQFJ26tVfkJeKg/company-logo_100_100/company-logo_100_100/0/1630606173796/birlasoft_logo?e=2147483647&v=beta&t=iaT7yVn_DWZQyGzWSDPqxwt036SzCaLx0njfaMz4uKA"
+    },
+    {
+        "title": "Desarrollador Front - 100% Teletrabajo",
+        "company": "Azertium IT",
+        "location": "Madrid, Community of Madrid, Spain",
+        "posted": "17 hours ago",
+        "href": "https://es.linkedin.com/jobs/view/desarrollador-front-100%25-teletrabajo-at-azertium-it-4147647378?position=3&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=V%2B5CoC1Ho%2BXZ4vjX5lUOFA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQGqZTmFC9r2PA/company-logo_100_100/company-logo_100_100/0/1688460470874/azertium_it_logo?e=2147483647&v=beta&t=c32hjtsScXA2EgbAAfwRXUVRhC48zzUWjmJkKiGgcZU"
+    },
+    {
+        "title": "Part-Time Frontend Developer (Work From Home)",
+        "company": "Sozoroad",
+        "location": "Quezon City, National Capital Region, Philippines",
+        "posted": "6 hours ago",
+        "href": "https://ph.linkedin.com/jobs/view/part-time-frontend-developer-work-from-home-at-sozoroad-4149995460?position=4&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=%2B7n0aD9ilnlCpK6lj4BaOg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQEUHEHwPZuN8w/company-logo_100_100/company-logo_100_100/0/1730342474016/sozoroad_logo?e=2147483647&v=beta&t=hgCQ6pRR-uDN0QQKcjXGnbwAZh9KY1sNX2JiBpzWWRI"
+    },
+    {
+        "title": "Junior Front-end Engineer",
+        "company": "B\u00fassola Social",
+        "location": "Itaja\u00ed, Santa Catarina, Brazil",
+        "posted": "15 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/junior-front-end-engineer-at-b%C3%BAssola-social-4150394600?position=5&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=flTkjmuc%2BwcCzezxhUwhLg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQE0Hai8VhrqGQ/company-logo_100_100/company-logo_100_100/0/1631369563099/bussola_social_logo?e=2147483647&v=beta&t=PZ40JVAwFG-fGVCoKmdiAURxCn8FuxYIqKeLR2IwDcQ"
+    },
+    {
+        "title": "Front End Developer -Dayshift/WFH",
+        "company": "MicroSourcing",
+        "location": "Philippines",
+        "posted": "2 hours ago",
+        "href": "https://ph.linkedin.com/jobs/view/front-end-developer-dayshift-wfh-at-microsourcing-4150172469?position=6&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=xbezSXAY2WMcw16%2F%2FEGYRA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQH9sA6RfTEQIw/company-logo_100_100/company-logo_100_100/0/1663545226975/microsourcing_logo?e=2147483647&v=beta&t=5yIle8GhA39l-bHUbiu8mM5uWewKt6QhlPgLNJnr3SU"
+    },
+    {
+        "title": "Desenvolvedor(a) Front-End J\u00fanior",
+        "company": "Blocks",
+        "location": "Brazil",
+        "posted": "20 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/desenvolvedor-a-front-end-j%C3%BAnior-at-blocks-4150302094?position=7&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=ilHKTSYd61xuKzEGLzVrDA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQHr_-SRUR2XBA/company-logo_100_100/company-logo_100_100/0/1730895207476/blocks_revit_logo?e=2147483647&v=beta&t=uuVrgouEkGi5iiazun4Zp75nYrMaB_hgJbfGNahqzAM"
+    },
+    {
+        "title": "Front-End Engineer",
+        "company": "Houston Rockets",
+        "location": "Houston, TX",
+        "posted": "9 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/front-end-engineer-at-houston-rockets-4150908359?position=8&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=PAG%2BnApCE%2Bpg8ETOY5WA4g%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQF-m6ikdxTWLA/company-logo_100_100/company-logo_100_100/0/1728315495029/houston_rockets_logo?e=2147483647&v=beta&t=tXqY2OW-1YF6l5JmPRcJH64e1KtZny2nffVKctCQL5Y"
+    },
+    {
+        "title": "Front-end Developer",
+        "company": "Viseven",
+        "location": "Buenos Aires, Buenos Aires Province, Argentina",
+        "posted": "11 hours ago",
+        "href": "https://ar.linkedin.com/jobs/view/front-end-developer-at-viseven-4148153850?position=9&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=DvZLlpbgnf7oO13oaxJqIA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQGy0Mi4xWupPg/company-logo_100_100/company-logo_100_100/0/1699261520087/viseven_logo?e=2147483647&v=beta&t=R2nEhHthZDh9845jMkV2lL32yeV4JHtdR8i0-NhvDwE"
+    },
+    {
+        "title": "Frontend Software Engineering Intern",
+        "company": "Dapper Labs",
+        "location": "United States",
+        "posted": "7 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/frontend-software-engineering-intern-at-dapper-labs-4148197942?position=10&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=H4RUdVDKJz%2FklVdjG2e0jA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQE_ibMKeL_gsg/company-logo_100_100/company-logo_100_100/0/1630491078333/dapper_labs_logo?e=2147483647&v=beta&t=52wZeIl641CraCn6JuUqWTl7ENnQbAnT9IUwUUY2BiA"
+    },
+    {
+        "title": "Junior Software Engineer - Frontend",
+        "company": "Blacklane",
+        "location": "Berlin, Germany",
+        "posted": "11 hours ago",
+        "href": "https://de.linkedin.com/jobs/view/junior-software-engineer-frontend-at-blacklane-4148161088?position=11&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=Vq%2Brm43nbJhGNhWKpMtl9A%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQFzFp1DsvBtIA/company-logo_100_100/company-logo_100_100/0/1677576972202/blacklane_gmbh_logo?e=2147483647&v=beta&t=VWqqy_vVqq2PbcWLdKHnpN8FoHcw6F9367AC6IcOf-M"
+    },
+    {
+        "title": "Frontend Developer Intern",
+        "company": "Bynry Inc.",
+        "location": "Pune, Maharashtra, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/frontend-developer-intern-at-bynry-inc-4150302190?position=12&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=Fk36NZlkib48W5Gxzwve6Q%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQErHtx83IoJEQ/company-logo_100_100/company-logo_100_100/0/1733208351498/bynry_logo?e=2147483647&v=beta&t=TI0cxoKTbfxg9Ep_IelZx6EBCai9R_-nmfOZlRs-wn8"
+    },
+    {
+        "title": "Software Engineer",
+        "company": "Microsoft",
+        "location": "Maharashtra, India",
+        "posted": "23 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/software-engineer-at-microsoft-4099774805?position=13&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=KTKN%2BmG3eelRHlfKM4VbBw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_100_100/company-logo_100_100/0/1630652622688/microsoft_logo?e=2147483647&v=beta&t=lMkCSsceJNmUG1r0VRg3Whye1sVi2KtYvt-MWyfoNbY"
+    },
+    {
+        "title": "Front End Developer Intern",
+        "company": "GoTeam",
+        "location": "Philippines",
+        "posted": "23 hours ago",
+        "href": "https://ph.linkedin.com/jobs/view/front-end-developer-intern-at-goteam-4149634168?position=14&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=E6Gf2sq6yRYy07%2BP%2F653Kg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQEUJyXDRaLNTg/company-logo_100_100/company-logo_100_100/0/1643325705534/go_va_incorporated_logo?e=2147483647&v=beta&t=WVvlkfWQTehHa3sajKIi50qODd_S7KY1RUXbL3n0AJc"
+    },
+    {
+        "title": "Desenvolvedor Frontend J\u00fanior",
+        "company": "Robert Half",
+        "location": "S\u00e3o Bernardo do Campo, S\u00e3o Paulo, Brazil",
+        "posted": "19 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/desenvolvedor-frontend-j%C3%BAnior-at-robert-half-4147609479?position=15&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=EYQ79adAZFRwNnkSZ6pgZg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_100_100/company-logo_100_100/0/1696341221977/robert_half_international_logo?e=2147483647&v=beta&t=KcDX0uwdN7um-r-cHfPquOHZ1t99QeGR0vfMrwHL5ck"
+    },
+    {
+        "title": "Desenvolvedor Frontend",
+        "company": "Impulso",
+        "location": "Greater Rio de Janeiro",
+        "posted": "18 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/desenvolvedor-frontend-at-impulso-4147632214?position=16&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=SsmjvF8cszqmCZcaj6Y0Qw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQGM6n_Q4oBDeQ/company-logo_100_100/company-logo_100_100/0/1659984638003/impulsoteam_logo?e=2147483647&v=beta&t=RaxkfVSGedv2eoJShyHZL1Dwlyh-chr35Sv-WGK9esQ"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Scorp",
+        "location": "T\u00fcrkiye",
+        "posted": "20 hours ago",
+        "href": "https://tr.linkedin.com/jobs/view/frontend-developer-at-scorp-4147606201?position=17&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=mHGMOgssWorRB4VpduMhKg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEh_n3aJabZkQ/company-logo_100_100/company-logo_100_100/0/1698909597154/scorp_logo?e=2147483647&v=beta&t=fraWSEMhpb-qY01IkvsQOugEl1G8vBUaMgYW7PzoG2E"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Hexaware Technologies",
+        "location": "Pune, Maharashtra, India",
+        "posted": "4 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/frontend-developer-at-hexaware-technologies-4148448298?position=18&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=sCPwL6Vhs2v6D9WjWQ1f2w%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_100_100/company-logo_100_100/0/1719899292683/hexaware_technologies_logo?e=2147483647&v=beta&t=C6onTWOZpH03O6DPnJt357U_5aFd1AaeyWLdFrgcCqo"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Information Security Media Group (ISMG)",
+        "location": "Mumbai, Maharashtra, India",
+        "posted": "23 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/frontend-developer-at-information-security-media-group-ismg-4052951573?position=19&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=UkQXO5VH4nUul0cGI7hKmQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQF6u1Q2AxAh3Q/company-logo_100_100/company-logo_100_100/0/1697753202443/information_security_media_group_corp_ismg_logo?e=2147483647&v=beta&t=WmAF6rYc3ulYpiO9yZbjy1vt0-cjDc7CHRWI0CBydoY"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Adobe",
+        "location": "San Jose, CA",
+        "posted": "12 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/frontend-developer-at-adobe-4150862894?position=20&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=36jhlQ0JUMWgfaS9GEl6Ow%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQFrtK-ioO1rsQ/company-logo_100_100/company-logo_100_100/0/1630645864762/adobe_logo?e=2147483647&v=beta&t=Vg0IkCp055jxAgqs_f7eIDMneyo1NkTWSvyAMoqnhd8"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Anix Systems LLC",
+        "location": "Abu Dhabi Emirate, United Arab Emirates",
+        "posted": "23 hours ago",
+        "href": "https://ae.linkedin.com/jobs/view/frontend-developer-at-anix-systems-llc-4149624601?position=21&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=urR5NQT%2BNgyLQTTahW9a4Q%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQGaGqi6YsMlCg/company-logo_100_100/company-logo_100_100/0/1679974687657/anixsystems_logo?e=2147483647&v=beta&t=sXBbbX3pijFXSjoGYxdgWmcTF1zdkpIEXxHLjRSrBBQ"
+    },
+    {
+        "title": "HTML Developer",
+        "company": "Capital.com",
+        "location": "Warsaw, Mazowieckie, Poland",
+        "posted": "13 hours ago",
+        "href": "https://pl.linkedin.com/jobs/view/html-developer-at-capital-com-4148104696?position=22&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=Gn0ziLrMkvMCYzgC3UWJZw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFRCBYnSj7aAA/company-logo_100_100/company-logo_100_100/0/1719844049805/capitalcom_logo?e=2147483647&v=beta&t=-zlEXK74GBgbuWJ2gTkBSMKoMKrhwWM8mWZK7Oa4S8g"
+    },
+    {
+        "title": "Frontend Engineer",
+        "company": "PetLab Co.",
+        "location": "United Kingdom",
+        "posted": "16 hours ago",
+        "href": "https://uk.linkedin.com/jobs/view/frontend-engineer-at-petlab-co-4149949752?position=23&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=WUE%2Fr1lm3MTBP3UwaJa5RQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQEHlW1FvHrhng/company-logo_100_100/company-logo_100_100/0/1645096810382/petlabco_logo?e=2147483647&v=beta&t=J33yVsqoFUDAzcDNnaULyX_ogSWqI5yjzYZiY88ROIk"
+    },
+    {
+        "title": "Frontend Developer (Web Apps)",
+        "company": "MDPI Serbia",
+        "location": "Novi Beograd, Serbia",
+        "posted": "1 hour ago",
+        "href": "https://rs.linkedin.com/jobs/view/frontend-developer-web-apps-at-mdpi-serbia-4148707864?position=24&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=M%2BTDHwNAE5v4di256F8AVg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFQxwVPZpmiwA/company-logo_100_100/company-logo_100_100/0/1727267016363?e=2147483647&v=beta&t=pdr_MuRLHyly5m3xEyM1wSTH1yVmxgQwUdTSoGr-igw"
+    },
+    {
+        "title": "Desenvolvimento .Front Jr (H\u00edbrido/SP) - SP",
+        "company": "Gft Brasil",
+        "location": "Brazil",
+        "posted": "7 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/desenvolvimento-front-jr-h%C3%ADbrido-sp-sp-4148197951?position=25&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=dqqgBwm7WSC%2FbhF7eTX2fQ%3D%3D&trk=public_jobs_jserp-result_search-card",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://static.licdn.com/aero-v1/sc/h/6puxblwmhnodu6fjircz4dn4h"
+    },
+    {
+        "title": "Desenvolvedor Front End",
+        "company": "BLOOMIN",
+        "location": "Greater S\u00e3o Paulo Area",
+        "posted": "2 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/desenvolvedor-front-end-4150179031?position=26&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=0wnyej3lWCS7xljkG2%2BkVQ%3D%3D&trk=public_jobs_jserp-result_search-card",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://static.licdn.com/aero-v1/sc/h/6puxblwmhnodu6fjircz4dn4h"
+    },
+    {
+        "title": "Frontend Engineer with React- Junior to Mid level",
+        "company": "NielsenIQ",
+        "location": "Chennai, Tamil Nadu, India",
+        "posted": "13 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/frontend-engineer-with-react-junior-to-mid-level-at-nielseniq-4148116243?position=27&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=zef5t9sZG%2FVdsXiYZ%2B5olA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQFYnX3PRbPkfw/company-logo_100_100/company-logo_100_100/0/1718743296595/nielseniq_logo?e=2147483647&v=beta&t=J3IWHkXcbnkRWepn9j--V955eg3oPB7E5GmPigl5MKo"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "TRON DAO",
+        "location": "Singapore, Singapore",
+        "posted": "4 hours ago",
+        "href": "https://sg.linkedin.com/jobs/view/frontend-developer-at-tron-dao-4150145007?position=28&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=iKYSxy0rBFR%2By%2Fbtoyjinw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C510BAQFYtUe7QM6G-g/company-logo_100_100/company-logo_100_100/0/1630590947750/tronfoundation_logo?e=2147483647&v=beta&t=4B5jW_UYETFcnpEIhnCirL1GdQv-phG6XPy54R1CCrk"
+    },
+    {
+        "title": "Frontend Engineer",
+        "company": "GetGround",
+        "location": "London, England, United Kingdom",
+        "posted": "17 hours ago",
+        "href": "https://uk.linkedin.com/jobs/view/frontend-engineer-at-getground-4147649824?position=29&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=LBsMCD%2BHsHsvY2w2pqHKUw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQEjh091EYKfow/company-logo_100_100/company-logo_100_100/0/1720537317478/getground_logo?e=2147483647&v=beta&t=-6qO1XNqhsBcMi0LC5WFAczRmxTGLuMBNcnxadfLsDU"
+    },
+    {
+        "title": "Software Engineer, Early Career, Campus",
+        "company": "Google",
+        "location": "Belo Horizonte, Minas Gerais, Brazil",
+        "posted": "Just now",
+        "href": "https://br.linkedin.com/jobs/view/software-engineer-early-career-campus-at-google-4130560540?position=30&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=E5xPB%2FJb33OmWdTwNJi%2BHQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Paramount Resources",
+        "location": "Singapore, Singapore",
+        "posted": "38 minutes ago",
+        "href": "https://sg.linkedin.com/jobs/view/frontend-developer-at-paramount-resources-4151222792?position=31&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=gUC1tbRb8tWI%2BTqEmRLPyQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C510BAQFPeC-ETQ4gIQ/company-logo_100_100/company-logo_100_100/0/1631438562604/paramountsg_logo?e=2147483647&v=beta&t=g2JjbtTMVKW6wjFb9oGKuaD2OA6XvR8W0kHCdzHLVZg"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "EVONA",
+        "location": "Denver, CO",
+        "posted": "20 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/frontend-developer-at-evona-4147197666?position=32&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=mx2wVBulwXk0EkcGj19jdQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQHh7YZ5-6eHtA/company-logo_100_100/company-logo_100_100/0/1730470780731/evona_space_logo?e=2147483647&v=beta&t=R8NEuZH5TUwgr6f9JqFbm8AZx0A5yWMXSZqR6kG6mNs"
+    },
+    {
+        "title": "Front End Engineer - FTC",
+        "company": "Amazon",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "23 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/front-end-engineer-ftc-at-amazon-4118584871?position=33&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=A0HXipoTFloUQPZINW0Yxg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQHTvZwCx4p2Qg/company-logo_100_100/company-logo_100_100/0/1630640869849/amazon_logo?e=2147483647&v=beta&t=QsC16wgE3EBriPFDlAgtToh2xndFwQWKmR2WcyMG1nk"
+    },
+    {
+        "title": "Aprendiz T\u00e9cnico/a o Tecn\u00f3logo/a Desarrollo de Software, sistemas o afines",
+        "company": "COMFAMA",
+        "location": "Medell\u00edn, Antioquia, Colombia",
+        "posted": "13 hours ago",
+        "href": "https://co.linkedin.com/jobs/view/aprendiz-t%C3%A9cnico-a-o-tecn%C3%B3logo-a-desarrollo-de-software-sistemas-o-afines-at-comfama-4148103547?position=34&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=wo2%2B8lV1UxVn%2BPFKRIymXg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQGEhxWrGeCowA/company-logo_100_100/company-logo_100_100/0/1688679606518/comfama_logo?e=2147483647&v=beta&t=QoctkbIOZM7loofbycWuF0y0oK-L4UXLyzXjzU78nIY"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Somewhere",
+        "location": "Latin America",
+        "posted": "4 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/frontend-developer-at-somewhere-4148456144?position=35&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=ZMEw18na3ZJ92ToMWojBOg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQEo6iv4QWT2qQ/company-logo_100_100/company-logo_100_100/0/1657197910492/shepherd_logo?e=2147483647&v=beta&t=Myh5Z7hZrHKiA6CSA07IYNhCB5Ph_yTYPz4IMHBK2nU"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "MySidecar AI",
+        "location": "Ukraine",
+        "posted": "53 minutes ago",
+        "href": "https://ua.linkedin.com/jobs/view/frontend-developer-at-mysidecar-ai-4148714328?position=36&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=O%2BeEWellwowGkOr%2F4QqeyQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQGXvy-v91E0Gw/company-logo_100_100/company-logo_100_100/0/1729083990103/my_sidecar_ai_logo?e=2147483647&v=beta&t=Tn_yxcvslr5hQCch8vO2V36FXdfQcrPm9gL6gueL4kM"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "BeaconFire Inc.",
+        "location": "New York, United States",
+        "posted": "5 minutes ago",
+        "href": "https://www.linkedin.com/jobs/view/frontend-developer-at-beaconfire-inc-4146357547?position=37&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=mEBps2WCfzZBE1vxmXXRdg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQEgZyD0JY8dTA/company-logo_100_100/company-logo_100_100/0/1630645938186?e=2147483647&v=beta&t=rtUNZayNFddz2ZEVUXEZVkDrnx6z-sh2A6Z8ZQvTSqc"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Bookipi",
+        "location": "Strathfield, New South Wales, Australia",
+        "posted": "12 hours ago",
+        "href": "https://au.linkedin.com/jobs/view/frontend-developer-at-bookipi-4150882221?position=38&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=AVdLKYPSlOjCUFwFhDdf0A%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQGBNjSodJMwkA/company-logo_100_100/company-logo_100_100/0/1715170364587/bookipi_logo?e=2147483647&v=beta&t=CDLY_1fFef1bSOZWRDnAjQ8hXIbVmmDsaH9DjHK67F4"
+    },
+    {
+        "title": "Junior Frontend Web Developer",
+        "company": "Globizsystems Sdn. Bhd.",
+        "location": "WP. Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+        "posted": "1 hour ago",
+        "href": "https://my.linkedin.com/jobs/view/junior-frontend-web-developer-at-globizsystems-sdn-bhd-4150137618?position=39&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=%2BJFqnp23FAz0sUP9IN0mcw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQHC2FX4dS4qew/company-logo_100_100/company-logo_100_100/0/1691120726548?e=2147483647&v=beta&t=ER_rfTH4U0_Brdt4JyCVT1q2036H6KRnKBdbXUoPlrE"
+    },
+    {
+        "title": "Front-end Developer (React.js + Angular)- Bangalore",
+        "company": "Capco",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/front-end-developer-react-js-%2B-angular-bangalore-at-capco-4149682615?position=40&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=8epwpm2ld88O4RooAu5G3g%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQHtQz9E-d-2-A/company-logo_100_100/company-logo_100_100/0/1720715265383/capco_logo?e=2147483647&v=beta&t=mT4a9dOjIVCFqB1EQZbxjZowDd4yydS3Suj5G-vhX3Y"
+    },
+    {
+        "title": "DESARROLLADOR FULL STACK JUNIOR",
+        "company": "Gentera",
+        "location": "Mexico City, Mexico",
+        "posted": "12 hours ago",
+        "href": "https://mx.linkedin.com/jobs/view/desarrollador-full-stack-junior-at-gentera-4148131389?position=41&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=Yke8sncqQcy7R5Pqno5ZdQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQG_n0Yf0BJuOg/company-logo_100_100/company-logo_100_100/0/1663009913981?e=2147483647&v=beta&t=a-nTAQClPte-VbSVg3UiNICwOMLl-7XML1QB5NS1S9U"
+    },
+    {
+        "title": "React Full Stack Developer -- Immediate to 15 days - All TechM location",
+        "company": "Tech Mahindra",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "19 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/react-full-stack-developer-immediate-to-15-days-all-techm-location-at-tech-mahindra-4150327618?position=42&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=jKGQWK40g5zfOY7jPAtAKw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQGM7__649rm5A/company-logo_100_100/company-logo_100_100/0/1720007685115/tech_mahindra_logo?e=2147483647&v=beta&t=ppr3AmglRA1l1gosXR6u3W_FvK1cfudATexWmwKNVVY"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Porto Digital",
+        "location": "Porto, Portugal",
+        "posted": "19 hours ago",
+        "href": "https://pt.linkedin.com/jobs/view/frontend-developer-at-porto-digital-4149906801?position=43&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=BNYV56HrCyQ48ABuMJLzCA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQGqsQvqthkgfg/company-logo_100_100/company-logo_100_100/0/1661348806558/associa_o_porto_digital_logo?e=2147483647&v=beta&t=quo8rhh5Y2eLWU3GI9W19AamjKneUPSdUHS7dewnH40"
+    },
+    {
+        "title": "SDE (SEO/M)",
+        "company": "Adobe",
+        "location": "Noida, Uttar Pradesh, India",
+        "posted": "1 minute ago",
+        "href": "https://in.linkedin.com/jobs/view/sde-seo-m-at-adobe-4131276192?position=44&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=spN6lFk3rufEzaNRl%2BVawQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQFrtK-ioO1rsQ/company-logo_100_100/company-logo_100_100/0/1630645864762/adobe_logo?e=2147483647&v=beta&t=Vg0IkCp055jxAgqs_f7eIDMneyo1NkTWSvyAMoqnhd8"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "PT Hermes Solusi Integrasi",
+        "location": "Jakarta Metropolitan Area",
+        "posted": "2 hours ago",
+        "href": "https://id.linkedin.com/jobs/view/frontend-developer-at-pt-hermes-solusi-integrasi-4150990082?position=45&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=P2sK%2FbaibJblw106IifEpA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C510BAQGVWHPzOMVBuQ/company-logo_100_100/company-logo_100_100/0/1630570859075?e=2147483647&v=beta&t=qsAfPtCjWq6wrXtyvxfgVBCbe8eCgJrxjHSgDyG8scE"
+    },
+    {
+        "title": "UI/Front-end Developer (m/w/d)",
+        "company": "Zortify",
+        "location": "Luxembourg, Luxembourg, Luxembourg",
+        "posted": "19 hours ago",
+        "href": "https://lu.linkedin.com/jobs/view/ui-front-end-developer-m-w-d-at-zortify-4149929089?position=46&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=cLSK%2FfLkZqNlWad4PfMkyg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQF4KJB3a99d7w/company-logo_100_100/company-logo_100_100/0/1659347998909/zortify_logo?e=2147483647&v=beta&t=tKjsUUVX6Q4W_4Gvnezcr8aiQ8X3V2MVmzcpVIh3M3w"
+    },
+    {
+        "title": "Front End Development Internship in Bhubaneswar",
+        "company": "Marmeto",
+        "location": "Bhubaneswar, Odisha, India",
+        "posted": "10 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/front-end-development-internship-in-bhubaneswar-at-marmeto-4148177442?position=47&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=JQpgJpm7hy5B3VHlogFhxQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQHkIpRPUew_1g/company-logo_100_100/company-logo_100_100/0/1630574233310/marmeto_logo?e=2147483647&v=beta&t=j_H4tkrIT86IO7kuiNqTC3H8wBcSB6dAU9dCn6jWfxM"
+    },
+    {
+        "title": "Software Engineer Intern, Viewer Home",
+        "company": "Vimeo",
+        "location": "New York, NY",
+        "posted": "11 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/software-engineer-intern-viewer-home-at-vimeo-4150883735?position=48&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=Cv6pQTXL9PsD%2BF335aHALQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQHVXOaL_HTxHw/company-logo_100_100/company-logo_100_100/0/1716244115689/vimeo_logo?e=2147483647&v=beta&t=bjdte0Z0viMnMm1zjGX1Wtiq9KbeXpUMXGUFdhErfUs"
+    },
+    {
+        "title": "Frontend Engineer",
+        "company": "Tangerine Search Inc.",
+        "location": "San Francisco Bay Area",
+        "posted": "12 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/frontend-engineer-at-tangerine-search-inc-4143968130?position=49&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=%2BM7Xrc0GKEieiwcbpah5mQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQG8EkO9PjtOnw/company-logo_100_100/company-logo_100_100/0/1630671596357/tangerine_search_inc_logo?e=2147483647&v=beta&t=Q6hFM_0IQsdSE13WEWwxiSoHAB3OuRJcyt9VynSiEMU"
+    },
+    {
+        "title": "Desarrollador Frontend React",
+        "company": "Imagemaker",
+        "location": "Santiago, Santiago Metropolitan Region, Chile",
+        "posted": "18 hours ago",
+        "href": "https://cl.linkedin.com/jobs/view/desarrollador-frontend-react-at-imagemaker-4150856262?position=50&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=QfYBMMeyHuyANIGQJCtjaA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQHZiBEbI_5vxQ/company-logo_100_100/company-logo_100_100/0/1715350715123/imagemaker_logo?e=2147483647&v=beta&t=U0j9dfmgJdRMjfqLHeNtQ9BgJ1feo6WnS-19Ztgqpho"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Alike",
+        "location": "Gurugram, Haryana, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/frontend-developer-at-alike-4147600250?position=51&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=M9avtvKxFVej1qSdjh1yDg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQF1z0rGvEYtBg/company-logo_100_100/company-logo_100_100/0/1736144888081/joinalike_logo?e=2147483647&v=beta&t=-9GLpFDU_ZKE0LYmwsdHNR6M5zYYVhtVENEbdMVNsak"
+    },
+    {
+        "title": "HTML Developer",
+        "company": "Codal",
+        "location": "Lincoln, England, United Kingdom",
+        "posted": "14 hours ago",
+        "href": "https://uk.linkedin.com/jobs/view/html-developer-at-codal-4148102115?position=52&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=QUwKlUkcR6tKdjBzcOmg%2Bw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQGo3kaKTOzhQg/company-logo_100_100/company-logo_100_100/0/1721239321733/gocodal_logo?e=2147483647&v=beta&t=aBj7d_Yllwvz0ICjjW3_h6eZ8cskC1hUiTPfAQfdNJA"
+    },
+    {
+        "title": "Software Engineer 4 - UI / Front-end Developer",
+        "company": "Juniper Networks",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "23 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/software-engineer-4-ui-front-end-developer-at-juniper-networks-4118703182?position=53&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=jxBgaink1LCpuf9XiRVegw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQHs1l2oz4krEw/company-logo_100_100/company-logo_100_100/0/1686866548188/juniper_networks_logo?e=2147483647&v=beta&t=zpehU-vpyShzCdpQ2H1w445uq056kcSBCK3Qk6qLpxg"
+    },
+    {
+        "title": "Frontend Developer (Web and App)",
+        "company": "PT. Geek Portal Indonesia",
+        "location": "Jakarta, Indonesia",
+        "posted": "7 hours ago",
+        "href": "https://id.linkedin.com/jobs/view/frontend-developer-web-and-app-at-pt-geek-portal-indonesia-4150951669?position=54&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=tIXORpNCD5KGEIsHLnU2CQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQFvnwt_kQNWsg/company-logo_100_100/company-logo_100_100/0/1655720500595/gshiring_logo?e=2147483647&v=beta&t=s-0E66ZPVCq5ZdubPW4HvJOowlLyS69pOPGuY0RZFUg"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Eligo Recruitment",
+        "location": "Milan, Lombardy, Italy",
+        "posted": "22 hours ago",
+        "href": "https://it.linkedin.com/jobs/view/frontend-developer-at-eligo-recruitment-4129205251?position=55&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=h6%2BSK795EcrPC6QPZONhGw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQH7cqzZ14L6VA/company-logo_100_100/company-logo_100_100/0/1704189811717/eligo_recruitment_logo?e=2147483647&v=beta&t=X4es7_9lwrWY6dK0UMEIjXcIztvZidbvFjWFhb4BcG0"
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "LMV Financial Services Pvt Ltd",
+        "location": "Hyderabad, Telangana, India",
+        "posted": "19 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/frontend-developer-at-lmv-financial-services-pvt-ltd-4147624055?position=56&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=NsuFzg7oURXb5w6RKbCCoQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQFZxy_3nnpzHA/company-logo_100_100/company-logo_100_100/0/1631335804913?e=2147483647&v=beta&t=hXIM07UAKBjPmolybT7BcuyPJK-LHDZozvKOtUjD-Uw"
+    },
+    {
+        "title": "React JS Consultant",
+        "company": "Infosys",
+        "location": "Pune, Maharashtra, India",
+        "posted": "5 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/react-js-consultant-at-infosys-4150979963?position=57&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=p0r1STBgVoj6RYiL%2BRR4JA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQE7Zf1-vvfbUA/company-logo_100_100/company-logo_100_100/0/1692876768583/infosys_logo?e=2147483647&v=beta&t=97JBbbuq2-RM9553tu_mnMtg_cQU7DSEPtFWT28uwkc"
+    },
+    {
+        "title": "Frontend Development Internship in Bangalore",
+        "company": "Recurpay Subscriptions",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "10 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/frontend-development-internship-in-bangalore-at-recurpay-subscriptions-4148179402?position=58&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=6DKZvEzJW9EcLGrE07sjRg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQEwDagHSDXoqA/company-logo_100_100/company-logo_100_100/0/1630557535496/recurpay_logo?e=2147483647&v=beta&t=HSzYUYGVqG1dyCaFupjvbvrGZzWxIUSOC2Kn2CyWEAc"
+    },
+    {
+        "title": "Front End Entry Level",
+        "company": "Safeway",
+        "location": "Union City, CA",
+        "posted": "23 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/front-end-entry-level-at-safeway-4126254874?position=59&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=NH%2B6xRpYOS9BRRRM1S13Iw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQGBi9aiSej4_w/company-logo_100_100/company-logo_100_100/0/1630541089981/safeway_logo?e=2147483647&v=beta&t=4dZR_-FrXkg6c3aAMhTzWNxa4nH8xYjNeqERni6hlNM"
+    },
+    {
+        "title": "Junior Frontend Developer",
+        "company": "TenThousand",
+        "location": "Kyiv City, Ukraine",
+        "posted": "17 hours ago",
+        "href": "https://ua.linkedin.com/jobs/view/junior-frontend-developer-at-tenthousand-4077893098?position=60&pageNum=0&refId=UbFiS6wOTlRfee76%2BKwqBw%3D%3D&trackingId=47PKtN%2Ffu8roFI39H7nc0g%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQEpDzvKjq8y6A/company-logo_100_100/company-logo_100_100/0/1649586828011?e=2147483647&v=beta&t=EIc1IXUU3QnKvMdOqUsBDEPZPflMba1VwSZe9KD2rEM"
+    },
+    {
+        "title": "Web Developer / Designer",
+        "company": "Breakthrough Design Group",
+        "location": "Syracuse, NY",
+        "posted": "1d",
+        "href": "https://weworkremotely.com/remote-jobs/breakthrough-design-group-web-developer-designer",
+        "type": "Remote",
+        "img": "https://we-work-remotely.imgix.net/logos/0162/6847/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress",
+        "site": "WeWorkRemotely"
+    },
+    {
+        "title": "Senior Software Engineer, ML Platform & Data Acquisition (Python)",
+        "company": "Speechify Inc",
+        "location": "Florida",
+        "posted": "NEW",
+        "href": "https://weworkremotely.com/remote-jobs/speechify-inc-senior-software-engineer-ml-platform-data-acquisition-python",
+        "type": "Remote",
+        "img": "No Image",
+        "site": "WeWorkRemotely"
+    },
+    {
+        "title": "Senior iOS Engineer",
+        "company": "Speechify Inc",
+        "location": "Florida",
+        "posted": "NEW",
+        "href": "https://weworkremotely.com/remote-jobs/speechify-inc-senior-ios-engineer",
+        "type": "Remote",
+        "img": "No Image",
+        "site": "WeWorkRemotely"
+    },
+    {
+        "title": "Frontend Engineering Manager",
+        "company": "Soar Financials",
+        "location": "Saudi Arabia",
+        "posted": "2d",
+        "href": "https://weworkremotely.com/remote-jobs/soar-financials-frontend-engineering-manager",
+        "type": "Remote",
+        "img": "No Image",
+        "site": "WeWorkRemotely"
+    },
+    {
+        "title": "Senior Mobile Engineer",
+        "company": "Maharishi Foundation International",
+        "location": "Remote",
+        "posted": "6d",
+        "href": "https://weworkremotely.com/remote-jobs/maharishi-foundation-international-senior-mobile-engineer",
+        "type": "Remote",
+        "img": "No Image",
+        "site": "WeWorkRemotely"
+    },
+    {
+        "title": "Front-End Developer - AI Trainer",
+        "company": "Outlier AI",
+        "location": "Germany",
+        "posted": "Not provided",
+        "href": "https://remotive.com/remote-jobs/software-dev/front-end-developer-ai-trainer-1972217",
+        "type": "Remote",
+        "img": "https://remotive.com/web/image/hr.job/1972217/logo/64x64",
+        "site": "Remotive"
+    },
+    {
+        "title": "Senior Front-End Engineer",
+        "company": "CloudWalk",
+        "location": "Brazil",
+        "posted": "3d ago",
+        "href": "https://remotive.com/remote-jobs/software-dev/senior-front-end-engineer-1968266",
+        "type": "Remote",
+        "img": "https://remotive.com/web/image/hr.job/1968266/logo/64x64",
+        "site": "Remotive"
+    },
+    {
+        "title": "Frontend Engineer",
+        "company": "Amondo",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "22d",
+        "href": "https://remoteok.com/remote-jobs/remote-frontend-engineer-amondo-1069207",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/c762361d07858b9b1fe2fe2e07290ee01737484185.png?1737484185",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Intermediate Angular Developer",
+        "company": "Revelator",
+        "location": "\ud83c\uddea\ud83c\uddfa Europe",
+        "posted": "17d",
+        "href": "https://remoteok.com/remote-jobs/remote-intermediate-angular-developer-revelator-1058054",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/5b3b5a11c41d11c5c5f057591330b0ef1732715370.png?1732715371",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior PHP Laravel Developer",
+        "company": "IxDF - Interaction Design Foundation",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "5mo",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-php-laravel-developer-ixdf-interaction-design-foundation-840144",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/8eb1f71c0e05f81f8d4c819b437a33711720509989.png?1720509989",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Fullstack Programmer",
+        "company": "DefiTuna",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "8mo",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-fullstack-programmer-defituna-784941",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/a411fa9084b85bbc6f8f03da7d2b06651717415422.png?1717415422",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Front End Angular Developer",
+        "company": "Revelator",
+        "location": "\ud83c\uddea\ud83c\uddfa Europe",
+        "posted": "10mo",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-front-end-angular-developer-revelator-701355",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/fa7e5fe1be2e7d6875a6c1dc8246ebb01712495315.png?1712495315",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Developer",
+        "company": "VIVA",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "11mo",
+        "href": "https://remoteok.com/remote-jobs/remote-developer-viva-687315",
+        "img": "https://remoteok.com/assets/hot2x.gif",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Rails Frontend & Backend Wizard",
+        "company": "VIVA",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "11mo",
+        "href": "https://remoteok.com/remote-jobs/remote-rails-frontend-backend-wizard-viva-680612",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/e906af60da6b922edb4ef3c5ff7b09891711246763.png?1711246763",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "UX Engineer",
+        "company": "Spectora",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "11mo",
+        "href": "https://remoteok.com/remote-jobs/remote-ux-engineer-spectora-656399",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/b00419ac238b0f55062707ed6057c76a1709853030.png?1709853030",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Frontend Developer",
+        "company": "Center",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "12mo",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-frontend-developer-center-647900",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/f100966f0ebb19dc440e848417eba2ad1709318727.png?1709318727",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Junior FE w Vue.js",
+        "company": "CSGOEmpire",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "12mo",
+        "href": "https://remoteok.com/remote-jobs/remote-junior-fe-w-vue-js-csgoempire-560988",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/9e7133b8904263cf5a4667fa63e12d4a1704146939.png?1704146939",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Principal Software Development Engineer SEO",
+        "company": "Zillow",
+        "location": "Specified in Job description",
+        "posted": "3yr",
+        "href": "https://remoteok.com/remote-jobs/112207-remote-principal-software-development-engineer-seo-zillow",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/6f764dd7c8c460b7154f2b1505dfb0b31661338687.png?1661338694",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "HTML CSS Designer Developer",
+        "company": "__OperateBeyond__TrailerCentral",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "3yr",
+        "href": "https://remoteok.com/remote-jobs/111567-remote-html-css-designer-developer-operatebeyond-trailercentral",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/9759825d2dfc43acd1d07fa5e07e09cc1657170195.png?1657170195",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Staff Full Stack Software Engineer",
+        "company": "ServiceBell",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "3yr",
+        "href": "https://remoteok.com/remote-jobs/111204-remote-staff-full-stack-software-engineer-servicebell",
+        "img": "https://remoteok.com/assets/pixel.gif",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Web developer",
+        "company": "EyeSeeTea",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "3yr",
+        "href": "https://remoteok.com/remote-jobs/110538-remote-web-developer-eyeseetea",
+        "img": "https://remoteok.com/assets/pixel.gif",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Staff Frontend Engineer React",
+        "company": "Close",
+        "location": "\ud83c\udf0e North America",
+        "posted": "3yr",
+        "href": "https://remoteok.com/remote-jobs/110282-remote-senior-staff-frontend-engineer-react-close",
+        "img": "https://remoteok.com/assets/pixel.gif",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Frontend React JS Developer",
+        "company": "Stellar Software",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "3yr",
+        "href": "https://remoteok.com/remote-jobs/110273-remote-senior-frontend-react-js-developer-stellar-software",
+        "img": "https://remoteok.com/assets/pixel.gif",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Front End Engineer",
+        "company": "Telicent",
+        "location": "\ud83c\uddec\ud83c\udde7 United Kingdom",
+        "posted": "3yr",
+        "href": "https://remoteok.com/remote-jobs/110036-remote-front-end-engineer-telicent",
+        "img": "https://remoteok.com/assets/pixel.gif",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Frontend Engineer",
+        "company": "IMG.LY",
+        "location": "\ud83c\uddea\ud83c\uddfa Europe",
+        "posted": "3yr",
+        "href": "https://remoteok.com/remote-jobs/109860-remote-frontend-engineer-img-ly",
+        "img": "https://remoteok.com/assets/pixel.gif",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Front End Engineer",
+        "company": "FM",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "3yr",
+        "href": "https://remoteok.com/remote-jobs/109784-remote-senior-front-end-engineer-fm",
+        "img": "https://remoteok.com/assets/pixel.gif",
+        "type": "Remote",
+        "site": "Remoteok"
+    }
+]
