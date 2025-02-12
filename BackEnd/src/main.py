@@ -299,9 +299,12 @@ def push_to_git():
         "git push origin dev"]
 
     # Run Git commands
-    for cmd in commands:
-        process = subprocess.run(cmd, shell=True, capture_output=True, text=True)
-        print(process.stdout, process.stderr)
+    try:
+        for cmd in commands:
+            process = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+            print(process.stdout, process.stderr)
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Git push failed: {e}")
 
 def save_to_json(title, data):
     filename = f"{title.lower().replace(' ', '_')}_jobs.json"
@@ -315,11 +318,12 @@ def save_to_json(title, data):
 # API Endpoint to Manually Trigger Scraping
 @app.get("/scrape-now")
 def scrape_now():
-    scrape_jobs()
+    jobs = ["Software", "Developer", "Backend", "Front End", "Machine Learning", "Internship", "Data Science"]  # You can change this to whatever job titles you want to scrape
+    scrape_jobs(jobs)
     return {"message": "Job scraping started manually"}
 
 # Schedule the job to run every hour
-scheduler.add_job(scrape_jobs, "interval", hours=1)
+scheduler.add_job(scrape_jobs, "interval", hours=1, args=[["Software", "Developer", "Backend", "Front End", "Machine Learning", "Internship", "Data Science"]])  # Pass a list of jobs to scrape
 scheduler.start()
 
 @app.get("/")
