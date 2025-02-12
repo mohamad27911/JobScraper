@@ -2,7 +2,7 @@
 # Job Scraper using React + FastApi
 This project is a job scraper API that collects remote job listings from multiple platforms and displays them in a React frontend. The backend is built using FastAPI, with Selenium handling web scraping. The frontend is developed using React, providing a seamless user experience for searching and viewing job listings.
 
-![Intro Image](frontend/src/assets/JobsScraping.png)
+![Intro Image](JobsScraping.png)
 ## Full Project Link
 You can view the full project here: [Job Scraper - Full Project](https://job-scraping-mohamad27911s-projects.vercel.app/)
 
