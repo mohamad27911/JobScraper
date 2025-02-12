@@ -328,9 +328,3 @@ def home():
     return {"message": "Welcome to the Job Scraper API"}
 
 
-
-import time
-# Schedule the job to run every hour
-while True:
-    scrape_jobs(["Software", "Developer", "Backend", "Front End", "Machine Learning", "Internship", "Data Science"])
-    time.sleep(3600)  # Sleep for 1 hour (3600 seconds)

@@ -1,1 +1,262 @@
-[]
+[
+    {
+        "title": "Senior Independent Software Developer ($90-$170/hr)",
+        "company": "A.Team",
+        "location": "NYC, SF, and TLV",
+        "posted": "NEW",
+        "href": "https://weworkremotely.com/remote-jobs/a-team-senior-independent-software-developer-90-170-hr",
+        "type": "Remote",
+        "img": "https://we-work-remotely.imgix.net/logos/0071/4151/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress",
+        "site": "WeWorkRemotely"
+    },
+    {
+        "title": "Experienced Full-stack Developer",
+        "company": "Sanctuary Computer",
+        "location": "New York City",
+        "posted": "5d",
+        "href": "https://weworkremotely.com/remote-jobs/sanctuary-computer-experienced-full-stack-developer-1",
+        "type": "Remote",
+        "img": "No Image",
+        "site": "WeWorkRemotely"
+    },
+    {
+        "title": "Senior Shopify Developer (Remote + Flexible)",
+        "company": "Storetasker",
+        "location": "Brooklyn, NY",
+        "posted": "5d",
+        "href": "https://weworkremotely.com/remote-jobs/storetasker-senior-shopify-developer-remote-flexible-3",
+        "type": "Remote",
+        "img": "https://we-work-remotely.imgix.net/logos/0074/8032/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress",
+        "site": "WeWorkRemotely"
+    },
+    {
+        "title": "Senior Software Engineer Kubernetes",
+        "company": "Kong",
+        "location": "EMEA",
+        "posted": "3d",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-kubernetes-kong-1081777",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/e85059569aca7d5157054c9b05e75e841739059218.png?1739059218",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Software Engineer Backend",
+        "company": "Coinbase Developer Platform",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "5d",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-backend-coinbase-developer-platform-1081525",
+        "img": "No Image",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Android Engineer",
+        "company": "Memfault",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "6d",
+        "href": "https://remoteok.com/remote-jobs/remote-android-engineer-memfault-1080302",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/0fc068de379b433bc3f175f0dbf024131738846805.png?1738846805",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "React Native Mobile Developer",
+        "company": "Xsolla",
+        "location": "Montreal",
+        "posted": "9d",
+        "href": "https://remoteok.com/remote-jobs/remote-react-native-mobile-developer-xsolla-1076314",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/99da8d8016dd19ab25dd884d24bffa451738620011.png?1738620011",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "WordPress Developer",
+        "company": "Hostinger",
+        "location": "\ud83c\udf0f Probably worldwide",
+        "posted": "9d",
+        "href": "https://remoteok.com/remote-jobs/remote-wordpress-developer-hostinger-1076313",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/dce49f61cfdc8bf029a29ce64c5b930b1738620004.png?1738620004",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Frontend Engineer Design Matcha",
+        "company": "0x",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "9d",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-frontend-engineer-design-matcha-0x-1076248",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/044629954c854972c5ae232c98175e791738616410.png?1738616410",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Software Engineer Webflow Labs",
+        "company": "Webflow",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "9d",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-webflow-labs-webflow-1076247",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/744516be6a65e04f676a52c62ec7cdf21738616404.png?1738616404",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Junior Developer Relations Engineer",
+        "company": "Flow Foundation",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "9d",
+        "href": "https://remoteok.com/remote-jobs/remote-junior-developer-relations-engineer-flow-foundation-1076184",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/259c66618073e89a459ae15e4a826f361738612810.png?1738612810",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Principal Software Engineer Ecosystem",
+        "company": "Pulumi Corporation",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "9d",
+        "href": "https://remoteok.com/remote-jobs/remote-principal-software-engineer-ecosystem-pulumi-corporation-1076051",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/a7be59a59dad5f2e2d7b06388574dca41738605607.png?1738605607",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "FP&A Associate R&D US",
+        "company": "Weights & Biases",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "11d",
+        "href": "https://remoteok.com/remote-jobs/remote-fpampa-associate-rampd-us-weights-amp-biases-1072937",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/dc9ad02fb700b7db2698e84d30c5df0a1738429204.png?1738429204",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Product Designer",
+        "company": "0x",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "12d",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-product-designer-0x-1071216",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/0eb2723566ed4196bad518bf347d804e1738332006.png?1738332006",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "React JS Developer",
+        "company": "1840 & Company",
+        "location": "Lagos - Lagos State",
+        "posted": "12d",
+        "href": "https://remoteok.com/remote-jobs/remote-react-js-developer-1840-amp-company-1071058",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/ae66fde98d3da8af05584e9bc6a578d51738317604.png?1738317604",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Infrastructure Site Reliability Engineer",
+        "company": "Netlify",
+        "location": "\ud83c\udde8\ud83c\udde6 Canada",
+        "posted": "13d",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-infrastructure-site-reliability-engineer-netlify-1070851",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/c640edf3dc429f16d37cdd4518f985061738224004.png?1738224004",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Gradle Project Lead",
+        "company": "Gradle Inc.",
+        "location": "\ud83c\udf0f Probably worldwide",
+        "posted": "16d",
+        "href": "https://remoteok.com/remote-jobs/remote-gradle-project-lead-gradle-inc-1070323",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/6d27f0dc6d3fe9721d01fca4efc0441d1737986403.png?1737986403",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Pipeline Developer",
+        "company": "Scanline VFX",
+        "location": "Toronto",
+        "posted": "16d",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-pipeline-developer-scanline-vfx-1070213",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/c91ac0b887d108b674374d306423307b1737936017.png?1737936017",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Developer",
+        "company": "Stoneridge Software",
+        "location": "Minneapolis, MN",
+        "posted": "20d",
+        "href": "https://remoteok.com/remote-jobs/remote-developer-stoneridge-software-1069448",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/7d30c4ae4fea547a82cb0a46aa4d58261737586804.png?1737586804",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Staff Security Engineer",
+        "company": "Attentive",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "21d",
+        "href": "https://remoteok.com/remote-jobs/remote-staff-security-engineer-attentive-1069439",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/5d63f7228f48f79c2752a9343dffead01737583217.png?1737583217",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Product Manager 0x API",
+        "company": "0x",
+        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "posted": "21d",
+        "href": "https://remoteok.com/remote-jobs/remote-product-manager-0x-api-0x-1069382",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/2f6d3a425c710d647aef0cbfa668e1491737558006.png?1737558006",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Senior Mobile Developer",
+        "company": "TouchBistro",
+        "location": "\ud83c\udde8\ud83c\udde6 Canada",
+        "posted": "21d",
+        "href": "https://remoteok.com/remote-jobs/remote-senior-mobile-developer-touchbistro-1069251",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/43f6ecc41d48fcbebc07af9f111834cd1737504036.png?1737504036",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Fullstack Engineer",
+        "company": "career",
+        "location": "LATAM",
+        "posted": "28d",
+        "href": "https://remoteok.com/remote-jobs/remote-fullstack-engineer-career-1068040",
+        "img": "https://remoteok.com/assets/hot2x.gif",
+        "type": "Remote",
+        "site": "Remoteok"
+    },
+    {
+        "title": "Junior Frontend Developer (React)",
+        "company": "Gyaan",
+        "location": "Pune, Maharashtra, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/junior-frontend-developer-react-at-gyaan-4149904221?position=1&pageNum=0&refId=QSOlinYy9KjlFyiIETr2VQ%3D%3D&trackingId=TacTXU8jmjggfoWZgQomPg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQFYJKXc0mkcTA/company-logo_100_100/company-logo_100_100/0/1675251991631/gyaanai_logo?e=2147483647&v=beta&t=0o8IUwO2hgRL-qZPKoYZ-HL2KqIi_sTw-kZOFU_wN2k"
+    },
+    {
+        "title": "Software Engineer",
+        "company": "Microsoft",
+        "location": "Maharashtra, India",
+        "posted": "1 day ago",
+        "href": "https://in.linkedin.com/jobs/view/software-engineer-at-microsoft-4099774805?position=2&pageNum=0&refId=QSOlinYy9KjlFyiIETr2VQ%3D%3D&trackingId=g5aTnKJMzRwq4myekhGlrg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_100_100/company-logo_100_100/0/1630652622688/microsoft_logo?e=2147483647&v=beta&t=lMkCSsceJNmUG1r0VRg3Whye1sVi2KtYvt-MWyfoNbY"
+    },
+    {
+        "title": "Software Engineer",
+        "company": "Microsoft",
+        "location": "Karnataka, India",
+        "posted": "9 minutes ago",
+        "href": "https://in.linkedin.com/jobs/view/software-engineer-at-microsoft-4127166581?position=3&pageNum=0&refId=QSOlinYy9KjlFyiIETr2VQ%3D%3D&trackingId=1psqBlzi%2FaFA2F6LaS8ekA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_100_100/company-logo_100_100/0/1630652622688/microsoft_logo?e=2147483647&v=beta&t=lMkCSsceJNmUG1r0VRg3Whye1sVi2KtYvt-MWyfoNbY"
+    }
+]
