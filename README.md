@@ -44,7 +44,6 @@ Before starting, ensure you have the following installed:
     
     ```bash
     git clone https://github.com/mohamad27911/JobScraper.git
-    git checkout dev
     ```
 
 2.  Ensure you have Chrome WebDriver installed and properly set up.
