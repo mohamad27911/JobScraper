@@ -3,40 +3,30 @@
         "title": "Machine Learning Operations Engineer (MLOps)",
         "company": "Dotsfty",
         "location": "Bellevue, WA",
-        "posted": "NEW",
+        "posted": "2d",
         "href": "https://weworkremotely.com/remote-jobs/dotsfty-machine-learning-operations-engineer-mlops",
         "type": "Remote",
         "img": "No Image",
         "site": "WeWorkRemotely"
     },
     {
-        "title": "Machine Learning Engineer for Agentic AI",
-        "company": "Scalable Path",
-        "location": "San Francisco, California",
-        "posted": "6d",
-        "href": "https://weworkremotely.com/remote-jobs/scalable-path-machine-learning-engineer-for-agentic-ai",
+        "title": "Lead Product Manager, Machine Learning",
+        "company": "hims & hers",
+        "location": "USA",
+        "posted": "Today",
+        "href": "https://remotive.com/remote-jobs/product/lead-product-manager-machine-learning-1970419",
         "type": "Remote",
-        "img": "No Image",
-        "site": "WeWorkRemotely"
+        "img": "https://remotive.com/web/image/hr.job/1970419/logo/64x64",
+        "site": "Remotive"
     },
     {
         "title": "Lead/Senior Machine Learning / Signal Processing Engineer",
         "company": "Softeq",
         "location": "Poland",
-        "posted": "YDay",
+        "posted": "2d ago",
         "href": "https://remotive.com/remote-jobs/software-dev/lead-senior-machine-learning-signal-processing-engineer-1970438",
         "type": "Remote",
         "img": "https://remotive.com/web/image/hr.job/1970438/logo/64x64",
-        "site": "Remotive"
-    },
-    {
-        "title": "Principal Machine Learning Engineer",
-        "company": "SmithRx",
-        "location": "USA",
-        "posted": "3d ago",
-        "href": "https://remotive.com/remote-jobs/software-dev/principal-machine-learning-engineer-1968328",
-        "type": "Remote",
-        "img": "https://remotive.com/web/image/hr.job/1968328/logo/64x64",
         "site": "Remotive"
     },
     {
@@ -208,35 +198,5 @@
         "img": "No Image",
         "type": "Remote",
         "site": "Remoteok"
-    },
-    {
-        "title": "Data Scientist",
-        "company": "Flipkart",
-        "location": "Bengaluru, Karnataka, India",
-        "posted": "1 day ago",
-        "href": "https://in.linkedin.com/jobs/view/data-scientist-at-flipkart-4034290941?position=1&pageNum=0&refId=QNzdwSbt4zEmoStha7KuBQ%3D%3D&trackingId=6xfscp2ngpihi9Hj7gDCbQ%3D%3D",
-        "type": "Remote",
-        "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/C560BAQF6H8gAs-JyFg/company-logo_100_100/company-logo_100_100/0/1630669478258/flipkart_logo?e=2147483647&v=beta&t=ah9rTyH23W9TtXFtjZD9EsHG13XIzYn4z5fXVXrlmdw"
-    },
-    {
-        "title": "Machine Learning Engineer",
-        "company": "Netflix",
-        "location": "United States",
-        "posted": "1 day ago",
-        "href": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-netflix-4118831761?position=2&pageNum=0&refId=QNzdwSbt4zEmoStha7KuBQ%3D%3D&trackingId=GW1ur08kvWIQeQADzrbPkg%3D%3D",
-        "type": "Remote",
-        "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQGMva5_E8pUjw/company-logo_100_100/company-logo_100_100/0/1736276678240/netflix_logo?e=2147483647&v=beta&t=OSlCcMLJmlXo79qPS59zP_IX873LK5R4FGYeUAWXdiQ"
-    },
-    {
-        "title": "Analista de Dados J\u00fanior - S\u00e3o Paulo - SP.",
-        "company": "Loggi",
-        "location": "S\u00e3o Paulo, S\u00e3o Paulo, Brazil",
-        "posted": "1 day ago",
-        "href": "https://br.linkedin.com/jobs/view/analista-de-dados-j%C3%BAnior-s%C3%A3o-paulo-sp-at-loggi-4125167326?position=3&pageNum=0&refId=QNzdwSbt4zEmoStha7KuBQ%3D%3D&trackingId=e1akqFAVPSBMbftWcX1thg%3D%3D",
-        "type": "Remote",
-        "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQHV7QuVduzjnA/company-logo_100_100/company-logo_100_100/0/1701375897458/loggi_logo?e=2147483647&v=beta&t=I89m-3ngN1rKf5VqWbymZc7HJ_NN09oEp_JN3lnjWk0"
     }
 ]

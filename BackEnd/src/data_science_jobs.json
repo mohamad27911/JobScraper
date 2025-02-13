@@ -1,35 +1,5 @@
 [
     {
-        "title": "Director of Data Science and Analytics",
-        "company": "Theoria Medical",
-        "location": "Philippines",
-        "posted": "6d ago",
-        "href": "https://remotive.com/remote-jobs/data/director-of-data-science-and-analytics-1969311",
-        "type": "Remote",
-        "img": "https://remotive.com/web/image/hr.job/1969311/logo/64x64",
-        "site": "Remotive"
-    },
-    {
-        "title": "Practice Manager, Data Science, AI and ML",
-        "company": "Rackspace",
-        "location": "USA",
-        "posted": "3wks ago",
-        "href": "https://remotive.com/remote-jobs/software-dev/practice-manager-data-science-ai-and-ml-1956923",
-        "type": "Remote",
-        "img": "https://remotive.com/web/image/hr.job/1956923/logo/64x64",
-        "site": "Remotive"
-    },
-    {
-        "title": "Test Lead",
-        "company": "10Pearls - United States",
-        "location": "USA",
-        "posted": "YDay",
-        "href": "https://remotive.com/remote-jobs/qa/test-lead-1970483",
-        "type": "Remote",
-        "img": "https://remotive.com/web/image/hr.job/1970483/logo/64x64",
-        "site": "Remotive"
-    },
-    {
         "title": "Senior Data Engineer",
         "company": "Alqen",
         "location": "\ud83c\udf0f Worldwide",
@@ -60,173 +30,603 @@
         "site": "Remoteok"
     },
     {
-        "title": "Marketing Data Scientist",
-        "company": "Recast",
-        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "posted": "3yr",
-        "href": "https://remoteok.com/remote-jobs/107901-remote-marketing-data-scientist-recast",
-        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/962bebd2e7475a121e2e2dfc4f12062b1640718396.png?1640718396",
+        "title": "JUNIOR DATA SCIENTIST (30260)",
+        "company": "Bosch Brasil",
+        "location": "Greater Curitiba",
+        "posted": "2 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/junior-data-scientist-30260-at-bosch-brasil-4152405459?position=1&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=xGJZ5sUlfUJUud741ykchA%3D%3D",
         "type": "Remote",
-        "site": "Remoteok"
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQG9V8ylf9r--g/company-logo_100_100/company-logo_100_100/0/1720017140973/boschbrasil_logo?e=2147483647&v=beta&t=hpDqPCl8xR1VTd8US-D0fWU5uEeqtVDE4G6yT2ezJ0I"
     },
     {
-        "title": "Machine learning engineer for large scale ML project",
-        "company": "OneSecondDelivery",
-        "location": "\ud83d\udc83 Latin America",
-        "posted": "3yr",
-        "href": "https://remoteok.com/remote-jobs/106921-remote-machine-learning-engineer-for-large-scale-ml-project-oneseconddelivery",
-        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs/f9f9673aadca1a2dc1d603f196c35ec01635705116.png?1635705116",
+        "title": "Associate Data Scientist",
+        "company": "Circle K",
+        "location": "Gurugram, Haryana, India",
+        "posted": "9 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/associate-data-scientist-at-circle-k-4149471308?position=2&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=GGELuG%2FxMnUjyWQv1zTMqg%3D%3D",
         "type": "Remote",
-        "site": "Remoteok"
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQHeweKm_DEYgw/company-logo_100_100/company-logo_100_100/0/1630619953990/circle_k_logo?e=2147483647&v=beta&t=uBDtbw5RE3CipByGBy3XGDPcWvClYN9bcFBTvsbZSRA"
+    },
+    {
+        "title": "Analista de Data Analytics J\u00fanior | Compliance",
+        "company": "C6 Bank",
+        "location": "S\u00e3o Paulo, S\u00e3o Paulo, Brazil",
+        "posted": "22 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/analista-de-data-analytics-j%C3%BAnior-compliance-at-c6-bank-4151558993?position=3&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=qDWI6qkGyCWF%2BXaUqIVwcA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQHl0JF7om4BMA/company-logo_100_100/company-logo_100_100/0/1630564945584/c6_bank_logo?e=2147483647&v=beta&t=CE83I8E1KYyoCd9_7kzapmNGz1DBhl5M9QqxquxtEWk"
+    },
+    {
+        "title": "Associate Data Analyst",
+        "company": "Circle K",
+        "location": "Gurugram, Haryana, India",
+        "posted": "9 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/associate-data-analyst-at-circle-k-4149474186?position=4&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=ICddK%2FnfpFUlgg7R%2FaDJKw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQHeweKm_DEYgw/company-logo_100_100/company-logo_100_100/0/1630619953990/circle_k_logo?e=2147483647&v=beta&t=uBDtbw5RE3CipByGBy3XGDPcWvClYN9bcFBTvsbZSRA"
+    },
+    {
+        "title": "Logistics Data Analyst",
+        "company": "Circle K",
+        "location": "Gurugram, Haryana, India",
+        "posted": "9 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/logistics-data-analyst-at-circle-k-4149474193?position=5&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=dl43yd7rjBZAp4d9FVGQmA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQHeweKm_DEYgw/company-logo_100_100/company-logo_100_100/0/1630619953990/circle_k_logo?e=2147483647&v=beta&t=uBDtbw5RE3CipByGBy3XGDPcWvClYN9bcFBTvsbZSRA"
+    },
+    {
+        "title": "Data Analyst (Python, SQL)",
+        "company": "Gartner",
+        "location": "Gurgaon, Haryana, India",
+        "posted": "10 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/data-analyst-python-sql-at-gartner-4129660792?position=6&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=zpRbp1oxn4mCPcIHyN%2BG4Q%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQGyRzbB8_BYkg/company-logo_100_100/company-logo_100_100/0/1630549760241/gartner_logo?e=2147483647&v=beta&t=2MC5NtmLtyl24U4aF7paPutyA62Vrt5TChQypu8h22w"
+    },
+    {
+        "title": "Data Scientist Intern (Extracurricular Internship/Tirocinio extracurriculare)",
+        "company": "Empatica",
+        "location": "Milan, Lombardy, Italy",
+        "posted": "11 hours ago",
+        "href": "https://it.linkedin.com/jobs/view/data-scientist-intern-extracurricular-internship-tirocinio-extracurriculare-at-empatica-4151311553?position=7&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=r8sLpSDoKF%2FHxkc4uRWBJA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQGQC3dMik_Btg/company-logo_100_100/company-logo_100_100/0/1630545115633/empatica_logo?e=2147483647&v=beta&t=yzz_GWKz0W9e5r18oQ631H2k3Xb9jyFrC0-BCZJgPsk"
+    },
+    {
+        "title": "GRC Director",
+        "company": "Confidential Government",
+        "location": "Riyadh, Saudi Arabia",
+        "posted": "11 hours ago",
+        "href": "https://sa.linkedin.com/jobs/view/grc-director-at-confidential-government-4149460556?position=8&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=lkKS7s0J3Q5ohmg1qtNLTw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQEWEq9jtnu7iQ/company-logo_100_100/company-logo_100_100/0/1630513651642/confidentialgovernment_logo?e=2147483647&v=beta&t=U6wPqQ2bxudIv1Hr_fp9O1rrlqqnJBum61pt42j6cHc"
+    },
+    {
+        "title": "Graduate Data Scientist",
+        "company": "Brady Technologies",
+        "location": "London, England, United Kingdom",
+        "posted": "6 hours ago",
+        "href": "https://uk.linkedin.com/jobs/view/graduate-data-scientist-at-brady-technologies-4133040351?position=9&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=gZ36lU02%2FKJCGVCZFm74Tw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQEiHBFp36Awdw/company-logo_100_100/company-logo_100_100/0/1654599904384/brady_technologies_logo?e=2147483647&v=beta&t=wM7LYo8Xln1wIYC4yZ4ZV752-WO2wgty1at4kaOA2Tk"
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Ample Insight",
+        "location": "Toronto, Ontario, Canada",
+        "posted": "18 hours ago",
+        "href": "https://ca.linkedin.com/jobs/view/data-scientist-at-ample-insight-4150585951?position=10&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=14nvlG%2FE%2FMdKcwU1AXXTng%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQHCPXx0g1vfEQ/company-logo_100_100/company-logo_100_100/0/1630587128569/ample_insight_logo?e=2147483647&v=beta&t=itKwD6m_91vPzAK2z0WH83aoh-DUflSzw_WVbce5ijM"
+    },
+    {
+        "title": "Data Scientist AI/ML",
+        "company": "Halvik",
+        "location": "Washington, DC",
+        "posted": "16 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/data-scientist-ai-ml-at-halvik-4151843141?position=11&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=D36JTcb0WkSHimq5hnoKow%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQFyx7oe3MRYtw/company-logo_100_100/company-logo_100_100/0/1631344558817?e=2147483647&v=beta&t=KE4YE5uqsifVV7mIwJ1Yd4cPUrJ5xou7INTqKxTNNw4"
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Myntra",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "3 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/data-analyst-at-myntra-4149721844?position=12&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=eU%2Fwa0oYMsaVhJMpsvmZCg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQHlxcq3wbl2IA/company-logo_100_100/company-logo_100_100/0/1719917177970/myntra_logo?e=2147483647&v=beta&t=60CE-E2TBHX3FNzjqhZFuq8DU4QnX02wWbZQLAgKnHM"
+    },
+    {
+        "title": "Associate Data Analyst",
+        "company": "Electronic Arts (EA)",
+        "location": "Orlando, FL",
+        "posted": "6 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/associate-data-analyst-at-electronic-arts-ea-4149488529?position=13&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=Ga8vcbhSSNtjBVX1FG77yQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQFgF8rOA7g72w/company-logo_100_100/company-logo_100_100/0/1730310554931/electronic_arts_logo?e=2147483647&v=beta&t=DeQFYZAH1Ra_ByCQtf1vGxpdAaGfzn3CswlHQabuzUM"
+    },
+    {
+        "title": "Stanowisko ds. zarz\u0105dzania obszarem BI i HD-specjalno\u015b\u0107 in\u017cynierii system\u00f3w Hurtowni Danych",
+        "company": "ZUS",
+        "location": "West Bunghmun, Mizoram, India",
+        "posted": "5 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/stanowisko-ds-zarz%C4%85dzania-obszarem-bi-i-hd-specjalno%C5%9B%C4%87-in%C5%BCynierii-system%C3%B3w-hurtowni-danych-at-zus-4151353312?position=14&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=0oij8vg4hid7NLE7I7Uq9A%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEg6sg86dxHxQ/company-logo_100_100/company-logo_100_100/0/1735641915023/zus_pl_logo?e=2147483647&v=beta&t=bgmaz_mqcphSe5r7GL9o_7tb0Aj6JqqQLD2IOrhH_3o"
+    },
+    {
+        "title": "Stanowisko ds. zarz\u0105dzania obszarem BI i HD-specjalno\u015b\u0107 in\u017cynierii system\u00f3w Hurtowni Danych",
+        "company": "ZUS",
+        "location": "West Bunghmun, Mizoram, India",
+        "posted": "17 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/stanowisko-ds-zarz%C4%85dzania-obszarem-bi-i-hd-specjalno%C5%9B%C4%87-in%C5%BCynierii-system%C3%B3w-hurtowni-danych-at-zus-4150590318?position=15&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=5og6zJ4pOeafMrOs2TAqTA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEg6sg86dxHxQ/company-logo_100_100/company-logo_100_100/0/1735641915023/zus_pl_logo?e=2147483647&v=beta&t=bgmaz_mqcphSe5r7GL9o_7tb0Aj6JqqQLD2IOrhH_3o"
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Finance Buddha",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "7 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/data-analyst-at-finance-buddha-4151858148?position=16&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=NnU1UBKYtJQMPL7M9fDF%2Fg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C510BAQEyYYZe0UDZdA/company-logo_100_100/company-logo_100_100/0/1631303351948?e=2147483647&v=beta&t=AH1E2V4o7jp2vc1-AMdns__kFkaUJRaEv57LJfyJh6Y"
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Lottomatica",
+        "location": "Rome, Latium, Italy",
+        "posted": "10 hours ago",
+        "href": "https://it.linkedin.com/jobs/view/data-scientist-at-lottomatica-4151303724?position=17&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=Pz349GLcsoQ2a%2FTtX1ysqA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQGPdWcwKr6fNw/company-logo_100_100/company-logo_100_100/0/1631182005911/lottomatica_logo?e=2147483647&v=beta&t=DMBQ_YTXpaw90hGdKIbf3ly9hKK5eCiJ3nEohoczDjM"
+    },
+    {
+        "title": "Business Analyst - Data Science AI",
+        "company": "CoTalent",
+        "location": "Boston, MA",
+        "posted": "8 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/business-analyst-data-science-ai-at-cotalent-4151995375?position=18&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=B%2B%2BrBOenPd%2FImepkc3kW%2Bg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQG26uXEJbMuiw/company-logo_100_100/company-logo_100_100/0/1710858563206/cotalentgroup_logo?e=2147483647&v=beta&t=x6Rs0_yWiekPwWKVhumOavrR1VVEp2Z5TRKj4rORkwo"
+    },
+    {
+        "title": "Junior Data Scientist",
+        "company": "Jobbit",
+        "location": "Bologna, Emilia-Romagna, Italy",
+        "posted": "11 hours ago",
+        "href": "https://it.linkedin.com/jobs/view/junior-data-scientist-at-jobbit-4151082841?position=19&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=r%2BmRZmh%2B53YTz28kyniC4g%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEVe19wVXOkDQ/company-logo_100_100/company-logo_100_100/0/1739180771447/jobbit_il_tuo_agente_ai_per_il_mondo_del_lavoro_logo?e=2147483647&v=beta&t=vyR6pChY0j7qvDYELJzoWcKKyin1EJYfF48k1CbSsLc"
+    },
+    {
+        "title": "Data Scientist",
+        "company": "HCLTech",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "6 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/data-scientist-at-hcltech-4149486947?position=20&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=XiJbEz5tcpfB%2Bja63SwJng%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQF-RIoeeMTMKQ/company-logo_100_100/company-logo_100_100/0/1664197008220/hcltech_logo?e=2147483647&v=beta&t=xcyEJUPhrb87C_rsxS_BX3_2bZJF40KfbSVTJWSFdkU"
+    },
+    {
+        "title": "AI/ML Engineer Intern",
+        "company": "Intel Corporation",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "6 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/ai-ml-engineer-intern-at-intel-corporation-4149490686?position=21&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=KocfeJppd8v0%2BgG67zSXtQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=2147483647&v=beta&t=ossYk2TZYS8UvUN3s4WS7ZaXqgKph-ue7DFGNXO4-0U"
+    },
+    {
+        "title": "Junior Data Scientist",
+        "company": "Cron Labs",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "13 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/junior-data-scientist-at-cron-labs-4151864256?position=22&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=Oy6ffxtqicS8VLGQrPqpNw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C510BAQHiT-3bQZeIfg/company-logo_100_100/company-logo_100_100/0/1631414585909?e=2147483647&v=beta&t=zO39XfB22eIkVXmN9qeO0FZknshJke1NL0EP96JDTfc"
+    },
+    {
+        "title": "Machine Learning Scientist III",
+        "company": "Nykaa",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "13 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/machine-learning-scientist-iii-at-nykaa-4151858988?position=23&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=AR55yF7KT2ramDPlNi9A6g%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQHyMYnSPRzzTg/company-logo_100_100/company-logo_100_100/0/1710399870119/nykaa_com_logo?e=2147483647&v=beta&t=bX-lD_LLOPXyOsUfo2ylUH8j27ZyimNzPgXWiCjpv0M"
     },
     {
         "title": "Machine Learning Engineer",
-        "company": "Jupiter",
-        "location": "\ud83c\udf0f Worldwide",
-        "posted": "4yr",
-        "href": "https://remoteok.com/remote-jobs/105760-remote-machine-learning-engineer-jupiter",
-        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//6db7fcb3374634ae2b3582e96b70813f1630200625.png?1630200625",
+        "company": "Fractal",
+        "location": "San Francisco Bay Area",
+        "posted": "2 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-fractal-4152408073?position=24&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=BbNnUYwWckqwwkCsAyJ47A%3D%3D",
         "type": "Remote",
-        "site": "Remoteok"
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFfWiLKapr2dg/company-logo_100_100/company-logo_100_100/0/1739206750155/fractal_analytics_logo?e=2147483647&v=beta&t=u3TAvymPT_vd6sLm-gjz1eKA_fda94JsF73pXnSd9nU"
+    },
+    {
+        "title": "Data Scientist 1",
+        "company": "PayPal",
+        "location": "Chicago, IL",
+        "posted": "5 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/data-scientist-1-at-paypal-4149499364?position=25&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=kfEtYf9%2FBampaQSjip4ekQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQGlX0cKdGRk-w/company-logo_100_100/company-logo_100_100/0/1725506319701?e=2147483647&v=beta&t=EfHoqyaVYveWMzdT_6PpJbGNGS1P4dUk3ZryqIQRhjc"
     },
     {
         "title": "Data Scientist",
-        "company": "Ampcontrol",
-        "location": "\ud83c\udf0f Worldwide",
-        "posted": "4yr",
-        "href": "https://remoteok.com/remote-jobs/103561-remote-data-scientist-ampcontrol",
-        "img": "No Image",
+        "company": "Ericsson",
+        "location": "Smart Village, Egypt",
+        "posted": "1 hour ago",
+        "href": "https://eg.linkedin.com/jobs/view/data-scientist-at-ericsson-4152412285?position=26&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=G%2F2KM0EJTShMJMhgbLhGvQ%3D%3D",
         "type": "Remote",
-        "site": "Remoteok"
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQGm9tH6lKJ-Gg/company-logo_100_100/company-logo_100_100/0/1632729373904/ericsson_logo?e=2147483647&v=beta&t=7zTUuSSlB_BHq_fChmXdnQaZ8oT3GkqHIjvXYIOx2gA"
     },
     {
-        "title": "Staff Data Scientist",
-        "company": "Shopify",
-        "location": "\ud83c\udde8\ud83c\udde6 Canada",
-        "posted": "4yr",
-        "href": "https://remoteok.com/remote-jobs/103485-remote-staff-data-scientist-shopify",
-        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//f9e3135c3d0622de9b8e40d20005c50c1617986138.png?1617986138",
+        "title": "AI ML Intern",
+        "company": "TwiLearn",
+        "location": "Greater Kolkata Area",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/ai-ml-intern-at-twilearn-4150774932?position=27&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=bX8tYOImUfnNjKbTP67TnQ%3D%3D",
         "type": "Remote",
-        "site": "Remoteok"
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQHvZBt0Id-fGQ/company-logo_100_100/company-logo_100_100/0/1673015466244/twilearn_logo?e=2147483647&v=beta&t=R5KrbqQc9INFZv2PqDIF2dfKq8yErPD-YkwXOuzonYE"
     },
     {
-        "title": "Senior Data Scientist",
-        "company": "Shopify",
-        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "posted": "4yr",
-        "href": "https://remoteok.com/remote-jobs/103484-remote-senior-data-scientist-shopify",
-        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//585a4c0bb898d16ceacb4727d0db63041617983656.png?1617983656",
+        "title": "AI ML Intern",
+        "company": "TwiLearn",
+        "location": "Bengaluru East, Karnataka, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/ai-ml-intern-at-twilearn-4150777720?position=28&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=0zenuGLJBQWKxnkBblJXkA%3D%3D",
         "type": "Remote",
-        "site": "Remoteok"
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQHvZBt0Id-fGQ/company-logo_100_100/company-logo_100_100/0/1673015466244/twilearn_logo?e=2147483647&v=beta&t=R5KrbqQc9INFZv2PqDIF2dfKq8yErPD-YkwXOuzonYE"
     },
     {
-        "title": "Senior Data Scientist",
-        "company": "NannyML",
-        "location": "\ud83c\uddea\ud83c\uddfa Europe",
-        "posted": "4yr",
-        "href": "https://remoteok.com/remote-jobs/103333-remote-senior-data-scientist-nannyml",
-        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//37bfddaea3cf31659eaf193a4beff0551617043383.png?1617043383",
-        "type": "Remote",
-        "site": "Remoteok"
-    },
-    {
-        "title": "Technical Community Manager",
-        "company": "Iterative",
-        "location": "\ud83c\udf0f Worldwide",
-        "posted": "4yr",
-        "href": "https://remoteok.com/remote-jobs/99931-remote-technical-community-manager-iterative",
-        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//e8a19618fc360bec1717b6e5113b73971603931272.png?1603931272",
-        "type": "Remote",
-        "site": "Remoteok"
-    },
-    {
-        "title": "Backend Developer Data Scientist",
-        "company": "komoot",
-        "location": "\ud83c\uddea\ud83c\uddfa Europe",
-        "posted": "4yr",
-        "href": "https://remoteok.com/remote-jobs/99798-remote-backend-developer-data-scientist-komoot",
-        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//288ff323c79bf84d4772d04df8027c2c1603419534.png?1603419534",
-        "type": "Remote",
-        "site": "Remoteok"
-    },
-    {
-        "title": "Marketing Data Analyst",
-        "company": "Automattic",
-        "location": "\ud83c\udf0f Probably worldwide",
-        "posted": "8yr",
-        "href": "https://remoteok.com/remote-jobs/19914-remote-marketing-data-analyst-automattic",
-        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//b5dfefb246fd338cd00cee93b79d0d89.bf1?1494610248",
-        "type": "Remote",
-        "site": "Remoteok"
-    },
-    {
-        "title": "Software Developer",
-        "company": "EcoHealth Alliance",
-        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "posted": "10yr",
-        "href": "https://remoteok.com/remote-jobs/5392-remote-software-developer-ecohealth-alliance",
-        "img": "https://remoteok.com/assets/pixel.gif",
-        "type": "Remote",
-        "site": "Remoteok"
-    },
-    {
-        "title": "Software Developer",
-        "company": "EcoHealth Alliance",
-        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "posted": "10yr",
-        "href": "https://remoteok.com/remote-jobs/3641-remote-software-developer-ecohealth-alliance",
-        "img": "https://remoteok.com/assets/pixel.gif",
-        "type": "Remote",
-        "site": "Remoteok"
-    },
-    {
-        "title": "DevOps Engineer",
-        "company": "EcoHealth Alliance",
-        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "posted": "10yr",
-        "href": "https://remoteok.com/remote-jobs/5393-remote-devops-engineer-ecohealth-alliance",
-        "img": "https://remoteok.com/assets/pixel.gif",
-        "type": "Remote",
-        "site": "Remoteok"
-    },
-    {
-        "title": "DevOps Engineer",
-        "company": "EcoHealth Alliance",
-        "location": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "posted": "10yr",
-        "href": "https://remoteok.com/remote-jobs/3642-remote-devops-engineer-ecohealth-alliance",
-        "img": "https://remoteok.com/assets/pixel.gif",
-        "type": "Remote",
-        "site": "Remoteok"
-    },
-    {
-        "title": "Data Scientist",
-        "company": "Flipkart",
+        "title": "Python Developer",
+        "company": "Infosys",
         "location": "Bengaluru, Karnataka, India",
-        "posted": "1 day ago",
-        "href": "https://in.linkedin.com/jobs/view/data-scientist-at-flipkart-4034290941?position=1&pageNum=0&refId=FXk5ViwwMiQGJOPiKiBp0g%3D%3D&trackingId=fJLOm7IAMtZncAgxS9cKrg%3D%3D",
+        "posted": "16 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/python-developer-at-infosys-4151838836?position=29&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=XHp6XKzEjDvBg0NhWROtag%3D%3D",
         "type": "Remote",
         "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/C560BAQF6H8gAs-JyFg/company-logo_100_100/company-logo_100_100/0/1630669478258/flipkart_logo?e=2147483647&v=beta&t=ah9rTyH23W9TtXFtjZD9EsHG13XIzYn4z5fXVXrlmdw"
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQE7Zf1-vvfbUA/company-logo_100_100/company-logo_100_100/0/1692876768583/infosys_logo?e=2147483647&v=beta&t=97JBbbuq2-RM9553tu_mnMtg_cQU7DSEPtFWT28uwkc"
     },
     {
-        "title": "Data Analyst, New Grad",
-        "company": "Stripe",
-        "location": "Toronto, Ontario, Canada",
-        "posted": "1 day ago",
-        "href": "https://ca.linkedin.com/jobs/view/data-analyst-new-grad-at-stripe-4107166562?position=2&pageNum=0&refId=FXk5ViwwMiQGJOPiKiBp0g%3D%3D&trackingId=0hpJwUiYJynr8j6ZeznM%2Bw%3D%3D",
+        "title": "SQL + Python Developer- Associate Consultant",
+        "company": "KPMG India",
+        "location": "Bengaluru, Karnataka, India",
+        "posted": "7 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/sql-%2B-python-developer-associate-consultant-at-kpmg-india-4149476804?position=30&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=5lYCKbURa53T1v1ccd4bqQ%3D%3D",
         "type": "Remote",
         "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQFqiwiSMcKk6A/company-logo_100_100/company-logo_100_100/0/1724937022726/stripe_logo?e=2147483647&v=beta&t=izBBwlcagZ_29QyD8kRFwxdV4_reYlATZI7uBtin61I"
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQHIpYzIxl3Tzw/company-logo_100_100/company-logo_100_100/0/1725976856949/kpmgindia_logo?e=2147483647&v=beta&t=FRZBZknshwNu1rblwIIv7KhqsAVvpsN5i1Jt52lP_PY"
     },
     {
-        "title": "Research Sciences Intern",
+        "title": "Data Analyst II, Client Analytics",
+        "company": "Omada Health",
+        "location": "United States",
+        "posted": "20 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/data-analyst-ii-client-analytics-at-omada-health-4149402618?position=31&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=ODTvEwOMW2jiaXXzD%2BHQxw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQGr4-I2PzHFlg/company-logo_100_100/company-logo_100_100/0/1642789029862/omada_health_logo?e=2147483647&v=beta&t=r_Uaz2yAl9RbdtnPT9aXoOijaZYcfHGO5iYj0b_xris"
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Ascendion",
+        "location": "Seattle, WA",
+        "posted": "23 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/data-analyst-at-ascendion-4151542265?position=32&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=Ca3dnIFaqb4Hzy1Wsii2EQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQGHeQsU54NLQA/company-logo_100_100/company-logo_100_100/0/1663258479025/ascendion_logo?e=2147483647&v=beta&t=kBLecaCZdyDe7nL3btFLkmm4vcT8bUReXaLiP07jnfA"
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Agilex",
+        "location": "Turin, Piedmont, Italy",
+        "posted": "11 hours ago",
+        "href": "https://it.linkedin.com/jobs/view/data-scientist-at-agilex-4149460700?position=33&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=VunYCpHM9cUfTqNMeVuSSQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQFs1xpMUdGigg/company-logo_100_100/company-logo_100_100/0/1630465443426/agilex_logo?e=2147483647&v=beta&t=uc7Ryg-Dpul1zo5o4aTqHK3vyy6lKYFaCyyAd7uJ-9w"
+    },
+    {
+        "title": "Cientista de Dados (Projetos IA)",
+        "company": "Omie",
+        "location": "S\u00e3o Paulo, S\u00e3o Paulo, Brazil",
+        "posted": "23 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/cientista-de-dados-projetos-ia-at-omie-4151533772?position=34&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=6l4Vg3w3ukMaQeiW3lqezA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQEaPhyc-Vqfrw/company-logo_100_100/company-logo_100_100/0/1630484135584/omie_logo?e=2147483647&v=beta&t=fCVtpHeA_9ZG-_nGcXXQ03UFfrqYsy7AmvDezGw3UYE"
+    },
+    {
+        "title": "Business Analyst",
+        "company": "Persistent Systems",
+        "location": "Pune, Maharashtra, India",
+        "posted": "12 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/business-analyst-at-persistent-systems-4151878817?position=35&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=N59bqiHK8EEEr2HWs%2BtOMg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQH5EcH5fkKmSg/company-logo_100_100/company-logo_100_100/0/1731934962856/persistent_systems_logo?e=2147483647&v=beta&t=EaMnGvDBW-8ZF9a2WqIAXV-r8h_oz20Szfv66cn0AGg"
+    },
+    {
+        "title": "Stanowisko ds. zarz\u0105dzania obszarem BI i HD-specjalno\u015b\u0107 in\u017cynierii system\u00f3w Hurtowni Danych",
+        "company": "ZUS",
+        "location": "West Bunghmun, Mizoram, India",
+        "posted": "5 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/stanowisko-ds-zarz%C4%85dzania-obszarem-bi-i-hd-specjalno%C5%9B%C4%87-in%C5%BCynierii-system%C3%B3w-hurtowni-danych-at-zus-4151353309?position=36&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=PxQplWb0BQYWZnxoZTLh3A%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEg6sg86dxHxQ/company-logo_100_100/company-logo_100_100/0/1735641915023/zus_pl_logo?e=2147483647&v=beta&t=bgmaz_mqcphSe5r7GL9o_7tb0Aj6JqqQLD2IOrhH_3o"
+    },
+    {
+        "title": "Stanowisko ds. zarz\u0105dzania obszarem BI i HD-specjalno\u015b\u0107 in\u017cynierii system\u00f3w Hurtowni Danych",
+        "company": "ZUS",
+        "location": "West Bunghmun, Mizoram, India",
+        "posted": "5 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/stanowisko-ds-zarz%C4%85dzania-obszarem-bi-i-hd-specjalno%C5%9B%C4%87-in%C5%BCynierii-system%C3%B3w-hurtowni-danych-at-zus-4151358078?position=37&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=QCv3cIPhUKYmAhN8A8sH6Q%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEg6sg86dxHxQ/company-logo_100_100/company-logo_100_100/0/1735641915023/zus_pl_logo?e=2147483647&v=beta&t=bgmaz_mqcphSe5r7GL9o_7tb0Aj6JqqQLD2IOrhH_3o"
+    },
+    {
+        "title": "Data Scientist",
+        "company": "AriZona Beverage Co.",
+        "location": "Woodbury, NY",
+        "posted": "22 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/data-scientist-at-arizona-beverage-co-4148966844?position=38&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=EM6j306I4sYSsqF5rAARrg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C510BAQFPRx2f1X0-Zg/company-logo_100_100/company-logo_100_100/0/1631347629313?e=2147483647&v=beta&t=bDwqzBFACOSe49FPjMwpufg51Flhy8_F0SqPz1162QE"
+    },
+    {
+        "title": "Data Scientist Intern",
+        "company": "OptimSpace",
+        "location": "Pune, Maharashtra, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/data-scientist-intern-at-optimspace-4151028896?position=39&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=F%2BnuYa7%2FJ%2B7cXxY7OuBgtA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQH1KhB8OcLGjA/img-crop_100/img-crop_100/0/1733149229737?e=2147483647&v=beta&t=qAF0dDaXg6auMs1PUE8eRLsTpkm0bcjssiYK8bmunok"
+    },
+    {
+        "title": "Stanowisko ds. zarz\u0105dzania obszarem BI i HD-specjalno\u015b\u0107 in\u017cynierii system\u00f3w Hurtowni Danych",
+        "company": "ZUS",
+        "location": "W, Simiyu, Tanzania",
+        "posted": "17 hours ago",
+        "href": "https://tz.linkedin.com/jobs/view/stanowisko-ds-zarz%C4%85dzania-obszarem-bi-i-hd-specjalno%C5%9B%C4%87-in%C5%BCynierii-system%C3%B3w-hurtowni-danych-at-zus-4150588826?position=40&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=8Op4%2F86tISoI9PhdQezDHw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEg6sg86dxHxQ/company-logo_100_100/company-logo_100_100/0/1735641915023/zus_pl_logo?e=2147483647&v=beta&t=bgmaz_mqcphSe5r7GL9o_7tb0Aj6JqqQLD2IOrhH_3o"
+    },
+    {
+        "title": "DATA AND APPLIED SCIENTIST",
         "company": "Microsoft",
         "location": "Bengaluru, Karnataka, India",
-        "posted": "23 hours ago",
-        "href": "https://in.linkedin.com/jobs/view/research-sciences-intern-at-microsoft-4130432201?position=3&pageNum=0&refId=FXk5ViwwMiQGJOPiKiBp0g%3D%3D&trackingId=OWXCUxn%2Fes%2FEzVbS5PdcTQ%3D%3D",
+        "posted": "23 minutes ago",
+        "href": "https://in.linkedin.com/jobs/view/data-and-applied-scientist-at-microsoft-4151372344?position=41&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=HRcGWo1uKFkYEOvbHN1Iog%3D%3D",
         "type": "Remote",
         "site": "LinkedIn",
         "img": "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_100_100/company-logo_100_100/0/1630652622688/microsoft_logo?e=2147483647&v=beta&t=lMkCSsceJNmUG1r0VRg3Whye1sVi2KtYvt-MWyfoNbY"
+    },
+    {
+        "title": "Cientista de Dados",
+        "company": "Getronics",
+        "location": "Brazil",
+        "posted": "7 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/cientista-de-dados-at-getronics-4149483065?position=42&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=cRQ6v%2BkhY0m5m0PTmSrEtg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQHUD8kfbPO2RQ/company-logo_100_100/company-logo_100_100/0/1700151532687/getronics_logo?e=2147483647&v=beta&t=iT6d1y5IOYIDt4UWXaXMCiR7K280PPUupI2uEhVSHms"
+    },
+    {
+        "title": "Data Scientist & Experimentation Analyst",
+        "company": "Largeton Group",
+        "location": "San Jose, CA",
+        "posted": "2 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/data-scientist-experimentation-analyst-at-largeton-group-4151641361?position=43&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=pr%2B1j6m0q0vRqGC3j6FJtg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQF26pQsohK7Dw/company-logo_100_100/company-logo_100_100/0/1631311795322?e=2147483647&v=beta&t=S_M2XzOnhzBEFMHY29MMbmxIsG8vU9VSKLqfHbKa-8E"
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Microsoft",
+        "location": "Redmond, WA",
+        "posted": "12 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/data-scientist-at-microsoft-4150595400?position=44&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=NydF9OIv9MGPdhcyldyyMA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_100_100/company-logo_100_100/0/1630652622688/microsoft_logo?e=2147483647&v=beta&t=lMkCSsceJNmUG1r0VRg3Whye1sVi2KtYvt-MWyfoNbY"
+    },
+    {
+        "title": "Stanowisko ds. zarz\u0105dzania obszarem BI i HD-specjalno\u015b\u0107 in\u017cynierii system\u00f3w Hurtowni Danych",
+        "company": "ZUS",
+        "location": "West Bunghmun, Mizoram, India",
+        "posted": "5 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/stanowisko-ds-zarz%C4%85dzania-obszarem-bi-i-hd-specjalno%C5%9B%C4%87-in%C5%BCynierii-system%C3%B3w-hurtowni-danych-at-zus-4151350938?position=45&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=OGyWM%2Bg3uCPl0YsUOfSBsg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEg6sg86dxHxQ/company-logo_100_100/company-logo_100_100/0/1735641915023/zus_pl_logo?e=2147483647&v=beta&t=bgmaz_mqcphSe5r7GL9o_7tb0Aj6JqqQLD2IOrhH_3o"
+    },
+    {
+        "title": "AI ML Intern",
+        "company": "OptimSpace",
+        "location": "Bengaluru East, Karnataka, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/ai-ml-intern-at-optimspace-4150599661?position=46&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=c%2FNkoS2%2BAHD0%2BDNwfAet9A%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQH1KhB8OcLGjA/img-crop_100/img-crop_100/0/1733149229737?e=2147483647&v=beta&t=qAF0dDaXg6auMs1PUE8eRLsTpkm0bcjssiYK8bmunok"
+    },
+    {
+        "title": "Stanowisko ds. zarz\u0105dzania obszarem BI i HD-specjalno\u015b\u0107 in\u017cynierii system\u00f3w Hurtowni Danych",
+        "company": "ZUS",
+        "location": "West Bunghmun, Mizoram, India",
+        "posted": "17 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/stanowisko-ds-zarz%C4%85dzania-obszarem-bi-i-hd-specjalno%C5%9B%C4%87-in%C5%BCynierii-system%C3%B3w-hurtowni-danych-at-zus-4150594090?position=47&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=2C34TWGH8MLC%2F4jZTCZYvw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEg6sg86dxHxQ/company-logo_100_100/company-logo_100_100/0/1735641915023/zus_pl_logo?e=2147483647&v=beta&t=bgmaz_mqcphSe5r7GL9o_7tb0Aj6JqqQLD2IOrhH_3o"
+    },
+    {
+        "title": "AI ML Intern",
+        "company": "TwiLearn",
+        "location": "Gurgaon, Haryana, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/ai-ml-intern-at-twilearn-4150779553?position=48&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=ZXRS5FT8zCoQLCH1uWo3Qg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQHvZBt0Id-fGQ/company-logo_100_100/company-logo_100_100/0/1673015466244/twilearn_logo?e=2147483647&v=beta&t=R5KrbqQc9INFZv2PqDIF2dfKq8yErPD-YkwXOuzonYE"
+    },
+    {
+        "title": "Data Scientist Internship",
+        "company": "Prescient Edge",
+        "location": "McLean, VA",
+        "posted": "1 hour ago",
+        "href": "https://www.linkedin.com/jobs/view/data-scientist-internship-at-prescient-edge-4151630234?position=49&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=NMZ3ZMiyZnAPUN9W7qwLmw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQFn2IFEfLe6Ag/company-logo_100_100-alternative/company-logo_100_100-alternative/0/1630478895767/prescient_edge_corp_logo?e=2147483647&v=beta&t=ov5af8Ah1p4gyejx7udcs89I7OY8bvGrpcz4F4AbySc"
+    },
+    {
+        "title": "ASSOCIATE DATA SCIENTIST",
+        "company": "The Home Depot",
+        "location": "Atlanta, GA",
+        "posted": "2 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/associate-data-scientist-at-the-home-depot-4145594997?position=50&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=NHyN2hAIRzbUtAC5ykgnvQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQHzR2llYqUBtg/company-logo_100_100/company-logo_100_100/0/1630656428961/the_home_depot_logo?e=2147483647&v=beta&t=EZjw3CxR9dQa_S8IcVWwrJLtZ7v0iwT8gQFC8QOkvJw"
+    },
+    {
+        "title": "Stanowisko ds. zarz\u0105dzania obszarem BI i HD-specjalno\u015b\u0107 in\u017cynierii system\u00f3w Hurtowni Danych",
+        "company": "ZUS",
+        "location": "West Bunghmun, Mizoram, India",
+        "posted": "5 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/stanowisko-ds-zarz%C4%85dzania-obszarem-bi-i-hd-specjalno%C5%9B%C4%87-in%C5%BCynierii-system%C3%B3w-hurtowni-danych-at-zus-4151354277?position=51&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=oOgOPhLnP6C0SI%2Bo6r1iRw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEg6sg86dxHxQ/company-logo_100_100/company-logo_100_100/0/1735641915023/zus_pl_logo?e=2147483647&v=beta&t=bgmaz_mqcphSe5r7GL9o_7tb0Aj6JqqQLD2IOrhH_3o"
+    },
+    {
+        "title": "Data Science Intern",
+        "company": "Delta Dental of Missouri",
+        "location": "St Louis, MO",
+        "posted": "15 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/data-science-intern-at-delta-dental-of-missouri-4150798687?position=52&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=oJyFSrTuCYF9r1MN4ub7dQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQF2luCvKU-zGA/company-logo_100_100/company-logo_100_100/0/1630610985213/delta_dental_of_missouri_logo?e=2147483647&v=beta&t=feu8UjD5Al_z1QgQVXoh9sLUeKqsYbQKTltQ5bSm8KQ"
+    },
+    {
+        "title": "Data Scientist",
+        "company": "New York Technology Partners",
+        "location": "United States",
+        "posted": "3 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/data-scientist-at-new-york-technology-partners-4151390346?position=53&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=HUziTtW8Ht7gSjPWhVkcqw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQHDKWHx36SB2Q/company-logo_100_100/company-logo_100_100/0/1630569042627/new_york_technology_partners_logo?e=2147483647&v=beta&t=0H1WAsHOmOt2_cZdScJnryU9OQaalq67f5b7gi8c068"
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Radiansys Inc.",
+        "location": "South San Francisco, CA",
+        "posted": "3 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/data-scientist-at-radiansys-inc-4148910415?position=54&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=SnfvLT4qREpwg4LaXaDGVQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQFt_rmS8QqBfQ/company-logo_100_100/company-logo_100_100/0/1736422392821/radiansys_inc_logo?e=2147483647&v=beta&t=-1C5pBENRWJgr_SNQH6mhe-gtFo0KGogr7D3nduHaEY"
+    },
+    {
+        "title": "Data Science Intern",
+        "company": "CONNECTMETA.AI",
+        "location": "Greater London, England, United Kingdom",
+        "posted": "15 hours ago",
+        "href": "https://uk.linkedin.com/jobs/view/data-science-intern-at-connectmeta-ai-4151849466?position=55&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=ScJG%2Fv9CzR58ZHDGmmvKoQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEzlnNAOUiLDw/company-logo_100_100/company-logo_100_100/0/1708765644074/connectmeta_ai_logo?e=2147483647&v=beta&t=Mi5rvN99sVcCtuhvh3bSAqZOsvoLzmQdG2reDv1ARpM"
+    },
+    {
+        "title": "Machine Learning Engineer",
+        "company": "ASOS.com",
+        "location": "London, England, United Kingdom",
+        "posted": "5 hours ago",
+        "href": "https://uk.linkedin.com/jobs/view/machine-learning-engineer-at-asos-com-4149498288?position=56&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=EOMwp6%2BxXFa3hmOKwKgf5w%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQH4aMVpddkb3w/company-logo_100_100/company-logo_100_100/0/1635860093495/asos_com_logo?e=2147483647&v=beta&t=r8Pa95qZoSiWerHJ-3jeaPHbaBj8BQ1ZDyroiQs9OWk"
+    },
+    {
+        "title": "AI ML Intern",
+        "company": "TwiLearn",
+        "location": "Hyderabad, Telangana, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/ai-ml-intern-at-twilearn-4150781005?position=57&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=epDkbPAcdmzLjQ4dEEROgg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQHvZBt0Id-fGQ/company-logo_100_100/company-logo_100_100/0/1673015466244/twilearn_logo?e=2147483647&v=beta&t=R5KrbqQc9INFZv2PqDIF2dfKq8yErPD-YkwXOuzonYE"
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Jex - Recruitment for scaling businesses",
+        "location": "Dubai, United Arab Emirates",
+        "posted": "13 hours ago",
+        "href": "https://ae.linkedin.com/jobs/view/data-scientist-at-jex-recruitment-for-scaling-businesses-4151050627?position=58&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=llSw%2BqoxJwLbyHSTLk9vlg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C510BAQHWPPebN9594g/company-logo_100_100/company-logo_100_100/0/1630596608512/jex_digital_logo?e=2147483647&v=beta&t=eJR8B_5ESKEOgAZsKqrNkbD7r3hW1jL9xfiHYZ0nX94"
+    },
+    {
+        "title": "Jr. Data Scientist",
+        "company": "Infraveo Technologies",
+        "location": "Pune, Maharashtra, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/jr-data-scientist-at-infraveo-technologies-4151015544?position=59&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=12Zs0nHLEmGJ4%2F8W%2FDioaQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFUeDU-PsXePg/company-logo_100_100/company-logo_100_100/0/1690960464200?e=2147483647&v=beta&t=Wic9a3zCxHUwWaca1cO294g_WNgtvTEye4oaNjJWhKc"
+    },
+    {
+        "title": "Data Scientist Intern",
+        "company": "OptimSpace",
+        "location": "Noida, Uttar Pradesh, India",
+        "posted": "20 hours ago",
+        "href": "https://in.linkedin.com/jobs/view/data-scientist-intern-at-optimspace-4151026965?position=60&pageNum=0&refId=xqi5Bg4ry5X1H55k9vxfxw%3D%3D&trackingId=9s0BVoAdOflYNU2xy2o6Jw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQH1KhB8OcLGjA/img-crop_100/img-crop_100/0/1733149229737?e=2147483647&v=beta&t=qAF0dDaXg6auMs1PUE8eRLsTpkm0bcjssiYK8bmunok"
     }
 ]
