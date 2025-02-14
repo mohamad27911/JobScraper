@@ -276,10 +276,10 @@ def scrape_jobs(jobs):
     try:
         for title in jobs:
             all_jobs = []
+            all_jobs.extend(linkedInJobs(title))
             all_jobs.extend(scrape_weworkremotely_jobs(title))
             all_jobs.extend(scrape_remotive_jobs(title))
             all_jobs.extend(remoteokJobs(title))
-            all_jobs.extend(linkedInJobs(title))
             save_to_json(title, all_jobs)
         push_to_git()  # Push changes to Git after scraping
     finally:
