@@ -1,89 +1,9 @@
 [
     {
-        "title": "Data Scientist - Real Estate",
-        "company": "Circle K",
-        "location": "Scarborough, Ontario, Canada",
-        "posted": "5 hours ago",
-        "href": "https://ca.linkedin.com/jobs/view/data-scientist-real-estate-at-circle-k-4129293144?position=1&pageNum=0&refId=kXdllKEmrRxTAmE2FT2g3A%3D%3D&trackingId=qLMhnJ10qYXWPOGbfPqyOw%3D%3D",
-        "type": "Remote",
-        "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQHeweKm_DEYgw/company-logo_100_100/company-logo_100_100/0/1630619953990/circle_k_logo?e=2147483647&v=beta&t=uBDtbw5RE3CipByGBy3XGDPcWvClYN9bcFBTvsbZSRA"
-    },
-    {
-        "title": "JUNIOR DATA SCIENTIST (30260)",
-        "company": "Bosch Brasil",
-        "location": "Greater Curitiba",
-        "posted": "22 hours ago",
-        "href": "https://br.linkedin.com/jobs/view/junior-data-scientist-30260-at-bosch-brasil-4152405459?position=2&pageNum=0&refId=kXdllKEmrRxTAmE2FT2g3A%3D%3D&trackingId=OeHpnMSoZ1CUJ6Z11EdfIg%3D%3D",
-        "type": "Remote",
-        "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQG9V8ylf9r--g/company-logo_100_100/company-logo_100_100/0/1720017140973/boschbrasil_logo?e=2147483647&v=beta&t=hpDqPCl8xR1VTd8US-D0fWU5uEeqtVDE4G6yT2ezJ0I"
-    },
-    {
-        "title": "AI/ML Engineer",
-        "company": "BLACKBIRD.AI",
-        "location": "Estonia",
-        "posted": "17 hours ago",
-        "href": "https://ee.linkedin.com/jobs/view/ai-ml-engineer-at-blackbird-ai-4152269936?position=3&pageNum=0&refId=kXdllKEmrRxTAmE2FT2g3A%3D%3D&trackingId=G0YCXMEGm%2BtQ6oZLqWlsTg%3D%3D",
-        "type": "Remote",
-        "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/D4E0BAQGYt-P1a5azIw/company-logo_100_100/company-logo_100_100/0/1715874768758/blackbird_ai_logo?e=2147483647&v=beta&t=q7hY4PVVv-pLbLibrfmGHCK5Qrv43HiMKypcKgpMI3I"
-    },
-    {
-        "title": "Web Developer / Designer",
-        "company": "Breakthrough Design Group",
-        "location": "Syracuse, NY",
-        "posted": "4d",
-        "href": "https://weworkremotely.com/remote-jobs/breakthrough-design-group-web-developer-designer",
-        "type": "Remote",
-        "img": "https://we-work-remotely.imgix.net/logos/0162/6847/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress",
-        "site": "WeWorkRemotely"
-    },
-    {
-        "title": "Senior Software Engineer, ML Platform & Data Acquisition (Python)",
-        "company": "Speechify Inc",
-        "location": "Florida",
-        "posted": "2d",
-        "href": "https://weworkremotely.com/remote-jobs/speechify-inc-senior-software-engineer-ml-platform-data-acquisition-python",
-        "type": "Remote",
-        "img": "No Image",
-        "site": "WeWorkRemotely"
-    },
-    {
-        "title": "Senior iOS Engineer",
-        "company": "Speechify Inc",
-        "location": "Florida",
-        "posted": "2d",
-        "href": "https://weworkremotely.com/remote-jobs/speechify-inc-senior-ios-engineer",
-        "type": "Remote",
-        "img": "No Image",
-        "site": "WeWorkRemotely"
-    },
-    {
-        "title": "Frontend Engineering Manager",
-        "company": "Soar Financials",
-        "location": "Saudi Arabia",
-        "posted": "4d",
-        "href": "https://weworkremotely.com/remote-jobs/soar-financials-frontend-engineering-manager",
-        "type": "Remote",
-        "img": "No Image",
-        "site": "WeWorkRemotely"
-    },
-    {
-        "title": "Backend/Full-stack Python Developer (Odoo)",
-        "company": "YouNav",
-        "location": "Europe",
-        "posted": "Not provided",
-        "href": "https://remotive.com/remote-jobs/software-dev/backend-full-stack-python-developer-odoo-1971901",
-        "type": "Remote",
-        "img": "https://remotive.com/web/image/hr.job/1971901/logo/64x64",
-        "site": "Remotive"
-    },
-    {
         "title": "Senior Frontend Dev",
         "company": "Seats.io",
         "location": "\ud83c\uddea\ud83c\uddfa Europe",
-        "posted": "1d",
+        "posted": "2d",
         "href": "https://remoteok.com/remote-jobs/remote-senior-frontend-dev-seats-io-1082625",
         "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/f29d4c792a75b3223c1ae95e0c32ce281739449780.png?1739449780",
         "type": "Remote",
@@ -93,7 +13,7 @@
         "title": "Frontend Engineer",
         "company": "Amondo",
         "location": "\ud83c\udf0f Worldwide",
-        "posted": "24d",
+        "posted": "25d",
         "href": "https://remoteok.com/remote-jobs/remote-frontend-engineer-amondo-1069207",
         "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteOK.com/assets/img/jobs/c762361d07858b9b1fe2fe2e07290ee01737484185.png?1737484185",
         "type": "Remote",

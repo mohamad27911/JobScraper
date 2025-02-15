@@ -1,33 +1,13 @@
 [
     {
-        "title": "JUNIOR DATA SCIENTIST (30260)",
-        "company": "Bosch Brasil",
-        "location": "Greater Curitiba",
-        "posted": "22 hours ago",
-        "href": "https://br.linkedin.com/jobs/view/junior-data-scientist-30260-at-bosch-brasil-4152405459?position=1&pageNum=0&refId=5ofdldnXotbsa89xV7ffGQ%3D%3D&trackingId=2DODwxKZunGG%2ByJfFoT79w%3D%3D",
+        "title": "Data Science & ML Coding Trainer",
+        "company": "Outlier",
+        "location": "Germany",
+        "posted": "3d ago",
+        "href": "https://remotive.com/remote-jobs/software-dev/data-science-ml-coding-trainer-1972252",
         "type": "Remote",
-        "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQG9V8ylf9r--g/company-logo_100_100/company-logo_100_100/0/1720017140973/boschbrasil_logo?e=2147483647&v=beta&t=hpDqPCl8xR1VTd8US-D0fWU5uEeqtVDE4G6yT2ezJ0I"
-    },
-    {
-        "title": "Data Scientist - Real Estate",
-        "company": "Circle K",
-        "location": "Scarborough, Ontario, Canada",
-        "posted": "5 hours ago",
-        "href": "https://ca.linkedin.com/jobs/view/data-scientist-real-estate-at-circle-k-4129293144?position=2&pageNum=0&refId=5ofdldnXotbsa89xV7ffGQ%3D%3D&trackingId=tiGWV9%2Fi378GnYU5Tal%2FiA%3D%3D",
-        "type": "Remote",
-        "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/C4E0BAQHeweKm_DEYgw/company-logo_100_100/company-logo_100_100/0/1630619953990/circle_k_logo?e=2147483647&v=beta&t=uBDtbw5RE3CipByGBy3XGDPcWvClYN9bcFBTvsbZSRA"
-    },
-    {
-        "title": "Credit Risk-Python",
-        "company": "Deloitte",
-        "location": "Bengaluru, Karnataka, India",
-        "posted": "9 hours ago",
-        "href": "https://in.linkedin.com/jobs/view/credit-risk-python-at-deloitte-4149797706?position=3&pageNum=0&refId=5ofdldnXotbsa89xV7ffGQ%3D%3D&trackingId=zJHmZD9XqHFyJeP3J0pVHA%3D%3D",
-        "type": "Remote",
-        "site": "LinkedIn",
-        "img": "https://media.licdn.com/dms/image/v2/C560BAQGNtpblgQpJoQ/company-logo_100_100/company-logo_100_100/0/1662120928214/deloitte_logo?e=2147483647&v=beta&t=OSF8M5LreT0Sf2F-JcNk6XMT0ArCuPfDmRR-knCC4HY"
+        "img": "https://remotive.com/web/image/hr.job/1972252/logo/64x64",
+        "site": "Remotive"
     },
     {
         "title": "Senior Data Engineer",
@@ -165,7 +145,7 @@
         "location": "\ud83c\uddfa\ud83c\uddf8 United States",
         "posted": "10yr",
         "href": "https://remoteok.com/remote-jobs/5392-remote-software-developer-ecohealth-alliance",
-        "img": "https://remoteok.com/assets/pixel.gif",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//19ab278012ce34b8ba1a3e6c6e0684c9.png?1441846909",
         "type": "Remote",
         "site": "Remoteok"
     },
@@ -175,7 +155,7 @@
         "location": "\ud83c\uddfa\ud83c\uddf8 United States",
         "posted": "10yr",
         "href": "https://remoteok.com/remote-jobs/3641-remote-software-developer-ecohealth-alliance",
-        "img": "https://remoteok.com/assets/pixel.gif",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//19ab278012ce34b8ba1a3e6c6e0684c9.png?1441846909",
         "type": "Remote",
         "site": "Remoteok"
     },
@@ -185,7 +165,7 @@
         "location": "\ud83c\uddfa\ud83c\uddf8 United States",
         "posted": "10yr",
         "href": "https://remoteok.com/remote-jobs/5393-remote-devops-engineer-ecohealth-alliance",
-        "img": "https://remoteok.com/assets/pixel.gif",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//647d0ba6fac40c493f349a6d03927d57.png?1441846909",
         "type": "Remote",
         "site": "Remoteok"
     },
@@ -195,7 +175,7 @@
         "location": "\ud83c\uddfa\ud83c\uddf8 United States",
         "posted": "10yr",
         "href": "https://remoteok.com/remote-jobs/3642-remote-devops-engineer-ecohealth-alliance",
-        "img": "https://remoteok.com/assets/pixel.gif",
+        "img": "https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=100,height=100,quality=50/https://remoteok.com/assets/img/jobs//647d0ba6fac40c493f349a6d03927d57.png?1441846909",
         "type": "Remote",
         "site": "Remoteok"
     }

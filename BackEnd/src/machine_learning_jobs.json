@@ -1,13 +1,73 @@
 [
     {
+        "title": "Live Events Intern",
+        "company": "Barstool Sports",
+        "location": "New York, NY",
+        "posted": "15 hours ago",
+        "href": "https://www.linkedin.com/jobs/view/live-events-intern-at-barstool-sports-4153017529?position=1&pageNum=0&refId=Qnee%2BLUBX9jSf67f7s5N6Q%3D%3D&trackingId=X7PffZBSkFvi4ECxqbPMOg%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQG150it8u-9iA/company-logo_100_100/company-logo_100_100/0/1631305220261?e=2147483647&v=beta&t=AXpWKA64w_kcZxqnBnnQ-9p-sBriv_rDckYSPH4b3Bw"
+    },
+    {
+        "title": "Internship Program",
+        "company": "RCBC",
+        "location": "Makati, National Capital Region, Philippines",
+        "posted": "23 hours ago",
+        "href": "https://ph.linkedin.com/jobs/view/internship-program-at-rcbc-4152075554?position=2&pageNum=0&refId=Qnee%2BLUBX9jSf67f7s5N6Q%3D%3D&trackingId=78f%2FGlO%2BJF180cMR6kT3EQ%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C510BAQES8RfOq_JTZA/company-logo_100_100/company-logo_100_100/0/1630634600340?e=2147483647&v=beta&t=unwh-wfmZti3PBTnqs2A0QfQmbynI6XnNmQleGKAwdo"
+    },
+    {
+        "title": "Internship Opportunity for Business Management/Marketing students (based in Jakarta, Indonesia) February/March 2025 Intake",
+        "company": "PETRONAS Lubricants International",
+        "location": "Jakarta, Indonesia",
+        "posted": "23 hours ago",
+        "href": "https://id.linkedin.com/jobs/view/internship-opportunity-for-business-management-marketing-students-based-in-jakarta-indonesia-february-march-2025-intake-at-petronas-lubricants-international-4150211124?position=3&pageNum=0&refId=Qnee%2BLUBX9jSf67f7s5N6Q%3D%3D&trackingId=xgd4ywEIVXPkyhIsNbgZAA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/C560BAQHQf7dvMUaC9A/company-logo_100_100/company-logo_100_100/0/1630636935681/petronas_lubricants_international_logo?e=2147483647&v=beta&t=gBAU0PUWrFdYxrAGbV-io5eaSIvYW5jn5StcrgwV1NM"
+    },
+    {
+        "title": "Machine Learning Operations Engineer (MLOps)",
+        "company": "Dotsfty",
+        "location": "Bellevue, WA",
+        "posted": "4d",
+        "href": "https://weworkremotely.com/remote-jobs/dotsfty-machine-learning-operations-engineer-mlops",
+        "type": "Remote",
+        "img": "No Image",
+        "site": "WeWorkRemotely"
+    },
+    {
         "title": "Sr. Applied Machine Learning Engineer",
         "company": "Snorkel AI",
         "location": "USA",
-        "posted": "Today",
+        "posted": "YDay",
         "href": "https://remotive.com/remote-jobs/software-dev/sr-applied-machine-learning-engineer-1970828",
         "type": "Remote",
         "img": "https://remotive.com/web/image/hr.job/1970828/logo/64x64",
         "site": "Remotive"
+    },
+    {
+        "title": "Lead Product Manager, Machine Learning",
+        "company": "hims & hers",
+        "location": "USA",
+        "posted": "2d ago",
+        "href": "https://remotive.com/remote-jobs/product/lead-product-manager-machine-learning-1970419",
+        "type": "Remote",
+        "img": "https://remotive.com/web/image/hr.job/1970419/logo/64x64",
+        "site": "Remotive"
+    },
+    {
+        "title": "Full Stack Developer with AI Expertise",
+        "company": "Stealth Start-up",
+        "location": "\ud83c\udf0f Worldwide",
+        "posted": "14h",
+        "href": "https://remoteok.com/remote-jobs/remote-full-stack-developer-with-ai-expertise-stealth-start-up-1082872",
+        "img": "No Image",
+        "type": "Remote",
+        "site": "Remoteok"
     },
     {
         "title": "Founding AI Engineer",
@@ -165,16 +225,6 @@
         "location": "\ud83c\udf0f Probably worldwide",
         "posted": "9yr",
         "href": "https://remoteok.com/remote-jobs/12579-remote-vp-machine-learning-sway-ops",
-        "img": "No Image",
-        "type": "Remote",
-        "site": "Remoteok"
-    },
-    {
-        "title": "Golang developer with knowledge within machine learning",
-        "company": "Real Audience AB",
-        "location": "\ud83c\udf0f Probably worldwide",
-        "posted": "9yr",
-        "href": "https://remoteok.com/remote-jobs/12090-remote-golang-developer-with-knowledge-within-machine-learning-real-audience-ab",
         "img": "No Image",
         "type": "Remote",
         "site": "Remoteok"
