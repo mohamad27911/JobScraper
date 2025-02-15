@@ -1,1 +1,44 @@
-[]
+[
+    {
+        "title": "Est\u00e1gio Analise de Dados",
+        "company": "EPTV",
+        "location": "Campinas, S\u00e3o Paulo, Brazil",
+        "posted": "14 hours ago",
+        "href": "https://br.linkedin.com/jobs/view/est%C3%A1gio-analise-de-dados-at-eptv-4150644206?position=1&pageNum=0&refId=xacZnGTsMBBC2YbRNp9pBw%3D%3D&trackingId=Vew0wAsoI0jfesC7YVKM7Q%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQE22hF_TfDNNA/company-logo_100_100/company-logo_100_100/0/1730466656574/eptv_logo?e=2147483647&v=beta&t=TVTH0dWrXy0ZZ4Gwhs7SuOvjP6afwRdL9IPga10YZpQ"
+    },
+    {
+        "title": "Data Scientist Intern",
+        "company": "Corsair",
+        "location": "Milpitas, CA",
+        "posted": "1 hour ago",
+        "href": "https://www.linkedin.com/jobs/view/data-scientist-intern-at-corsair-4154141536?position=2&pageNum=0&refId=xacZnGTsMBBC2YbRNp9pBw%3D%3D&trackingId=tCND2PoetviIb69oB5UbIw%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQFGrE4jvWpa9Q/company-logo_100_100/company-logo_100_100/0/1738866830005/corsair_logo?e=2147483647&v=beta&t=zgvFxMEpOsBlqwDRZTE8l4apoQRXzSQyCzLhakWtcYU"
+    },
+    {
+        "title": "Data Analyst (Fresh Graduates)",
+        "company": "NielsenIQ",
+        "location": "Jakarta, Jakarta, Indonesia",
+        "posted": "23 hours ago",
+        "href": "https://id.linkedin.com/jobs/view/data-analyst-fresh-graduates-at-nielseniq-4119235646?position=3&pageNum=0&refId=xacZnGTsMBBC2YbRNp9pBw%3D%3D&trackingId=n%2F6n4fILPol%2FoHvCjQy%2FEA%3D%3D",
+        "type": "Remote",
+        "site": "LinkedIn",
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQFYnX3PRbPkfw/company-logo_100_100/company-logo_100_100/0/1718743296595/nielseniq_logo?e=2147483647&v=beta&t=J3IWHkXcbnkRWepn9j--V955eg3oPB7E5GmPigl5MKo"
+    },
+    {
+        "title": "Data Science & ML Coding Trainer",
+        "company": "Outlier",
+        "location": "Germany",
+        "posted": "3d ago",
+        "href": "https://remotive.com/remote-jobs/software-dev/data-science-ml-coding-trainer-1972252",
+        "type": "Remote",
+        "img": "https://remotive.com/web/image/hr.job/1972252/logo/64x64",
+        "site": "Remotive"
+    },
+    "error",
+    "message"
+]
