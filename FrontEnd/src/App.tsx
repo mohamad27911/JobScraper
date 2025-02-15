@@ -22,8 +22,9 @@ interface Job {
   company: string;
   location: string;
   posted: string;
-  type: string;
   href: string;
+  type: string;
+  site: string;
   img: string;
 }
 
@@ -66,7 +67,7 @@ function App() {
             filteredJobs = SoftwareJobs;
             break;
         case "Internship":
-            filteredJobs = InternshipsJobs;
+            filteredJobs = InternshipsJobs.filter((job): job is Job => typeof job !== 'string');
             break;
         case "Machine Learning":
             filteredJobs = MachineLearningJobs;
@@ -259,7 +260,7 @@ function App() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {currentPosts
                   .map((job, index) => (
-                    <JobCard site={""} key={index} {...job} />
+                    <JobCard key={index} {...job} />
                   ))}
               </div>
             </div>
